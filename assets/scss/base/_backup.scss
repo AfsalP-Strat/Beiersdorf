@@ -1035,6 +1035,9 @@
 .concentrix #header .wshlt span.number {
   background: var(--primary-clr);
   top: -30px;
+  font-weight: 700;
+  color: var(--primary-clr);
+  font-size: 13px;
 }
 .concentrix .ab-header__dropdown::after {
   border-top: 9px solid var(--primary-clr);
