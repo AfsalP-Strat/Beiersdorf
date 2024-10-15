@@ -1036,13 +1036,13 @@
   background: var(--primary-clr);
 }
 .concentrix .ab-header__dropdown::after {
-  border-top: 9px solid var(--secondary-clr);
+  border-top: 9px solid var(--primary-clr);
 }
 .concentrix .fa,
 .concentrix .ab-summary__head {
   color: var(--primary-clr);
 }
-.concentrix .sec-menu .btn-secondary:hover::before,
+.concentrix .sec-menu .btn-primary:hover::before,
 .concentrix .ab-header__dropdown-link:hover {
   background-color: var(--secondary-clr);
   bottom: -1px;
@@ -1213,7 +1213,7 @@
   text-transform: uppercase;
 }
 .concentrix .book-name:hover {
-  color: var(--secondary-clr);
+  color: var(--primary-clr);
 }
 .concentrix .listing .book-name-and-buy {
   padding-right: 10px !important;
