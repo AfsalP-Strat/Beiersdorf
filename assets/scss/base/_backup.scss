@@ -1034,6 +1034,7 @@
 }
 .concentrix #header .wshlt span.number {
   background: var(--primary-clr);
+  top: -30px;
 }
 .concentrix .ab-header__dropdown::after {
   border-top: 9px solid var(--primary-clr);
@@ -1234,6 +1235,7 @@
 }
 .concentrix .book-name-and-buy .btn-buy:hover {
   border: 2px solid var(--primary-clr) !important;
+  transform: translateY(-2px);
 }
 .concentrix .book-name-and-buy ul li {
   color: #000 !important;
@@ -2593,8 +2595,9 @@
   text-transform: uppercase;
   padding-top: 12px;
 }
-.abt-shop__txt:hover {
-  color: var(--secondary-clr);
+.concentrix .sec-menu .btn-secondary:hover::before {
+  background-color: var(--primary-clr);
+  bottom: -1px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
