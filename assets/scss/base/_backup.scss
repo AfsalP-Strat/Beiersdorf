@@ -65,7 +65,7 @@
   width: calc(50% - 4px);
   margin: 0 2px;
   padding: 4px 16px;
-  color: #000;
+  color: var(--primary-clr);
   font-size: 12px;
   transition: all 0.3s;
 }
@@ -173,11 +173,10 @@
 }
 .ab-button {
   max-width: 320px;
-  margin: 0 auto;
+  margin: 32px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
   color: #fff;
   background-color: #0096d6;
   transition: all 0.3s;
@@ -234,7 +233,7 @@
 }
 
 .ab-tile__desc {
-  color: #000;
+  color: $color-grey;
   min-height: 40px;
   max-height: 40px;
 }
@@ -422,19 +421,19 @@
 
 .ab-address__choose-add {
   margin-left: auto;
-  background-color: #828282;
+  background-color: $color-grey;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
   border-radius: 5px;
   font-weight: bold;
-  border: 1px solid #828282;
+  border: 1px solid $color-grey;
   transition: all 0.3s;
 }
 
 .ab-address__choose-add:hover {
   background-color: #fff;
-  color: #828282;
+  color: $color-grey;
 }
 
 .ab-address__confirm-order {
@@ -1033,11 +1032,10 @@
   margin: 0 auto;
 }
 .concentrix #header .wshlt span.number {
-  background: var(--primary-clr);
+  background: var(--primary-clr) !important;
   top: -30px;
-  font-weight: 700;
-  color: var(--primary-clr);
-  font-size: 13px;
+  color: #fff;
+  font-size: 10px;
 }
 .concentrix .ab-header__dropdown::after {
   border-top: 9px solid var(--primary-clr);
@@ -1063,7 +1061,7 @@
   text-transform: capitalize;
 }
 .concentrix .product-details-page h2 {
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 20px;
 }
 .concentrix .discription-under-price .category li span {
@@ -1074,14 +1072,14 @@
 .concentrix .mobile-price,
 .concentrix .ab-details td,
 .concentrix .ab-address__price-box {
-  color: #000;
+  color: var(--primary-clr);
 }
 .concentrix .ab-address__enquiry .right-section .ab-address__dif-pricing {
   justify-content: space-between;
 }
 .concentrix .mobile-price p,
 .concentrix .mobile-price .btn-red.hvr-fade {
-  color: #000 !important;
+  color: var(--primary-clr) !important;
 }
 .concentrix .mobile-price .del {
   font-size: 15px;
@@ -1102,11 +1100,12 @@
 .concentrix .ab-address__choose-add:hover,
 .concentrix .ab-address__confirm-order:hover,
 .concentrix #ctl09_lblSCOrderAll:hover {
-  color: var(--secondary-clr) !important;
+  color: var(--primary-clr) !important;
   background-color: transparent !important;
 }
 .concentrix .mobile-price .btn-red.hvr-fade {
   text-transform: unset;
+  margin-left: 10px;
 }
 .concentrix .ab-address__choose-add,
 .concentrix .ab-address__confirm-order,
@@ -1147,6 +1146,13 @@
 .concentrix .main-heading {
   font-size: 28px;
   color: var(--primary-clr);
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.concentrix .main-heading span {
+  color: var(--primary-clr);
+  padding-left: 6px;
 }
 .concentrix .main-heading:hover {
   color: var(--primary-clr);
@@ -1178,7 +1184,6 @@
   color: var(--primary-clr);
   padding: 0 24px;
   font-size: 16px;
-  font-weight: 300;
   position: relative;
 }
 .concentrix .abt-footer__txt:nth-child(-n+2)::after {
@@ -1197,7 +1202,6 @@
 .concentrix .abt-footer__copy {
   text-align: center;
   color: var(--primary-clr);
-  font-weight: 300;
   padding-bottom: 4px;
   font-size: 16px;
 }
@@ -1235,13 +1239,14 @@
   background-color: transparent;
   color: var(--primary-clr) !important;
   padding: 5px 12px !important;
+  transition: all 0.4s;
 }
 .concentrix .book-name-and-buy .btn-buy:hover {
   border: 2px solid var(--primary-clr) !important;
   transform: translateY(-2px);
 }
 .concentrix .book-name-and-buy ul li {
-  color: #000 !important;
+  color: var(--primary-clr) !important;
 }
 .concentrix .search .form-inline {
   width: 330px;
@@ -1877,7 +1882,7 @@
 }
 .cx-varient b {
   width: 50%;
-  color: #373F3F;
+  color: $color-grey;
   position: relative;
   font-size: 18px;
 }
@@ -1907,7 +1912,7 @@
   justify-content: center;
   align-items: center;
   padding: 4px;
-  color: #828282;
+  color: $color-grey;
   cursor: pointer;
 }
 .cx-varient div .varient-btn.active {
@@ -2444,7 +2449,7 @@
   padding-bottom: 15px;
 }
 .cx-odrsmry .label {
-  color: #535353;
+  color: $color-grey;
   font-weight: 600;
   font-size: 18px;
 }
@@ -2580,19 +2585,23 @@
   text-transform: unset;
 }
 
+.abt-shop {
+  margin-bottom: 32px;
+}
+
 .abt-shop__wrap {
   display: flex;
   justify-content: space-between;
 }
 .abt-shop__img {
-  width: calc(20% - 30px);
+  width: calc(20% - 42px);
 }
 .abt-shop__img img {
   width: 100%;
 }
 .abt-shop__txt {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   color: var(--primary-clr);
   text-align: center;
   text-transform: uppercase;
@@ -2602,13 +2611,14 @@
   background-color: var(--primary-clr);
   bottom: -1px;
 }
+.concentrix .fiter-head {
+  color: var(--primary-clr);
+  margin: 12px 0;
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .abt-shop__img {
-    width: calc(20% - 20px);
-  }
-  .abt-shop__txt {
-    font-size: 18px;
+    width: calc(20% - 30px);
   }
 }
 @media (max-width: 767px) {
@@ -2763,7 +2773,7 @@
 .cx-faq .card-body {
   padding: 12px 0;
   font-size: 18px;
-  color: #373F3F;
+  color: $color-grey;
 }
 .cx-faq .btn-link[aria-expanded=false]::after {
   content: "";
@@ -3107,7 +3117,7 @@
   margin-bottom: 50px;
 }
 .cx-shpingcart__head {
-  font-size: 64px;
+  font-size: 42px;
   font-weight: 700;
   color: var(--primary-clr);
   text-align: center;
@@ -3151,7 +3161,7 @@
   padding-bottom: 15px;
 }
 .cx-shpingcart .cx-ordrsumry .label {
-  color: #535353;
+  color: $color-grey;
   font-weight: 600;
   font-size: 18px;
 }
@@ -3865,7 +3875,7 @@ body {
   height: 37px;
 }
 .concentrix .ab-header__dropdown-link:hover {
-  color: #000;
+  color: var(--primary-clr);
 }
 .concentrix .progress {
   height: 150px !important;
@@ -3930,6 +3940,7 @@ body {
   padding: 5px 20px;
   font-size: 14px !important;
   font-weight: 600;
+  transition: 0.3s;
 }
 .concentrix .btn-wishlists:hover {
   color: var(--primary-clr) !important;
@@ -4128,7 +4139,7 @@ body {
   border-radius: 2px;
 }
 .concentrix .cx-product-desc {
-  color: #828282 !important;
+  color: $color-grey !important;
   font-size: 14px !important;
   line-height: 28px;
 }
@@ -4136,7 +4147,7 @@ body {
   position: relative;
   width: 50% !important;
   display: inline-block;
-  color: #373F3F !important;
+  color: $color-grey !important;
 }
 .concentrix .cx-product-desc b::after {
   content: ":";
@@ -4180,7 +4191,7 @@ body {
   margin-bottom: 14px;
 }
 .concentrix .cx-pdp-para {
-  color: #828282 !important;
+  color: $color-grey !important;
   font-size: 15px !important;
 }
 .concentrix .cx-code {
@@ -4189,7 +4200,7 @@ body {
 }
 .concentrix .cx-rmb-left {
   font-weight: 600;
-  color: #535353;
+  color: $color-grey;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
@@ -4447,6 +4458,8 @@ body {
   font-size: 18px;
   font-weight: 300;
   width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 12px;
 }
 .concentrix .cx-pdpdwn {
   padding: 10px 20px;
@@ -4597,9 +4610,6 @@ body {
     margin-left: 12%;
   }
 }
-.concentrix .ab-header__dropdown-link:hover {
-  color: #000;
-}
 .concentrix .ab-header__container {
   padding-top: 58px;
 }
@@ -4611,10 +4621,10 @@ body {
   background-color: #fff !important;
 }
 .concentrix .cx-searchbar::-moz-placeholder {
-  color: #252525;
+  color: $color-grey;
 }
 .concentrix .cx-searchbar::placeholder {
-  color: #252525;
+  color: $color-grey;
 }
 .concentrix .search .btn {
   border-radius: 50%;
@@ -4772,6 +4782,8 @@ body {
 }
 .concentrix .sec-menu .btn-secondary {
   font-size: 15px !important;
+  font-weight: 600 !important;
+  color: var(--primary-clr) !important;
 }
 .concentrix .ab-header__dropdown-inner {
   width: 0;
@@ -4871,10 +4883,9 @@ body {
   text-align: left;
 }
 .concentrix .profile-name {
-  font-size: 18px !important;
-  font-weight: bold;
+  font-size: 14px !important;
   color: var(--primary-clr);
-  align-items: flex-end;
+  align-items: center;
   margin-left: 8px;
 }
 .concentrix .cx-quantityouter {
