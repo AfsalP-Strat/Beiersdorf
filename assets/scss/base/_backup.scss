@@ -66,13 +66,13 @@
   margin: 0 2px;
   padding: 4px 16px;
   color: var(--primary-clr);
-  font-size: 12px;
+  font-size: 16px;
+  text-align: center;
   transition: all 0.3s;
 }
 
 .ab-header__dropdown-link:hover {
-  color: #fff;
-  background-color: #0096d6;
+  color: var(--primary-clr);
 }
 
 .ab-header__overlay {
@@ -1884,7 +1884,8 @@
   width: 50%;
   color: $color-grey;
   position: relative;
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 24px;
 }
 .cx-varient b::after {
   content: ":";
@@ -2470,23 +2471,23 @@
   margin-bottom: 20px;
 }
 .cx-odrsmry__btn {
-  background-color: var(--secondary-clr);
-  color: var(--primary-clr);
+  background-color: var(--primary-clr);
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   width: 90%;
   display: inline-block;
   text-align: center;
-  border: 1px solid var(--secondary-clr);
+  border: 1px solid var(--primary-clr);
   border-radius: 20px;
   padding: 8px 0px;
   margin: 20px 0px 0px;
 }
 .cx-odrsmry__btn:hover {
   background-color: transparent;
-  color: var(--secondary-clr);
+  color: var(--primary-clr);
   cursor: pointer;
-  border: 1px solid var(--secondary-clr);
+  border: 1px solid var(--primary-clr);
 }
 .cx-odrsmry__txtcart {
   display: flex;
@@ -2616,6 +2617,15 @@
 .concentrix .fiter-head {
   color: var(--primary-clr);
   margin: 12px 0;
+}
+.concentrix .btn-grey {
+  border: 2px solid var(--primary-clr);
+  background-color: var(--primary-clr);
+  color: #fff;
+  margin-bottom: 12px;
+  &:hover {
+    color: var(--primary-clr) !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -3886,9 +3896,6 @@ body {
 .concentrix .sec-menu {
   height: 37px;
 }
-.concentrix .ab-header__dropdown-link:hover {
-  color: var(--primary-clr);
-}
 .concentrix .progress {
   height: 150px !important;
   width: 220px !important;
@@ -3903,7 +3910,7 @@ body {
   height: auto;
 }
 .concentrix .cx-adrsmodal {
-  background-color: #007380;
+  background-color: var(--primary-clr);
 }
 .concentrix .cx-adrsmodal .text-box {
   padding: 10px;
@@ -3928,7 +3935,7 @@ body {
 }
 .concentrix .cx-adrsmodal .cx-cancel:hover {
   background-color: #fff !important;
-  color: var(--secondary-clr) !important;
+  color: var(--primary-clr) !important;
   border: 1px solid var(--secondary-clr) !important;
   transition: 0.3s;
 }
@@ -4204,7 +4211,9 @@ body {
 }
 .concentrix .cx-pdp-para {
   color: $color-grey !important;
-  font-size: 15px !important;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
 .concentrix .cx-code {
   color: var(--primary-clr) !important;
@@ -4330,7 +4339,8 @@ body {
   font-size: 13px !important;
 }
 .concentrix .mobile-price.sample .text {
-  font-size: 18px !important;
+  font-size: 14px !important;
+  line-height: 24px;
 }
 .concentrix .cx-pdplink a {
   font-size: 16px;
@@ -4365,8 +4375,10 @@ body {
   margin: auto;
 }
 .concentrix .cx-bundle-h {
-  color: #000;
+  color: var(--primary-clr);
+  margin: 12px 0;
   font-size: 18px;
+  text-transform: uppercase;
 }
 .concentrix .cx-timer {
   width: 60%;
@@ -4374,11 +4386,11 @@ body {
   justify-content: center;
   text-align: center;
   border-radius: 26px;
-  background: #ccc;
+  background: var(--secondary-clr);
   border: 1px solid transparent;
   font-size: 16px;
   font-weight: 700;
-  color: #003D5D !important;
+  color: var(--primary-clr) !important;
   padding: 6px 4px;
   margin-bottom: 14px;
 }
@@ -4789,9 +4801,6 @@ body {
 .concentrix .dxpcLite_Moderno .dxpc-content {
   font-size: 16px;
 }
-.concentrix .ab-header__dropdown-link {
-  font-size: 16px !important;
-}
 .concentrix .sec-menu .btn-secondary {
   font-size: 15px !important;
   font-weight: 600 !important;
@@ -4803,9 +4812,6 @@ body {
 .concentrix .ab-header__container {
   display: flex;
   width: 90%;
-}
-.concentrix .ab-header__dropdown-link {
-  text-align: center;
 }
 .concentrix .cx-addhead {
   font-size: 36px;
@@ -4883,7 +4889,7 @@ body {
   height: auto;
 }
 .concentrix .cx-bgblue {
-  background-color: #007380;
+  background-color: var(--primary-clr);
 }
 .concentrix #ctl09_lblSearch {
   font-weight: bold;
