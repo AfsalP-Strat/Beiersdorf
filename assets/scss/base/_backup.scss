@@ -1947,15 +1947,16 @@
 }
 .cx-carttitle.your-wishlist {
   margin-top: 20px;
+  text-transform: uppercase;
 }
 .cx-carttitle.your-wishlist .cx-carttitle__a {
-  font-size: 24px;
+  font-size: 20px;
 }
 .cx-carttitle.your-wishlist .cx-carttitle__d,
 .cx-carttitle.your-wishlist .cx-carttitle__e,
 .cx-carttitle.your-wishlist .cx-carttitle__g {
   width: 17.5%;
-  font-size: 24px;
+  font-size: 20px;
 }
 .cx-carttitle.your-wishlist .cx-carttitle__f {
   width: 22%;
@@ -2093,6 +2094,7 @@
 .cx-cartpdt.your-wishlist .cx-cartpdt__price,
 .cx-cartpdt.your-wishlist .cx-cartpdt__delete {
   width: 20.5%;
+  color: var(--primary-clr);
 }
 .cx-cartpdt.your-wishlist .cx-cartpdt__crtwrap {
   width: 22%;
