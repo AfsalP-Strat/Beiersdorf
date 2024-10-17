@@ -2356,7 +2356,7 @@
 }
 .cx-address__inner a {
   text-decoration: none;
-  color: #007aff;
+  color: var(--primary-clr);
   font-size: 18px;
   font-weight: 500;
 }
@@ -3350,7 +3350,7 @@
 .cx-checkout__addnew a {
   font-size: 20px;
   text-decoration: none;
-  color: #007aff;
+  color: var(--primary-clr);
   font-weight: 600;
 }
 .cx-checkout__addnew a:hover {
