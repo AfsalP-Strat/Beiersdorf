@@ -172,25 +172,16 @@
   }
 }
 .ab-button {
-  max-width: 320px;
+  max-width: 340px;
   margin: 32px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  background-color: #0096d6;
   transition: all 0.3s;
   text-transform: uppercase;
-  border: 2px solid #0096d6;
   padding: 8px 16px;
   border-radius: 5px;
   text-align: center;
-  font-weight: bold;
-}
-
-.ab-button:hover {
-  color: #0096d6;
-  background-color: #fff;
 }
 
 .ab-details {
@@ -551,7 +542,7 @@
 
 .ab-address__text-para {
   margin-bottom: 4px;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .ab-address__text-area {
@@ -601,6 +592,7 @@
   text-align: center;
   color: #0096d6;
   line-height: 1.3;
+  font-weight: normal;
 }
 
 .mobile-price.sample .text {
@@ -849,7 +841,7 @@
 
 .ab-summary__links {
   margin: 8px 16px 8px 8px;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .ab-summary__links i {
@@ -1064,9 +1056,6 @@
   font-weight: 700;
   margin-top: 20px;
 }
-.concentrix .discription-under-price .category li span {
-  font-weight: bolder;
-}
 .concentrix .discription-under-price p span,
 .concentrix .address-page,
 .concentrix .mobile-price,
@@ -1082,7 +1071,7 @@
   color: var(--primary-clr) !important;
 }
 .concentrix .mobile-price .del {
-  font-size: 15px;
+  font-size: 14px;
 }
 .concentrix .mobile-price .btn-red.hvr-fade,
 .concentrix .ab-address__choose-add,
@@ -1206,19 +1195,23 @@
   font-size: 16px;
 }
 .concentrix .ab-button {
-  background-color: var(--primary-clr);
-  border: 2px solid var(--primary-clr);
-  border-radius: 24px;
-  max-width: 340px;
+  color: var(--primary-clr);
+  position: relative;
+  &::after {
+    content: ">";
+    position: absolute;
+    top: 7px;
+    right: 27px;
+  }
 }
 .concentrix .ab-button:hover {
-  color: var(--primary-clr);
-  background-color: var(--secondary-clr);
-  border: 2px solid var(--secondary-clr);
+  text-decoration: underline !important;
 }
 .concentrix .book-name {
   color: var(--primary-clr);
   text-transform: uppercase;
+  font-size: 16px;
+  font-weight: normal;
 }
 .concentrix .book-name:hover {
   color: var(--primary-clr);
@@ -1235,18 +1228,20 @@
 }
 .concentrix .book-name-and-buy .btn-buy {
   border-radius: 24px !important;
-  border: 2px solid var(--primary-clr);
+  border: 1px solid var(--primary-clr);
   background-color: transparent;
   color: var(--primary-clr) !important;
   padding: 5px 12px !important;
   transition: all 0.4s;
+  font-weight: normal !important;
 }
 .concentrix .book-name-and-buy .btn-buy:hover {
-  border: 2px solid var(--primary-clr) !important;
+  border: 1px solid var(--primary-clr) !important;
   transform: translateY(-2px);
 }
 .concentrix .book-name-and-buy ul li {
   color: var(--primary-clr) !important;
+  font-weight: normal !important;
 }
 .concentrix .search .form-inline {
   width: 330px;
@@ -1667,7 +1662,7 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: normal;
   color: #08312A;
 }
 .boehringer .bh-button.round {
@@ -1688,7 +1683,7 @@
 .boehringer .bh-button__text {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: normal;
   color: #08312A;
   transition: 0.4s;
 }
@@ -1931,7 +1926,6 @@
 }
 .cx-carttitle .cx-carttitle__a {
   font-size: 20px;
-  font-weight: 700;
   color: var(--primary-clr);
 }
 .cx-carttitle__wrapb {
@@ -1943,7 +1937,6 @@
   width: 11.66%;
   text-align: center;
   font-size: 20px;
-  font-weight: 700;
   color: var(--primary-clr);
 }
 .cx-carttitle.your-wishlist {
@@ -1987,24 +1980,21 @@
 }
 .cx-cartpdt__pdtname {
   font-size: 18px;
-  font-weight: 600;
-  color: #000000;
+  font-weight: normal;
+  color: var(--primary-clr);
 }
 .cx-cartpdt__subdetails {
   font-size: 16px;
   color: #777777;
-  font-weight: 500;
 }
 .cx-cartpdt__price {
-  font-weight: 700;
   width: 11.66%;
 }
 .cx-cartpdt .boldblu {
   color: var(--primary-clr);
-  font-weight: 700;
 }
 .cx-cartpdt__subprice {
-  font-weight: 500;
+  font-weight: normal;
   color: #000000;
   width: 11.66%;
 }
@@ -2027,7 +2017,7 @@
   justify-content: center;
 }
 .cx-cartpdt__qntityvalue {
-  font-weight: 500;
+  font-weight: normal;
 }
 .cx-cartpdt__crtbtn {
   background-color: var(--primary-clr);
@@ -2038,7 +2028,6 @@
   width: 11.66%;
   text-decoration: none;
   color: #ffffff;
-  font-weight: 500;
   border: 2px solid var(--primary-clr);
 }
 .cx-cartpdt__crtbtn:hover {
@@ -2073,9 +2062,6 @@
 }
 .cx-cartpdt__delete {
   width: 11.66%;
-}
-.cx-cartpdt.your-wishlist .cx-cartpdt__pdtname {
-  font-size: 20px;
 }
 .cx-cartpdt.your-wishlist .cx-cartpdt__price {
   font-size: 18px;
@@ -2159,14 +2145,12 @@
 .cx-shpcart .cx-shpcarttitle__a {
   width: 45%;
   font-size: 24px;
-  font-weight: 700;
   color: var(--primary-clr);
   text-align: left;
 }
 .cx-shpcart .cx-shpcarttitle__b, .cx-shpcart .cx-shpcarttitle__c, .cx-shpcart .cx-shpcarttitle__d {
   width: 18.33%;
   font-size: 24px;
-  font-weight: 700;
   color: var(--primary-clr);
   text-align: center;
 }
@@ -2196,8 +2180,9 @@
 }
 .cx-shpcart .cx-shpcartpdt__pdtname {
   font-size: 20px;
-  color: #000;
-  margin-bottom: 0;
+  color: var(--primary-clr);
+  margin-bottom: 6px;
+  font-weight: normal;
 }
 .cx-shpcart .cx-shpcartpdt__subdetails {
   font-size: 16px;
@@ -2241,15 +2226,13 @@
   padding-top: 4px;
 }
 .cx-shpcart .cx-shpcartpdt__price {
-  font-weight: 700;
-  color: #000;
+  color: var(--primary-clr);
   width: 18.33%;
   text-align: center;
   font-size: 18px;
 }
 .cx-shpcart .cx-shpcartpdt .boldblu {
   color: var(--primary-clr);
-  font-weight: 700;
 }
 .cx-shpcart .cx-shpcartpdt__delete {
   width: 18.33%;
@@ -2358,7 +2341,7 @@
   text-decoration: none;
   color: var(--primary-clr);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: normal;
 }
 .cx-address__inner a:hover {
   color: var(--primary-clr);
@@ -2604,7 +2587,6 @@
 }
 .abt-shop__txt {
   font-size: 18px;
-  font-weight: 600;
   color: var(--primary-clr);
   text-align: center;
   text-transform: uppercase;
@@ -2615,6 +2597,7 @@
   bottom: -1px;
 }
 .concentrix .fiter-head {
+  font-weight: normal;
   color: var(--primary-clr);
   margin: 12px 0;
 }
@@ -2949,18 +2932,18 @@
 .cx-contact__astr {
   position: absolute;
   color: var(--primary-clr);
-  left: 28%;
+  left: 26%;
   top: -35px;
 }
 .cx-contact__astr--name {
-  left: 27%;
+  left: 25%;
   top: -31px;
 }
 .cx-contact__astr--mob {
-  left: 48%;
+  left: 43%;
 }
 .cx-contact__astr--enq {
-  left: 32%;
+  left: 29%;
   top: -96px;
 }
 .cx-contact__astr--city {
@@ -2968,11 +2951,11 @@
   top: -32px;
 }
 .cx-contact__astr--addrs1 {
-  left: 35%;
+  left: 34%;
   top: -34px;
 }
 .cx-contact__astr--addrs2 {
-  left: 36%;
+  left: 34%;
   top: -33px;
 }
 .cx-contact__astr--state {
@@ -2980,11 +2963,11 @@
   top: -32px;
 }
 .cx-contact__astr--pstcd {
-  left: 25%;
+  left: 23%;
   top: -32px;
 }
 .cx-contact__astr--num {
-  left: 90%;
+  left: 87%;
   top: 27px;
 }
 .cx-contact .cx-cnln .cx-contact__astr {
@@ -3021,7 +3004,7 @@
   left: 14%;
 }
 .cx-cnln .cx-contact__astr--city {
-  left: 24%;
+  left: 25%;
 }
 .cx-cnln .cx-contact__astr--addrs1 {
   left: 20%;
@@ -3184,17 +3167,14 @@
 }
 .cx-shpingcart .cx-ordrsumry .label {
   color: $color-grey;
-  font-weight: 600;
   font-size: 18px;
 }
 .cx-shpingcart .cx-ordrsumry .value {
-  color: #000000;
-  font-weight: 600;
+  color: var(--primary-clr);
   font-size: 18px;
 }
 .cx-shpingcart .cx-ordrsumry .boldblu {
   color: var(--primary-clr);
-  font-weight: 700;
 }
 .cx-shpingcart .cx-ordrsumry__btn {
   background-color: var(--primary-clr);
@@ -3288,7 +3268,7 @@
 .cx-err__para {
   color: #000;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: normal;
   text-transform: unset;
   text-align: center;
   margin-bottom: 20px;
@@ -3334,7 +3314,7 @@
   margin-bottom: 16px;
   color: var(--primary-clr);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: normal;
 }
 .cx-checkout__address {
   display: flex;
@@ -3441,7 +3421,7 @@
 .cx-checkout-address h4 {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 500;
+  font-weight: normal;
   padding: 20px;
   margin-bottom: 0;
   border-bottom: 1px solid var(--secondary-clr);
@@ -3653,7 +3633,7 @@
 .boehringer .bh-hero__text {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: normal;
   color: #000000;
   padding-bottom: 40px;
 }
@@ -4087,7 +4067,6 @@ body {
   float: right;
 }
 .concentrix .edit-del {
-  font-weight: 500;
   color: var(--primary-clr);
 }
 .concentrix .edit-del .fa {
@@ -4105,7 +4084,6 @@ body {
 .concentrix .top-box-edit span {
   font-size: 18px;
   color: var(--primary-clr);
-  font-weight: 500;
 }
 .concentrix .ab-address__address p {
   font-size: 18px;
@@ -4177,7 +4155,6 @@ body {
 }
 .concentrix .cx-prdct-row td {
   color: var(--primary-clr);
-  font-weight: 500;
   text-align: center;
 }
 .concentrix .b-price {
@@ -4189,7 +4166,7 @@ body {
 .concentrix .cat {
   width: 50% !important;
   position: relative;
-  font-weight: 500 !important;
+  font-weight: normal !important;
   font-size: 16px !important;
 }
 .concentrix .cat::after {
@@ -4217,7 +4194,6 @@ body {
   font-size: 16px !important;
 }
 .concentrix .cx-rmb-left {
-  font-weight: 600;
   color: $color-grey;
   font-size: 16px;
   line-height: 30px;
@@ -4228,17 +4204,15 @@ body {
 }
 .concentrix .cx-rmb {
   color: var(--primary-clr);
-  font-weight: 600;
 }
 .concentrix .cx-txt-bold {
-  font-weight: bold;
   font-size: 17px;
 }
 .concentrix .cx-edit-w {
   display: flex;
   align-items: center;
   padding-right: 8%;
-  font-weight: 500;
+  font-weight: normal;
   color: #333333;
 }
 .concentrix .cx-edit-icon {
@@ -4278,15 +4252,18 @@ body {
   padding: 0px 4px;
   border: 1px solid #8C8481;
   margin-left: 10px;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 16px;
   background-color: #ffffff;
+}
+.concentrix .left-box h3 {
+  font-weight: normal;
 }
 .concentrix .cx-sortby {
   font-size: 16px;
   color: #666;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: normal;
 }
 .concentrix .ajax__validatorcallout_error_message_cell {
   color: red;
@@ -4331,9 +4308,6 @@ body {
 .concentrix .selector .form-control {
   font-size: 12px !important;
   padding: 10px 4px;
-}
-.concentrix .mobile-price .del {
-  font-size: 13px !important;
 }
 .concentrix .mobile-price.sample .text {
   font-size: 14px !important;
@@ -4498,7 +4472,7 @@ body {
 .concentrix .cx-upqnty {
   font-size: 14px;
   color: var(--primary-clr) !important;
-  font-weight: 500;
+  font-weight: normal;
   position: relative;
   cursor: pointer;
   margin-top: 10px;
@@ -4800,7 +4774,7 @@ body {
 }
 .concentrix .sec-menu .btn-secondary {
   font-size: 15px !important;
-  font-weight: 600 !important;
+  font-weight: normal !important;
   color: var(--primary-clr) !important;
 }
 .concentrix .ab-header__dropdown-inner {
@@ -4926,7 +4900,8 @@ body {
   width: 70%;
 }
 .concentrix .list-show .hover .product-name {
-  margin-bottom: 8px;
+  font-weight: normal;
+  height: 50px;
 }
 .concentrix .pricing li:first-child {
   padding-right: 0;
@@ -5006,6 +4981,11 @@ body {
 .boehringer .search .user-items button {
   padding-top: 5px;
   padding-right: 20px;
+}
+.concentrix .filter-check-box label {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
