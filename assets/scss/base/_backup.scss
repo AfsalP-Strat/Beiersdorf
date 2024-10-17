@@ -2715,7 +2715,7 @@
   background-color: var(--secondary-clr);
 }
 .cx-pf__again:hover {
-  color: var(--secondary-clr);
+  color: var(--primary-clr);
   background-color: #fff;
   border: 1px solid var(--secondary-clr);
 }
@@ -2948,7 +2948,7 @@
 }
 .cx-contact__astr {
   position: absolute;
-  color: red;
+  color: var(--primary-clr);
   left: 28%;
   top: -35px;
 }
@@ -3485,25 +3485,22 @@
   font-size: 14px;
 }
 .cx-checkout-address__edit a {
-  color: var(--secondary-clr);
+  color: var(--primary-clr);
   text-decoration: none;
   float: right;
-}
-.cx-checkout-address__edit a:hover {
-  color: var(--primary-clr);
 }
 .cx-checkout-address__btn {
   font-size: 13px;
   background-color: #fff;
-  border: 1px solid #e22525;
-  color: #e22525 !important;
+  border: 1px solid var(--primary-clr);
+  color: var(--primary-clr) !important;
   padding: 5px 20px;
   margin: 5px 0;
   display: inline-block;
   transition: 0.2s ease-in-out;
 }
 .cx-checkout-address__btn:hover {
-  background-color: #e22525;
+  background-color: var(--primary-clr);
   color: #fff !important;
 }
 .cx-checkout-address__btn-wrap {
@@ -3513,13 +3510,13 @@
   gap: 20px;
 }
 .cx-checkout-address__btn-wrap--blue {
-  background-color: #e22525;
-  border: 1px solid #e22525;
+  background-color: var(--primary-clr);
+  border: 1px solid var(--primary-clr);
   color: #fff;
 }
 .cx-checkout-address__btn-wrap--blue:hover {
   background-color: #fff;
-  color: #e22525;
+  color: var(--primary-clr);
 }
 
 .cx-cart-pop {
@@ -4412,12 +4409,12 @@ body {
 }
 .concentrix .cx-cochng {
   font-size: 14px;
-  border: 1px solid #e22525;
+  border: 1px solid var(--primary-clr);
   padding: 2px 8px;
-  color: #e22525;
+  color: var(--primary-clr);
 }
 .concentrix .cx-cochng:hover {
-  background-color: #e22525;
+  background-color: var(--primary-clr);
   color: #fff;
 }
 .concentrix .cx-location {
@@ -4532,7 +4529,7 @@ body {
   font-size: 15px;
 }
 .concentrix .cx-checkout-address__btn.active {
-  background-color: #e22525;
+  background-color: var(--primary-clr);
   color: #fff !important;
 }
 .concentrix .cx-remove-all {
