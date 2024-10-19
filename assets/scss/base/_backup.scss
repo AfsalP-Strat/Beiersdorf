@@ -178,51 +178,154 @@ strong {
 }
 
 @font-face {
-  font-family: "Boehringer Forward Head";
-  src: url("/css/fonts/BoehringerForwardHead-Bd.woff") format("woff2"), url("/css/fonts/BoehringerForwardHead-BdIt.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Boehringer Forward Text";
-  src: url("/css/fonts/BoehringerForwardText-Bd.woff2") format("woff2"), url("/css/fonts/BoehringerForwardText-Bd.woff") format("woff");
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-BoldCn.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-BoldCn.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Boehringer Forward Text";
-  src: url("/css/fonts/BoehringerForwardText.woff2") format("woff2"), url("/css/fonts/BoehringerForwardText.woff") format("woff");
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-Cn.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-Cn.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Boehringer Forward Head Md";
-  src: url("/css/fonts/BoehringerForwardHead-Md.woff2") format("woff2"), url("/css/fonts/BoehringerForwardHead-Md.woff") format("woff");
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-BoldCnIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-BoldCnIt.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-It.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-It.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-MediumCn.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-MediumCn.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Boehringer Forward Text Md";
-  src: url("/css/fonts/BoehringerForwardText-MdIt.woff2") format("woff2"), url("/css/fonts/BoehringerForwardText-MdIt.woff") format("woff");
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-DemiCn.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-DemiCn.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-CnIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-CnIt.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-HeavyCn.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-HeavyCn.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-Demi.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-Demi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-HeavyCnIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-HeavyCnIt.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-DemiIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-DemiIt.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-DemiCnIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-DemiCnIt.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-UltLtCnIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-UltLtCnIt.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-MediumCnIt.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-MediumCnIt.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Boehringer Forward Text Md";
-  src: url("/css/fonts/BoehringerForwardText-Md.woff2") format("woff2"), url("/css/fonts/BoehringerForwardText-Md.woff") format("woff");
-  font-weight: 500;
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-UltLtCn.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-UltLtCn.woff') format('woff');
+  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Boehringer Forward Head";
-  src: url("/css/fonts/BoehringerForwardHead-Bd.woff2") format("woff2"), url("/css/fonts/BoehringerForwardHead-Bd.woff") format("woff");
-  font-weight: bold;
+  font-family: 'Avenir Next LT Pro';
+  src: url('/css/fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+      url('/css/fonts/AvenirNextLTPro-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -232,7 +335,7 @@ html {
 
 html,
 body {
-  font-family: "Boehringer Forward Text" !important;
+  font-family: 'Avenir Next LT Pro' !important;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.3;
@@ -1520,7 +1623,7 @@ button {
 
 .boehringer .cx-footerlogo img {
   width: auto;
-  height: 32px;
+  height: 24px;
 }
 
 .boehringer .cx-button {
@@ -4522,7 +4625,7 @@ button {
   color: #000000;
   padding-bottom: 20px;
   width: 90%;
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
 }
 
 .boehringer .bh-prodcut .bh-button {
@@ -5931,8 +6034,8 @@ button {
 }
 .bi-input label {
   margin-bottom: 5px;
-  font-family: "Boehringer Forward Text Md";
-  color: #000;
+  font-family: 'Avenir Next LT Pro';
+  color: var(--primary-clr);
   font-size: 15px;
 }
 .bi-input label sup {
@@ -5948,7 +6051,7 @@ button {
 }
 .bi-input input:focus,
 .bi-input select:focus {
-  border: 1px solid #022D25;
+  border: 1px solid var(--primary-clr);
 }
 .bi-input select {
   padding: 5px 7px;
@@ -5986,6 +6089,7 @@ button {
   margin-left: 10px;
 }
 .bi-btn--reverse {
+  color: var(--primary-clr);
   background-color: var(--third-clr);
   border-color: var(--third-clr);
   border-radius: 2px;
@@ -6055,16 +6159,16 @@ button {
   font-weight: normal;
   margin: 20px 0;
   text-transform: unset;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-heading__sub {
-  color: $color-grey;
+  color: var(--primary-clr);
   font-size: 28px;
   line-height: 34px;
   font-weight: normal;
   text-transform: unset;
   margin: 20px 0;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -6295,7 +6399,7 @@ button {
 }
 .price .price-wrap label {
   text-align: right;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   color: #A9A8A5;
   font-size: 16px;
 }
@@ -6315,7 +6419,7 @@ button {
 .bi-rp__head {
   color: var(--primary-clr);
   font-size: 20px;
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -6354,12 +6458,12 @@ button {
   text-align: left;
   padding-left: 24px;
   color: #000000;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-rp .rp-head {
   font-size: 14px;
   color: var(--primary-clr) !important;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   text-transform: uppercase;
   text-align: left;
   padding-left: 24px;
@@ -6390,7 +6494,7 @@ button {
   line-height: 20px;
   color: #000000;
   padding-top: 8px;
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
 }
 
 .bi-order-modal {
@@ -6539,7 +6643,7 @@ button {
 .bi-sna {
   width: 100%;
   min-height: 100vh;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
   padding: 32px;
   position: relative;
 }
@@ -6600,6 +6704,7 @@ button {
   width: 36%;
 }
 .bi-sna__btn a:hover {
+  color: var(--primary-clr);
   background-color: var(--third-clr);
   transition: all 0.2s 0s ease-in;
 }
@@ -6662,7 +6767,7 @@ button {
   padding: 50px 0px;
   width: 100%;
   height: 100vh;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
 }
 .bi-lgs__wrap {
   display: flex;
@@ -6683,7 +6788,7 @@ button {
   text-align: center;
   color: #fff;
   margin: 7% 0;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-lgs__head span {
   color: var(--secondary-clr);
@@ -6699,6 +6804,7 @@ button {
   width: 36%;
 }
 .bi-lgs__btn:hover {
+  color: var(--primary-clr);
   background-color: var(--third-clr);
   transition: all 0.2s 0s ease-in;
 }
@@ -6729,14 +6835,14 @@ button {
   padding: 50px 0px;
   width: 100%;
   min-height: 100vh;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
 }
 .bi-pref__head {
   font-size: 92px;
   line-height: 102px;
   color: #fff;
   margin-top: 60px;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-pref__head span {
   color: var(--secondary-clr);
@@ -6751,7 +6857,7 @@ button {
   font-weight: 700;
   color: #fff;
   margin-top: 80px;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-pref__subhead {
   font-size: 28px;
@@ -6782,6 +6888,7 @@ button {
   margin-bottom: 26px;
 }
 .bi-pref__btn:hover {
+  color: var(--primary-clr);
   background-color: var(--third-clr);
   transition: all 0.2s 0s ease-in;
 }
@@ -6920,7 +7027,7 @@ button {
 .bi-pot {
   width: 100%;
   min-height: 100vh;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
   padding: 32px;
   position: relative;
 }
@@ -6933,7 +7040,7 @@ button {
 .bi-pot__content {
   color: #fff;
   font-size: 90px;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   padding-top: 66px;
   text-align: center;
 }
@@ -6971,6 +7078,7 @@ button {
   width: 25%;
 }
 .bi-pot__btn a:hover {
+  color: var(--primary-clr);
   background-color: var(--third-clr);
   transition: all 0.2s 0s ease-in;
 }
@@ -7176,7 +7284,7 @@ button {
   background-color: #fff;
 }
 .user-select__head {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   text-align: center;
   font-size: 36px;
   font-weight: bold;
@@ -7207,7 +7315,7 @@ button {
   border-radius: 50%;
 }
 .user-select__submit {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   background-color: var(--secondary-clr);
   border: 2px solid var(--secondary-clr);
   border-radius: 5px;
@@ -7239,7 +7347,7 @@ button {
   padding-top: 5px;
 }
 .user-select__rbtn {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr);
   font-weight: 600;
 }
@@ -7260,7 +7368,7 @@ button {
   padding: 40px 0px;
   width: 100%;
   min-height: 100vh;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
 }
 .bi-lang-select__logo {
   width: 180px;
@@ -7286,7 +7394,7 @@ button {
   line-height: 110px;
   color: #ffffff;
   margin-bottom: 8px;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-lang-select__cnt p {
   font-size: 24px;
@@ -7304,7 +7412,7 @@ button {
   padding: 8px 16px;
   color: #ffffff;
   border: 2px solid var(--secondary-clr);
-  background-color: #022D25;
+  background-color: var(--primary-clr);
 }
 .bi-lang-select__cnt select option {
   color: #000;
@@ -7328,6 +7436,7 @@ button {
   width: 36%;
 }
 .bi-lang-select__btn a:hover {
+  color: var(--primary-clr);
   background-color: var(--third-clr);
   transition: all 0.2s 0s ease-in;
 }
@@ -7375,7 +7484,7 @@ button {
   background-color: #fff;
 }
 .user-type__head {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   text-align: center;
   font-size: 36px;
   font-weight: bold;
@@ -7384,14 +7493,14 @@ button {
 }
 .user-type__copy {
   font-size: 16px;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   text-align: center;
   color: var(--primary-clr);
   margin-bottom: 20px;
 }
 .user-type__smcopy {
   font-size: 14px;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   text-align: center;
   color: #000;
   margin: 20px 0;
@@ -7407,7 +7516,7 @@ button {
   border-radius: 50%;
 }
 .user-type__submit {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   background-color: var(--secondary-clr);
   border: 2px solid var(--secondary-clr);
   border-radius: 5px;
@@ -7598,7 +7707,7 @@ button {
 .bi-sbhead {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr);
   margin-bottom: 16px;
 }
@@ -7663,7 +7772,7 @@ button {
   color: var(--primary-clr);
   font-size: 18px;
   font-weight: 500;
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-radiolbl label {
   padding-left: 4px;
@@ -7722,7 +7831,7 @@ button {
   color: var(--primary-clr);
   padding-bottom: 20px;
   margin-top: 12%;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-sustainability p {
   font-size: 12px;
@@ -7830,7 +7939,7 @@ button {
   padding: 24px 24px 4px;
 }
 .cx-checkout__head {
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
   color: #fff;
   background-color: var(--primary-clr);
   font-size: 26px;
@@ -7908,7 +8017,7 @@ button {
   width: 22%;
 }
 .cx-checkout__helptxt {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   color: #000;
   margin: 22px 0 8px;
 }
@@ -7980,7 +8089,7 @@ button {
   width: 95%;
   line-height: 42px;
   margin: 20px 0 15px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   text-transform: unset;
   font-weight: 400;
 }
@@ -7989,7 +8098,7 @@ button {
   font-size: 28px;
   line-height: 34px;
   margin: 32px 0 10px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   text-transform: unset;
   font-weight: 400;
 }
@@ -8219,7 +8328,7 @@ button {
   color: #00E57B;
   font-size: 380px;
   line-height: 250px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-tree__sec-one {
   display: flex;
@@ -8234,7 +8343,7 @@ button {
 .bi-tree__onehead {
   font-size: 160px;
   line-height: 170px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   padding-bottom: 32px;
   color: var(--primary-clr);
 }
@@ -8245,7 +8354,7 @@ button {
   color: $color-grey;
   font-size: 16px;
   padding-bottom: 16px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .bi-tree__one-right {
   width: 65%;
@@ -8285,7 +8394,7 @@ button {
   color: $color-grey;
   font-size: 16px;
   padding-bottom: 16px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -8397,7 +8506,7 @@ button {
   font-size: 35px;
   line-height: 40px;
   margin-bottom: 8px;
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr);
   text-transform: none;
   font-weight: normal;
@@ -8587,7 +8696,7 @@ button {
   margin-bottom: 32px;
 }
 .bi-returns h2 {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -8703,7 +8812,7 @@ button {
   padding: 17px;
 }
 .bi-emptycart__tile2 h1 {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   color: #000;
   padding: 0 0 0 13px;
   text-transform: unset;
@@ -8758,7 +8867,7 @@ button {
   color: #000;
   font-size: 19px;
   line-height: 25px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   border-radius: 0;
   background-color: #e5e3de;
   padding: 5px 8px;
@@ -8962,7 +9071,7 @@ button {
 .bi-instreporting__contenthead {
   color: var(--primary-clr);
   font-size: 22px;
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   padding-bottom: 10px;
 }
 .bi-instreporting__content {
@@ -9008,7 +9117,7 @@ button {
   text-transform: unset;
 }
 .bi-oicat__copy {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   font-size: 21px;
   font-weight: 500;
   color: var(--primary-clr);
@@ -9238,7 +9347,7 @@ button {
   padding-bottom: 30px;
   width: 100%;
   min-height: 100vh;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
 }
 .bi-agency-select__logo {
   width: 180px;
@@ -9292,7 +9401,7 @@ button {
   left: 25px;
   height: 20px;
   width: 20px;
-  background-color: #022D25;
+  background-color: var(--primary-clr);
   border: 2px solid var(--secondary-clr);
   border-radius: 50%;
 }
@@ -9357,7 +9466,7 @@ button {
   margin-bottom: 20px;
 }
 .bi-agency-select__title h3 {
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
   font-size: 25px;
   line-height: 35px;
   font-weight: 600;
@@ -9367,7 +9476,7 @@ button {
   text-transform: capitalize;
 }
 .bi-agency-select__title h4 {
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr);
   text-align: center;
   margin-bottom: 15px;
@@ -9831,7 +9940,7 @@ button {
   }
 }
 .boehringer .fiter-head {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   font-weight: normal;
   color: var(--primary-clr);
   font-size: 21px;
@@ -9863,7 +9972,7 @@ button {
   background-color: #F6F5F3 !important;
 }
 .boehringer .book-name-and-buy ul li {
-  font-family: "Boehringer Forward Text" !important;
+  font-family: 'Avenir Next LT Pro' !important;
   font-weight: normal;
 }
 .boehringer .list-show .product-box {
@@ -9891,7 +10000,7 @@ button {
   background-color: transparent;
 }
 .boehringer .bi-odrtitle {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   font-size: 35px;
   color: var(--primary-clr);
   margin-bottom: 10px;
@@ -9900,7 +10009,7 @@ button {
   font-size: 12px;
 }
 .boehringer .plp-price p {
-  font-family: "Boehringer Forward Head Md";
+  font-family: 'Avenir Next LT Pro';
   font-size: 13px;
   color: var(--primary-clr);
 }
@@ -10002,7 +10111,7 @@ button {
   font-size: 16px;
   width: 85%;
   font-weight: 500;
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .boehringer .bi-ibc {
   padding: 110px 0 40px;
@@ -10021,7 +10130,7 @@ button {
   margin: 0;
 }
 .boehringer .bh-new .bh-heading {
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
   font-size: 52px;
   line-height: 72px;
   font-weight: 500;
@@ -10033,7 +10142,7 @@ button {
   margin-left: 15px;
 }
 .boehringer .list-show .hover .product-name {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   font-size: 14px;
   color: var(--primary-clr);
   letter-spacing: 0.7px;
@@ -10042,16 +10151,16 @@ button {
   color: #1155CC;
 }
 .boehringer .ab-tile__desc {
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
 }
 .boehringer .pricing li:first-child {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
 }
 .boehringer .filter-check-box td {
   padding-bottom: 4px;
 }
 .boehringer .book-name-and-buy .btn-buy {
-  font-family: "Boehringer Forward Head";
+  font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr) !important;
   text-transform: capitalize;
   font-size: 15px;
@@ -10112,6 +10221,7 @@ button {
   font-weight: 400 !important;
 }
 .boehringer .mobile-price .btn-red.hvr-fade:hover {
+  color: var(--primary-clr);
   border: 2px solid var(--third-clr) !important;
   background-color: var(--third-clr) !important;
 }
@@ -10485,7 +10595,7 @@ button {
   margin-right: 16px;
   font-size: 13px;
   font-weight: 600;
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
   letter-spacing: 1px;
 }
 .boehringer .bh-prodcut__cta a:hover {
@@ -10536,7 +10646,7 @@ button {
   height: 256px !important;
 }
 .boehringer .bi-pdp input {
-  font-family: "Boehringer Forward Text Md";
+  font-family: 'Avenir Next LT Pro';
   font-size: 18px;
   text-align: center;
 }
@@ -10601,7 +10711,7 @@ button {
   font-weight: 600;
 }
 .boehringer .bi-prdctcs {
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
 }
 .boehringer .small-font {
   font-size: 12px;
@@ -10667,7 +10777,7 @@ button {
 }
 .boehringer .bi-footer__head {
   color: var(--primary-clr);
-  font-family: "Boehringer Forward Text";
+  font-family: 'Avenir Next LT Pro';
   font-size: 16px;
   font-weight: 600;
   text-transform: unset;
