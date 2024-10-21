@@ -1615,6 +1615,7 @@ button {
 
 .boehringer .cx-footerlogo {
   display: flex;
+  justify-content: center;
   margin-left: 15px;
   margin-bottom: 10px;
   width: 100%;
@@ -1668,12 +1669,12 @@ button {
   border: 2px solid var(--primary-clr);
   border-radius: 5px;
   max-width: 340px;
+  color: #fff;
 }
 
 .boehringer .ab-button:hover {
-  color: var(--primary-clr);
-  background-color: var(--secondary-clr);
-  border: 2px solid var(--secondary-clr);
+  background-color: #001E60;
+  border: 2px solid #001E60;
 }
 
 .boehringer .book-name {
