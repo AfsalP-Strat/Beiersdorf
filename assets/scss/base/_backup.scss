@@ -3471,7 +3471,7 @@ button {
   }
 }
 .cx-pp__wrap {
-  padding: 40px 0px;
+  padding:  0px 0px 40px;
   min-height: 100vh;
 }
 
@@ -3480,8 +3480,7 @@ button {
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
-  color: #fff;
-  background-color: var(--primary-clr);
+  color: var(--primary-clr);
   padding: 40px 0px;
 }
 
@@ -3489,14 +3488,15 @@ button {
   font-weight: bold;
 }
 
-.cx-pp__head span {
-  font-weight: normal;
-}
+// .cx-pp__head span {
+//   font-weight: normal;
+// }
 
 .cx-pp__copy h3 {
   font-size: 26px;
   font-weight: bold;
-  color: #2a2b2c;
+  color: var(--primary-clr);
+  margin-bottom: 12px;
 }
 
 .cx-pp__copy p {
@@ -9981,16 +9981,16 @@ button {
 .boehringer .ListingCol {
   max-width: 33.33% !important;
 }
-.boehringer .container.bi-bgclr {
-  background-color: #F6F5F3 !important;
-}
+// .boehringer .container.bi-bgclr {
+//   background-color: #F6F5F3 !important;
+// }
 .boehringer .book-name-and-buy ul li {
   font-family: 'Avenir Next LT Pro' !important;
   font-weight: normal;
 }
 .boehringer .list-show .product-box {
   border: 1px solid #F6F5F3;
-  width: 80% !important;
+  width: 90% !important;
 }
 .boehringer .list-show .product-box:hover .list-show .hover .product-name {
   color: #1155CC;
@@ -9998,9 +9998,9 @@ button {
 .boehringer .bi-odrouter {
   background-color: #f6f5f3;
 }
-.boehringer .bi-odrouter .inner-marging {
-  background-color: #f6f5f3 !important;
-}
+// .boehringer .bi-odrouter .inner-marging {
+//   background-color: #f6f5f3 !important;
+// }
 .boehringer .bi-odrouter span {
   color: $color-grey;
   font-size: 14px;
@@ -10047,9 +10047,9 @@ button {
   /* Optional: Adds smooth scrolling */
   /* bottle home section */
 }
-.boehringer .bi-plp {
-  background: #f6f5f3;
-}
+// .boehringer .bi-plp {
+//   background: #f6f5f3;
+// }
 .boehringer .list-show .product-box .product {
   border-bottom: 0px;
   background-color: transparent;
