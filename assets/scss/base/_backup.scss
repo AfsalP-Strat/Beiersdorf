@@ -1499,7 +1499,7 @@ button {
 }
 
 .boehringer .product-details-page h2 {
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 20px;
 }
 
@@ -1638,6 +1638,7 @@ button {
   padding: 0 24px;
   font-size: 16px;
   position: relative;
+  color: var(--primary-clr);
 }
 
 .boehringer .abt-footer__txt:nth-child(-n+2)::after {
@@ -1647,7 +1648,7 @@ button {
   top: 0;
   width: 2px;
   height: 100%;
-  background-color: #fff;
+  background-color: var(--primary-clr);
 }
 
 .boehringer .abt-footer__content {
@@ -1657,7 +1658,7 @@ button {
 
 .boehringer .abt-footer__copy {
   text-align: center;
-  color: #fff;
+  color: var(--primary-clr);
   padding-bottom: 4px;
   font-size: 16px;
 }
@@ -1665,7 +1666,7 @@ button {
 .boehringer .ab-button {
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
-  border-radius: 24px;
+  border-radius: 5px;
   max-width: 340px;
 }
 
@@ -1681,7 +1682,7 @@ button {
 }
 
 .boehringer .book-name:hover {
-  color: var(--secondary-clr);
+  color: var(--primary-clr);
 }
 
 .boehringer .listing .book-name-and-buy {
@@ -1689,29 +1690,36 @@ button {
 }
 
 .boehringer .product-box .book-name-and-buy .btn-buy:hover {
-  color: var(--secondary-clr) !important;
+  color: var(--primary-clr) !important;
+  border: 2px solid var(--third-clr) !important;
+  background-color: var(--third-clr) !important;
 }
 
 .boehringer .book-name-and-buy {
   padding-right: 20px;
   min-height: auto;
+  text-align: center;
 }
 
 .boehringer .book-name-and-buy .btn-buy {
+  font-family: 'Avenir Next LT Pro';
+  color: var(--primary-clr) !important;
+  text-transform: capitalize;
+  font-size: 15px;
   border-radius: 5px !important;
   border: 2px solid var(--secondary-clr);
   background-color: var(--secondary-clr);
-  color: var(--primary-clr) !important;
-  padding: 8px;
+  padding: 5px 10px !important;
 }
 
 .boehringer .book-name-and-buy .btn-buy:hover {
-  border: 2px solid var(--secondary-clr) !important;
-  color: var(--secondary-clr) !important;
+  background-color: var(--third-clr);
+  border: 2px solid var(--third-clr) !important;
+  color: var(--primary-clr) !important;
 }
 
 .boehringer .book-name-and-buy ul li {
-  color: $color-grey !important;
+  color: var(--primary-clr) !important;
 }
 
 .boehringer .search .form-inline {
@@ -3247,7 +3255,7 @@ button {
 }
 
 .abt-shop__img {
-  width: calc(20% - 30px);
+  width: calc(20% - 40px);
 }
 
 .abt-shop__img img {
@@ -3255,16 +3263,15 @@ button {
 }
 
 .abt-shop__txt {
-  font-size: 20px;
-  font-weight: 700;
-  color: #000;
+  font-size: 18px;
+  color: var(--primary-clr);
   text-align: center;
   text-transform: uppercase;
   padding-top: 12px;
 }
 
 .abt-shop__txt:hover {
-  color: var(--secondary-clr);
+  color: var(--primary-clr);
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -7754,6 +7761,10 @@ button {
   margin-top: 30px;
 }
 
+.boehringer .main-heading span {
+  color: var(--primary-clr);
+}
+
 .bi-note {
   text-align: center;
   padding-top: 22px;
@@ -10161,13 +10172,7 @@ button {
 .boehringer .filter-check-box td {
   padding-bottom: 4px;
 }
-.boehringer .book-name-and-buy .btn-buy {
-  font-family: 'Avenir Next LT Pro';
-  color: var(--primary-clr) !important;
-  text-transform: capitalize;
-  font-size: 15px;
-  padding: 5px 10px;
-}
+
 .boehringer .dataView.product-box a:hover {
   color: #1155CC !important;
 }
@@ -10778,9 +10783,9 @@ button {
   text-transform: unset;
   margin-bottom: 16px !important;
 }
-.boehringer .container.inner-marging {
-  background-color: #F8F9FA;
-}
+// .boehringer .container.inner-marging {
+//   background-color: #F8F9FA;
+// }
 .boehringer .tab-content table {
   background-color: transparent;
 }
