@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      input {
+         border: 2px solid #0032A0;
+         border-radius: 20px;
+         min-height: 42px;
+         height: 30px;
+         box-sizing: border-box;
+         margin-bottom: 24px;
+         padding: 0 20px;
+         font-size: 16px;
+         outline: none;
+      }
+      .cx-contact__astrparent {
+         position: relative;
+      }
+      .cx-astr {
+         position: absolute;
+         left: 13%;
+         top: -62px !important;
+         color: #0032A0;
+      }
+      .cx-contact__astrparent.active {
+         display: none;
+      }
+   </style>
+</head>
+<body>
+   <input type="text" class="cx-contact__input" placeholder="Enter your email address">
+   <div class="cx-contact__astrparent">
+      <span class="cx-astr">*</span>
+   </div>
+   <script>
+      document.addEventListener("DOMContentLoaded", () => {
+         const inputFields = document.querySelectorAll(".cx-contact__input");
+
+         inputFields.forEach((inputField) => {
+            inputField.addEventListener("input", () => {
+               const asteriskOut = inputField.nextElementSibling;
+               if (asteriskOut && asteriskOut.classList.contains("cx-contact__astrparent")) {
+                  if (inputField.value !== "") {
+                     asteriskOut.classList.add("active");
+                  } else {
+                     asteriskOut.classList.remove("active");
+                  }
+               }
+            });
+
+            // Initial check
+            const asteriskOut = inputField.nextElementSibling;
+            if (asteriskOut && asteriskOut.classList.contains("cx-contact__astrparent")) {
+               asteriskOut.classList.toggle("active", inputField.value !== "");
+            }
+         });
+      });
+   </script>
+</body>
+</html>

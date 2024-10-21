@@ -104,7 +104,6 @@ section {
 }
 
 body {
-  font-weight: 300;
   line-height: 1.4;
 }
 
@@ -298,7 +297,7 @@ strong {
   font-family: 'Avenir Next LT Pro';
   src: url('/css/fonts/AvenirNextLTPro-UltLtCnIt.woff2') format('woff2'),
       url('/css/fonts/AvenirNextLTPro-UltLtCnIt.woff') format('woff');
-  font-weight: 200;
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
@@ -316,7 +315,7 @@ strong {
   font-family: 'Avenir Next LT Pro';
   src: url('/css/fonts/AvenirNextLTPro-UltLtCn.woff2') format('woff2'),
       url('/css/fonts/AvenirNextLTPro-UltLtCn.woff') format('woff');
-  font-weight: 200;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -1638,7 +1637,6 @@ button {
 .boehringer .abt-footer__txt {
   padding: 0 24px;
   font-size: 16px;
-  font-weight: 300;
   position: relative;
 }
 
@@ -1660,7 +1658,6 @@ button {
 .boehringer .abt-footer__copy {
   text-align: center;
   color: #fff;
-  font-weight: 300;
   padding-bottom: 4px;
   font-size: 16px;
 }
@@ -3089,7 +3086,7 @@ button {
 }
 
 .cx-odrsmry .label {
-  color: #000;
+  color: var(--primary-clr);
   font-weight: 600;
   font-size: 16px;
 }
@@ -3859,7 +3856,7 @@ button {
 }
 
 .cx-shpingcart .cx-ordrsumry .label {
-  color: #000;
+  color: var(--primary-clr);
   font-weight: 600;
   font-size: 16px;
 }
@@ -5073,8 +5070,8 @@ button {
 
 .boehringer .cx-rmb-left {
   font-weight: 600;
-  color: #535353;
-  font-size: 16px;
+  color: var(--primary-clr);
+  font-size: 18px;
   line-height: 30px;
   margin-bottom: 20px;
 }
@@ -5383,7 +5380,6 @@ button {
 .boehringer .cx-qd {
   color: var(--primary-clr);
   font-size: 18px;
-  font-weight: 300;
   width: 100%;
 }
 
@@ -5915,7 +5911,7 @@ button {
 
 .boehringer .list-show .hover .product-name {
   margin-bottom: 8px;
-  font-weight: normal;
+  font-weight: 600;
   height: auto;
 }
 
@@ -7763,7 +7759,7 @@ button {
   padding-top: 22px;
   padding-bottom: 12px;
   font-size: 15px;
-  color: #1d0808;
+  color: var(--primary-clr);
 }
 .bi-note .bi-notespan {
   color: var(--primary-clr);
@@ -8592,7 +8588,6 @@ button {
   font-size: 13px;
   line-height: 20px;
   color: #676879;
-  font-weight: 300;
   text-align: center;
 }
 .bi-bespoke__cnt .bi-input {
@@ -9017,7 +9012,7 @@ button {
 
 .bi-sbshead {
   font-size: 35px !important;
-  font-weight: 200 !important;
+  font-weight: normal !important;
 }
 
 .bi-instreporting {
@@ -9947,7 +9942,7 @@ button {
 }
 .boehringer .fiter-head {
   font-family: 'Avenir Next LT Pro';
-  font-weight: normal;
+  font-weight: 600;
   color: var(--primary-clr);
   font-size: 21px;
   margin: 12px 0px;
@@ -10617,7 +10612,7 @@ button {
 .boehringer .b-price p {
   color: #000000;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: normal;
 }
 .boehringer .ri-rmb-left {
   font-size: 18px;
@@ -10630,13 +10625,7 @@ button {
   color: var(--primary-clr) !important;
 }
 .boehringer .bi-up {
-  font-weight: 300 !important;
   font-size: 20px;
-}
-.boehringer .cx-rmb-left {
-  color: #000000;
-  font-weight: 300;
-  font-size: 18px !important;
 }
 .boehringer .product-details-page h2 {
   margin-top: 0 !important;
@@ -10685,7 +10674,6 @@ button {
   margin-right: -4px;
 }
 .boehringer .cx-shpcartpdt__quantity input {
-  font-weight: 300;
   color: var(--primary-clr);
   text-align: center;
 }
@@ -10713,7 +10701,7 @@ button {
 }
 .boehringer .bi-pophead {
   font-size: 21px;
-  color: #000000;
+  color: var(--primary-clr);
   text-transform: unset;
   font-weight: 600;
 }
