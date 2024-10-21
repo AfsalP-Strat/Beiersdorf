@@ -6487,9 +6487,9 @@ button {
   line-height: 18px;
   font-weight: 600;
   padding: 4px 20px;
-  border: 1px solid #000000;
+  border: 1px solid var(--primary-clr);
   border-radius: 20px;
-  color: #000000;
+  color: var(--primary-clr);
   display: inline-block;
 }
 .bi-si-tile__cnt {
@@ -7831,8 +7831,9 @@ button {
   height: 100%;
 }
 .bi-sustainability h1 {
-  font-size: 76px;
-  line-height: 100px;
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
   color: var(--primary-clr);
   padding-bottom: 20px;
   margin-top: 12%;
@@ -8089,23 +8090,23 @@ button {
   color: #000000;
 }
 .bi-accessibility h2 {
-  color: $color-grey;
+  color: var(--primary-clr);
   font-size: 32px;
   width: 95%;
   line-height: 42px;
   margin: 20px 0 15px;
   font-family: 'Avenir Next LT Pro';
   text-transform: unset;
-  font-weight: 400;
+  font-weight: 600;
 }
 .bi-accessibility h3 {
-  color: $color-grey;
+  color: var(--primary-clr);
   font-size: 28px;
   line-height: 34px;
   margin: 32px 0 10px;
   font-family: 'Avenir Next LT Pro';
   text-transform: unset;
-  font-weight: 400;
+  font-weight: 600;
 }
 .bi-accessibility__cnt {
   color: $color-grey;
