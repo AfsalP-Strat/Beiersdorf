@@ -7728,7 +7728,7 @@ button {
 }
 .bi-sbcopy a {
   text-decoration: underline !important;
-  color: #00e37c;
+  color: var(--primary-clr);
 }
 
 .bi-binputwrap {
@@ -9956,7 +9956,7 @@ button {
   font-family: 'Avenir Next LT Pro';
   font-weight: 600;
   color: var(--primary-clr);
-  font-size: 21px;
+  font-size: 18px;
   margin: 12px 0px;
   text-transform: unset;
 }
