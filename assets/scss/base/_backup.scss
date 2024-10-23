@@ -1521,11 +1521,12 @@ button {
 
 .boehringer .mobile-price p,
 .boehringer .mobile-price .btn-red.hvr-fade {
-  color: #000 !important;
+  color: var(--primary-clr) !important;
 }
 
 .boehringer .mobile-price .del {
-  font-size: 15px;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 
 .boehringer .mobile-price .btn-red.hvr-fade,
@@ -1541,7 +1542,6 @@ button {
   font-size: 12px !important;
 }
 
-.boehringer .mobile-price .btn-red.hvr-fade:hover,
 .boehringer .ab-address__choose-add:hover,
 .boehringer .ab-address__confirm-order:hover,
 .boehringer #ctl09_lblSCOrderAll:hover {
@@ -1673,8 +1673,8 @@ button {
 }
 
 .boehringer .ab-button:hover {
-  background-color: #001E60;
-  border: 2px solid #001E60;
+  background-color: var(--darkblue-clr);
+  border: 2px solid var(--darkblue-clr);
 }
 
 .boehringer .book-name {
@@ -1686,7 +1686,12 @@ button {
   color: var(--primary-clr);
 }
 
+.boehringer .separator {
+  border-bottom: 0;
+}
+
 .boehringer .listing .book-name-and-buy {
+  font-family: 'Avenir Next LT Pro';
   padding-right: 10px !important;
 }
 
@@ -1705,12 +1710,13 @@ button {
 .boehringer .book-name-and-buy .btn-buy {
   font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr) !important;
-  text-transform: capitalize;
-  font-size: 15px;
+  text-transform: uppercase;
+  font-size: 12px;
   border-radius: 5px !important;
   border: 2px solid var(--secondary-clr);
   background-color: var(--secondary-clr);
   padding: 5px 10px !important;
+  transition: 0.2s ease-in-out;
 }
 
 .boehringer .book-name-and-buy .btn-buy:hover {
@@ -2213,6 +2219,18 @@ button {
 
 .boehringer .bh-button.round {
   border-radius: 5px;
+}
+
+.boehringer .btn-grey {
+  background-color: var(--primary-clr);
+  border: 2px solid var(--primary-clr);
+  padding: 6px 10px;
+  border-radius: 5px;
+  &:hover {
+    color: #fff !important;
+    background-color: var(--darkblue-clr) !important;
+    border: 2px solid var(--darkblue-clr) !important;
+  }
 }
 
 .boehringer .bh-button:hover {
@@ -3881,12 +3899,12 @@ button {
 }
 
 .cx-ordrsumry__btn {
-  background-color: var(--secondary-clr);
-  color: var(--primary-clr);
+  background-color: var(--primary-clr);
+  color: #fff;
   width: 100%;
   display: inline-block;
   text-align: center;
-  border: 1px solid var(--secondary-clr);
+  border: 1px solid var(--primary-clr);
   border-radius: 4px;
   padding: 10px 0px;
   margin-top: 26px;
@@ -3903,10 +3921,10 @@ button {
 }
 
 .cx-ordrsumry__btn:hover {
-  background-color: var(--third-clr);
-  color: var(--primary-clr);
+  background-color: var(--darkblue-clr);
+  color: #fff;
   cursor: pointer;
-  border: 1px solid var(--third-clr);
+  border: 1px solid var(--darkblue-clr);
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -5023,6 +5041,10 @@ button {
   top: 0;
 }
 
+.boehringer .bi-pdp .mobile-price {
+  background-color: #fff !important;
+}
+
 .boehringer .mobile-price {
   border-radius: 6px !important;
   background-color: #f8f9fa !important;
@@ -5062,13 +5084,23 @@ button {
   border-radius: 6px;
 }
 
+.boehringer .cx-prdct-wrap p,
+.cx-product-desc {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.boehringer .cx-prdct-wrap strong {
+  color: var(--primary-clr);
+}
+
+
 .boehringer .address-page {
   margin-bottom: 14px;
 }
 
 .boehringer .cx-pdp-para {
   color: #828282 !important;
-  font-size: 15px !important;
 }
 
 .boehringer .cx-code {
@@ -5079,9 +5111,16 @@ button {
 .boehringer .cx-rmb-left {
   font-weight: 600;
   color: var(--primary-clr);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
+}
+
+.boehringer .cx-rmb-left textarea {
+  font-size: 16px;
+  resize: none;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 .boehringer .inner-marging {
@@ -5218,10 +5257,6 @@ button {
   padding: 10px 4px;
 }
 
-.boehringer .mobile-price .del {
-  font-size: 13px !important;
-}
-
 .boehringer .mobile-price.sample .text {
   font-size: 18px !important;
 }
@@ -5263,8 +5298,10 @@ button {
 }
 
 .boehringer .cx-bundle-h {
-  color: #000;
+  color: var(--primary-clr);
   font-size: 18px;
+  margin: 12px 0;
+  text-transform: uppercase;
 }
 
 .boehringer .cx-timer {
@@ -5273,11 +5310,11 @@ button {
   justify-content: center;
   text-align: center;
   border-radius: 26px;
-  background: #ccc;
+  background: var(--secondary-clr);
   border: 1px solid transparent;
   font-size: 16px;
   font-weight: 700;
-  color: #003D5D !important;
+  color: var(--primary-clr) !important;
   padding: 6px 4px;
   margin-bottom: 14px;
 }
@@ -5664,8 +5701,8 @@ button {
 }
 
 .boehringer .cx-save:hover {
-  border: 2px solid #001E60 !important;
-  background-color: #001E60 !important;
+  border: 2px solid var(--darkblue-clr) !important;
+  background-color: var(--darkblue-clr) !important;
 }
 
 .boehringer .ab-address__head-btn,
@@ -6094,6 +6131,7 @@ button {
   display: inline-block;
   margin-bottom: 10px;
   margin-left: 10px;
+  text-align: center;
 }
 .bi-btn--reverse {
   color: var(--primary-clr);
@@ -6596,10 +6634,12 @@ button {
 .bi-tbl table,
 .bi-tbl th,
 .bi-tbl td {
-  padding: 10px 9px;
-  color: #000000;
+  padding: 10px 8px;
+  color: var(--primary-clr);
   text-align: center;
+  white-space: nowrap;
 }
+
 .bi-tbl table {
   font-size: 13px;
   padding: 0;
@@ -7074,6 +7114,14 @@ button {
   justify-content: center;
   align-items: center;
   gap: 40px;
+
+  &__firsbtn {
+    background-color: var(--third-clr) !important;
+
+    &:hover {
+      background-color: var(--secondary-clr) !important;
+    }
+  }
 }
 .bi-pot__btn a {
   background-color: var(--secondary-clr);
@@ -8044,21 +8092,21 @@ button {
   font-weight: 600;
 }
 .cx-checkout__btn {
-  background-color: var(--secondary-clr);
-  color: var(--primary-clr);
+  background-color: var(--primary-clr);
+  color: #fff;
   width: 100%;
   display: inline-block;
   text-align: center;
-  border: 1px solid var(--secondary-clr);
+  border: 1px solid var(--primary-clr);
   border-radius: 4px;
   padding: 10px 0px;
   margin-top: 26px;
 }
 .cx-checkout__btn:hover {
-  background-color: var(--third-clr);
-  color: var(--primary-clr);
+  background-color: var(--darkblue-clr);
+  color: #fff;
   cursor: pointer;
-  border: 1px solid var(--third-clr);
+  border: 1px solid var(--darkblue-clr);
 }
 .cx-checkout .bi-dollar {
   margin-right: -2px;
@@ -8553,8 +8601,8 @@ button {
 }
 .bi-user-details .btn:hover {
   color: #fff;
-  background-color: #001E60;
-  border-color: #001E60;
+  background-color: var(--darkblue-clr);
+  border-color: var(--darkblue-clr);
 }
 
 .bi-bespoke {
@@ -8734,7 +8782,7 @@ button {
 
 .bi-contact-us {
   padding: 32px 0px;
-  background-color: #F6F5F3;
+  min-height: 60vh;
 }
 .bi-contact-us p {
   margin-bottom: 14px;
@@ -9136,9 +9184,14 @@ button {
   color: var(--primary-clr);
   margin-bottom: 30px;
 }
+.boehringer .bi-piegap {
+  margin-right: 32px;
+}
 .bi-oicat__imgwrap {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  min-height: 400px;
 }
 .bi-oicat__imgwrap img {
   width: auto;
@@ -9148,8 +9201,11 @@ button {
   justify-content: flex-start;
   gap: 30px;
   margin: 30px 0px;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+}
+.bi-oicat .bi-order-summary__w-25 {
+  display: flex;
 }
 .bi-oicat .bi-input {
   display: flex;
@@ -9970,7 +10026,7 @@ button {
 }
 .boehringer .bi-pdtspec {
   border: 2px solid var(--primary-clr);
-  color: #000;
+  color: var(--primary-clr);
   font-size: 9px;
   border-radius: 20px;
   padding: 4px 10px;
@@ -9978,15 +10034,16 @@ button {
   text-transform: uppercase;
   font-weight: bold;
 }
-.boehringer .ListingCol {
-  max-width: 33.33% !important;
-}
+// .boehringer .ListingCol {
+//   max-width: 33.33% !important;
+// }
+
 // .boehringer .container.bi-bgclr {
 //   background-color: #F6F5F3 !important;
 // }
 .boehringer .book-name-and-buy ul li {
   font-family: 'Avenir Next LT Pro' !important;
-  font-weight: normal;
+  font-weight: 600;
 }
 .boehringer .list-show .product-box {
   border: 1px solid #F6F5F3;
@@ -10167,9 +10224,6 @@ button {
 .boehringer .ab-tile__desc {
   font-family: 'Avenir Next LT Pro';
 }
-.boehringer .pricing li:first-child {
-  font-family: 'Avenir Next LT Pro';
-}
 .boehringer .filter-check-box td {
   padding-bottom: 4px;
 }
@@ -10199,7 +10253,7 @@ button {
   font-size: 18px;
 }
 .boehringer .inner-marging {
-  padding-top: 40px;
+  padding: 40px 0;
   min-height: unset;
 }
 .boehringer .btn-wishlists {
@@ -10218,9 +10272,9 @@ button {
   background-color: transparent !important;
 }
 .boehringer .mobile-price .btn-red.hvr-fade {
-  background-color: var(--secondary-clr) !important;
-  border: 2px solid var(--secondary-clr) !important;
-  color: var(--primary-clr) !important;
+  background-color: var(--primary-clr) !important;
+  border: 2px solid var(--primary-clr) !important;
+  color: #fff !important;
   border-radius: 6px;
   padding: 10px 20px;
   box-shadow: none;
@@ -10229,9 +10283,9 @@ button {
   font-weight: 400 !important;
 }
 .boehringer .mobile-price .btn-red.hvr-fade:hover {
-  color: var(--primary-clr);
-  border: 2px solid var(--third-clr) !important;
-  background-color: var(--third-clr) !important;
+  color: #fff !important;
+  border: 2px solid var(--darkblue-clr) !important;
+  background-color: var(--darkblue-clr) !important;
 }
 .boehringer .bi-pdpbtn {
   display: flex;
@@ -10270,10 +10324,6 @@ button {
 .boehringer .dropdown-menu {
   margin: 0;
 }
-.boehringer .mobile-price .del {
-  color: #000000;
-  margin-bottom: 20px;
-}
 .boehringer .bi-rmb-left {
   color: #000000;
   font-size: 18px;
@@ -10290,13 +10340,13 @@ button {
   font-size: 20px;
 }
 .boehringer .ab-details {
-  border: 2px solid #cccccc;
+  border: 2px solid #ccc;
   margin: 26px 0 2px 0;
 }
 .boehringer .ab-details td {
-  border-right: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
-  padding: 6px 40px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 6px 20px;
 }
 .boehringer .ab-details__head {
   color: var(--primary-clr);
@@ -10311,9 +10361,6 @@ button {
   font-weight: bold;
   margin-bottom: 16px;
   font-size: 20px;
-}
-.boehringer .mobile-price {
-  background-color: #fff !important;
 }
 .boehringer .bi-txtarea {
   color: var(--primary-clr);
@@ -10331,17 +10378,17 @@ button {
   /* Set the height of the scrollbar */
 }
 .boehringer .bi-tbl__scroll::-webkit-scrollbar-thumb {
-  background-color: #888;
+  background-color: var(--primary-clr);
   /* Color of the scrollbar thumb */
   border-radius: 10px;
   /* Roundness of the scrollbar */
 }
 .boehringer .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
+  background-color: var(--darkblue-clr);
   /* Darker color when hovering */
 }
 .boehringer .bi-tbl__scroll::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
+  background-color: var(--secondary-clr);
   /* Background of the scrollbar track */
   border-radius: 10px;
 }
@@ -10350,7 +10397,7 @@ button {
   cursor: pointer;
 }
 .boehringer .product-details-page h2 {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .boehringer .bi-pdphead {
   display: flex;
@@ -10424,7 +10471,7 @@ button {
   font-size: 14px;
   color: var(--primary-clr);
   margin-bottom: 14px;
-  font-weight: 900;
+  font-weight: 600;
 }
 .boehringer .varient-btn {
   width: auto !important;
@@ -10440,7 +10487,7 @@ button {
 .boehringer .cx-varient div .varient-btn.active::after {
   content: "";
   position: absolute;
-  background-image: url("data:image/svg+xml,%3Csvg width='19' height='16' viewBox='0 0 19 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.94162 8.57143L19.0004 0V12C19.0004 14.2091 17.2096 16 15.0004 16H0L8.94162 8.57143Z' fill='%2300E47C'/%3E%3Cpath d='M17.1023 8.63545L17.22 8.52573L17.1023 8.416L16.5383 7.89028L16.436 7.79498L16.3338 7.89023L12.1999 11.7399L10.6661 10.3137L10.5639 10.2186L10.4617 10.3138L9.89772 10.8396L9.78001 10.9493L9.89772 11.059L12.0977 13.1097L12.2 13.2051L12.3023 13.1097L17.1023 8.63545Z' fill='white' stroke='white' stroke-width='0.3'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg width='19' height='16' viewBox='0 0 19 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_191_885)'%3E%3Cpath d='M8.94162 8.57143L19.0004 0V12C19.0004 14.2091 17.2096 16 15.0004 16H0L8.94162 8.57143Z' fill='%230032A0'/%3E%3Cpath d='M17.1021 8.63539L17.2198 8.52567L17.1021 8.41594L16.5381 7.89022L16.4358 7.79492L16.3336 7.89017L12.1997 11.7398L10.6659 10.3136L10.5637 10.2185L10.4615 10.3137L9.8975 10.8395L9.77979 10.9492L9.8975 11.0589L12.0975 13.1096L12.1998 13.205L12.3021 13.1096L17.1021 8.63539Z' fill='white' stroke='white' stroke-width='0.3'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_191_885'%3E%3Crect width='19' height='16' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10490,6 +10537,11 @@ button {
   background-color: none;
   border-color: none;
 }
+.boehringer .btn-outline-success:not([disabled]):not(.disabled):active {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
 .boehringer .my-lg-8 a {
   top: 16px;
   right: -62px;
@@ -10516,17 +10568,17 @@ button {
   border-radius: 6px;
   width: 230px;
   height: 38px;
-  padding: 7px 8px;
-  font-weight: 100;
+  padding: 8px;
+  font-weight: normal;
   font-size: 16px;
   background-color: var(--primary-clr);
   margin-right: 32px;
   transition: 0.3s;
 }
 .boehringer .cx-pf__again:hover {
-  background-color: transparent;
-  border: 1px solid var(--primary-clr);
-  color: var(--primary-clr);
+  background-color: var(--darkblue-clr);
+  border: 1px solid var(--darkblue-clr);
+  color: #fff;
 }
 .boehringer .cx-pf__back {
   cursor: pointer;
@@ -10539,7 +10591,7 @@ button {
   width: 230px;
   height: 38px;
   padding: 7px 8px;
-  font-weight: 100;
+  font-weight: normal;
   font-size: 16px;
   margin-right: 16px;
 }
@@ -10553,8 +10605,11 @@ button {
   color: var(--primary-clr);
   border: 1px solid var(--secondary-clr);
 }
+.boehringer .price-sec {
+  margin-top: 10px;
+}
 .boehringer .cx-pf__para {
-  color: #000000;
+  color: $color-grey;
 }
 .boehringer .cx-pf__wrap {
   margin-top: 24px;
@@ -10627,14 +10682,11 @@ button {
   color: var(--primary-clr) !important;
 }
 .boehringer .b-price span {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--primary-clr) !important;
 }
 .boehringer .bi-up {
   font-size: 20px;
-}
-.boehringer .product-details-page h2 {
-  margin-top: 0 !important;
 }
 .boehringer .bi-pdp {
   display: flex;
@@ -10664,7 +10716,7 @@ button {
   font-size: 14px;
   color: var(--primary-clr);
   margin-bottom: 14px;
-  font-weight: 900;
+  font-weight: 600;
 }
 .boehringer .fa-angle-left:before,
 .boehringer .fa-angle-right:before {
@@ -10827,9 +10879,6 @@ tr > .boehringer .tab-content table:first-child {
   text-transform: uppercase;
   font-size: 12px;
 }
-.boehringer .ab-details {
-  min-width: 1000px;
-}
 .boehringer .cx-tbout {
   overflow-x: scroll;
   position: relative;
@@ -10922,11 +10971,6 @@ tr > .boehringer .tab-content table:first-child {
 @media (min-width: 2048px) and (max-width: 6144px) {
   .boehringer .bi-contact-us {
     min-height: 80vh;
-  }
-}
-@media (min-width: 1706px) and (max-width: 1920px) {
-  .boehringer .bi-contact-us {
-    min-height: 35vh;
   }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
