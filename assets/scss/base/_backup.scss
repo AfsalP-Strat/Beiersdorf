@@ -591,11 +591,10 @@ button {
 }
 .ab-button {
   max-width: 320px;
-  margin: 0 auto;
+  margin: 30px auto 36px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
   color: #fff;
   background-color: var(--primary-clr);
   transition: all 0.3s;
@@ -1609,6 +1608,14 @@ button {
   height: auto;
 }
 
+.boehringer .banner {
+  margin-bottom: 14px;
+}
+
+.boehringer .abt-shop {
+  margin-bottom: 40px;
+}
+
 .boehringer .cx-banner img {
   width: 100%;
 }
@@ -2482,26 +2489,17 @@ button {
 }
 
 .cx-varient div .varient-btn {
-  width: calc(33.3% - 4px);
-  margin: 0 2px;
-  margin-bottom: 4px;
   border: 1px solid var(--primary-clr);
-  background-color: transparent;
   border-radius: 4px;
-  font-size: 13px;
   text-align: center;
   display: flex;
-  align-content: center;
   justify-content: center;
   align-items: center;
-  padding: 4px 26px;
-  color: #000;
   cursor: pointer;
 }
 
 .cx-varient div .varient-btn.active {
   background-color: #fff;
-  color: black !important;
 }
 
 .cx-carttitle {
@@ -5092,6 +5090,8 @@ button {
 
 .boehringer .cx-prdct-wrap strong {
   color: var(--primary-clr);
+  display: inline-block;
+  margin-top: 10px;
 }
 
 
@@ -5168,10 +5168,10 @@ button {
 }
 
 .boehringer .varient-btn {
-  font-size: 11px !important;
-  width: calc(33% - 4px) !important;
-  margin: 0 2px !important;
-  margin-bottom: 6px !important;
+  font-size: 11px;
+  width: calc(33% - 4px);
+  margin: 0 2px;
+  margin-bottom: 6px;
 }
 
 .boehringer .wshlt span.number {
@@ -5317,12 +5317,15 @@ button {
   color: var(--primary-clr) !important;
   padding: 6px 4px;
   margin-bottom: 14px;
+  position: absolute;
 }
 
 .boehringer .cx-timeout {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin: 20px 0 0;
 }
 
 .boehringer .cx-coadrss {
@@ -6634,7 +6637,7 @@ button {
 .bi-tbl table,
 .bi-tbl th,
 .bi-tbl td {
-  padding: 10px 8px;
+  padding: 16px 8px;
   color: var(--primary-clr);
   text-align: center;
   white-space: nowrap;
@@ -10077,7 +10080,7 @@ button {
   font-size: 35px;
   font-weight: 600;
   color: var(--primary-clr);
-  margin-bottom: 16px;
+  margin: 20px 0;
 }
 .boehringer .bi-footer__arr p {
   font-size: 12px;
@@ -10718,7 +10721,6 @@ button {
 .boehringer .bi-qdhd {
   font-size: 14px;
   color: var(--primary-clr);
-  margin-bottom: 14px;
   font-weight: 600;
 }
 .boehringer .fa-angle-left:before,
