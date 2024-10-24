@@ -2467,13 +2467,6 @@ button {
   display: flex;
 }
 
-.cx-varient b {
-  width: 50%;
-  color: #373F3F;
-  position: relative;
-  font-size: 18px;
-}
-
 .cx-varient b::after {
   content: ":";
   position: absolute;
@@ -5084,8 +5077,8 @@ button {
 
 .boehringer .cx-prdct-wrap p,
 .cx-product-desc {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .boehringer .cx-prdct-wrap strong {
@@ -5168,10 +5161,12 @@ button {
 }
 
 .boehringer .varient-btn {
-  font-size: 11px;
-  width: calc(33% - 4px);
+  font-size: 13px;
   margin: 0 2px;
   margin-bottom: 6px;
+  width: auto !important;
+  padding: 6px 12px !important;
+  overflow: hidden;
 }
 
 .boehringer .wshlt span.number {
@@ -5318,6 +5313,8 @@ button {
   padding: 6px 4px;
   margin-bottom: 14px;
   position: absolute;
+  top: 0;
+  bottom: -47px;
 }
 
 .boehringer .cx-timeout {
@@ -5325,7 +5322,7 @@ button {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 20px 0 0;
+  margin-bottom: 20px;
 }
 
 .boehringer .cx-coadrss {
@@ -6637,7 +6634,8 @@ button {
 .bi-tbl table,
 .bi-tbl th,
 .bi-tbl td {
-  padding: 16px 8px;
+  font-size: 14px;
+  padding: 12px 8px;
   color: var(--primary-clr);
   text-align: center;
   white-space: nowrap;
@@ -10033,7 +10031,7 @@ button {
 .boehringer .bi-pdtspec {
   border: 2px solid var(--primary-clr);
   color: var(--primary-clr);
-  font-size: 9px;
+  font-size: 11px;
   border-radius: 20px;
   padding: 4px 10px;
   margin-right: 6px;
@@ -10474,15 +10472,12 @@ button {
   content: "";
 }
 .boehringer .cx-varient b {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--primary-clr);
   margin-bottom: 14px;
   font-weight: 600;
-}
-.boehringer .varient-btn {
-  width: auto !important;
-  padding: 6px 12px !important;
-  overflow: hidden;
+  width: 50%;
+  position: relative;
 }
 .boehringer .cx-varient div .varient-btn.active {
   border-color: var(--secondary-clr);
