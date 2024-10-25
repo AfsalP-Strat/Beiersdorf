@@ -1,70 +1,123 @@
-.boehringer .banner {
-  margin-bottom: 14px;
-}
-.boehringer .abt-shop {
-  margin-bottom: 40px;
-}
-.boehringer .menu-bar .lang {
-  margin-bottom: 0;
-}
-@include tablet-pro {
-  .boehringer .owl-carousel .owl-stage {
-    display: flex;
-    height: 222px;
+.boehringer {
+  .banner {
+    margin-bottom: 14px;
   }
-}
-
-@include tablet {
-  .boehringer .owl-carousel .owl-stage {
-    display: flex;
-    height: 222px;
+  .abt-shop {
+    margin-bottom: 40px;
   }
-  .boehringer .banner {
-    margin-top: 20px;
+  .menu-bar .lang {
     margin-bottom: 0;
   }
-}
+  .mobile-price-wrap table > tbody > tr > td > table {
+    width: auto !important;;
+  }
+  .cx-shpcart {
+    scroll-behavior: smooth;
+    cursor: pointer;
+  } 
+  .cx-shpcart::-webkit-scrollbar {
+    margin-top: 20px;
+    height: 6px;
+  }
+  .cx-shpcart::-webkit-scrollbar-thumb {
+    background-color: var(--primary-clr);
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+  }
+  .cx-shpcart::-webkit-scrollbar-thumb:hover {
+    background-color: var(--darkblue-clr);
+  }
+  .cx-shpcart::-webkit-scrollbar-track {
+    background-color: var(--secondary-clr);
+    /* Background of the scrollbar track */
+    border-radius: 10px;
+  }
+  @include tablet-pro {
+    .owl-carousel .owl-stage {
+      display: flex;
+      height: 222px;
+    }
+  }
 
-@include mobile {
-  // home page style 
-  .boehringer .navbar-expand-lg .navbar-collapse {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  @include mobile-tablet {
+
   }
-  .boehringer .lang {
-    width: 100% !important;
-    position: static;
-    gap: 10px;
-  }
-  .boehringer .search {
-    margin-top: 0;
-  }
-  .boehringer .sec-menu {
-    height: auto !important;
-    ul {
+  
+  @include tablet {
+    .owl-carousel .owl-stage {
+      display: flex;
+      height: 222px;
+    }
+    .banner {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+    .bi-plp .bi-bgclr .top-row {
       flex-direction: column;
     }
-  } 
-  .boehringer .menu-bar .lang {
-    margin-bottom: 10px;
+    #filter-expand-mbl {
+      margin-top: -30px;
+    }
+    .cx-shpcart__outer {
+      min-width: 700px;
+    }
+    .cx-shpcart {
+      overflow-x: scroll;
+    }
+    .cx-shpingcart__left {
+      width: 60%;
+    }
+    
+    .cx-shpingcart__right {
+      width: 40%;
+    }
+
   }
-  .boehringer .owl-carousel .owl-stage {
-    display: flex;
-    height: 167px;
-  }
-  .boehringer .banner {
-    margin-top: 42px;
-    margin-bottom: 0;
-  }
-  .boehringer .abt-shop {
-    margin-bottom: 10px;
-  }
-  .boehringer .menu-icon {
-    display: block;
-    top: 50%;
-  }
-  .boehringer .sec-menu {
-    display: none;
+  
+  @include mobile {
+    // home page style 
+    .navbar-expand-lg .navbar-collapse {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .lang {
+      width: 100% !important;
+      position: static;
+      gap: 10px;
+    }
+    .search {
+      margin-top: 0;
+    }
+    .sec-menu {
+      height: auto !important;
+      ul {
+        flex-direction: column;
+      }
+    } 
+    .menu-bar .lang {
+      margin-bottom: 10px;
+    }
+    .owl-carousel .owl-stage {
+      display: flex;
+      height: 167px;
+    }
+    .banner {
+      margin-top: 42px;
+      margin-bottom: 0;
+    }
+    .abt-shop {
+      margin-bottom: 10px;
+    }
+    .menu-icon {
+      display: block;
+      top: 50%;
+    }
+    .sec-menu {
+      display: none;
+    }
+    .mobile-price-wrap table > tbody > tr {
+      flex-direction: row;
+    }
   }
 }
