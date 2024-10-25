@@ -1,0 +1,70 @@
+.boehringer .banner {
+  margin-bottom: 14px;
+}
+.boehringer .abt-shop {
+  margin-bottom: 40px;
+}
+.boehringer .menu-bar .lang {
+  margin-bottom: 0;
+}
+@include tablet-pro {
+  .boehringer .owl-carousel .owl-stage {
+    display: flex;
+    height: 222px;
+  }
+}
+
+@include tablet {
+  .boehringer .owl-carousel .owl-stage {
+    display: flex;
+    height: 222px;
+  }
+  .boehringer .banner {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@include mobile {
+  // home page style 
+  .boehringer .navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .boehringer .lang {
+    width: 100% !important;
+    position: static;
+    gap: 10px;
+  }
+  .boehringer .search {
+    margin-top: 0;
+  }
+  .boehringer .sec-menu {
+    height: auto !important;
+    ul {
+      flex-direction: column;
+    }
+  } 
+  .boehringer .menu-bar .lang {
+    margin-bottom: 10px;
+  }
+  .boehringer .owl-carousel .owl-stage {
+    display: flex;
+    height: 167px;
+  }
+  .boehringer .banner {
+    margin-top: 42px;
+    margin-bottom: 0;
+  }
+  .boehringer .abt-shop {
+    margin-bottom: 10px;
+  }
+  .boehringer .menu-icon {
+    display: block;
+    top: 50%;
+  }
+  .boehringer .sec-menu {
+    display: none;
+  }
+}

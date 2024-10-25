@@ -1331,6 +1331,7 @@ button {
 }
 .ab-navbar .ab-nav-search {
   margin-left: 0 !important;
+  margin-top: 12px !important;
 }
 
 @media (max-width: 767px) {
@@ -1608,14 +1609,6 @@ button {
   height: auto;
 }
 
-.boehringer .banner {
-  margin-bottom: 14px;
-}
-
-.boehringer .abt-shop {
-  margin-bottom: 40px;
-}
-
 .boehringer .cx-banner img {
   width: 100%;
 }
@@ -1784,11 +1777,14 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .boehringer .main-heading {
+    font-size: 24px;
+  }
   .boehringer .my-lg-8 a {
     right: 0;
   }
   .boehringer .search .form-inline {
-    width: 100%;
+    margin-right: 0 !important;
   }
 }
 .bytedance .product-box .book-name-and-buy .btn-buy {
@@ -3286,10 +3282,10 @@ button {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .abt-shop__img {
-    width: calc(20% - 20px);
+    width: calc(20% - 14px);
   }
   .abt-shop__txt {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {
@@ -3301,7 +3297,7 @@ button {
     font-size: 16px;
   }
   .abt-shop__img {
-    width: 70%;
+    width: 55%;
     padding-bottom: 16px;
   }
 }
@@ -3743,6 +3739,9 @@ button {
   }
   .cx-cnln .cx-contact__astr--enq {
     left: 19%;
+  }
+  .abt-shop__img {
+    width: calc(20% - 24px);
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -5143,10 +5142,6 @@ button {
   width: 16px;
 }
 
-.boehringer .cx-btn-prfl {
-  padding: 22px 14px 0px !important;
-}
-
 .boehringer .ab-address__address .active {
   background-color: #d1d1d1 !important;
 }
@@ -6047,6 +6042,9 @@ button {
   }
   .boehringer .add-box {
     padding: 16px;
+  }
+  .boehringer .lang {
+    margin-bottom: 10px;
   }
 }
 .boehringer .cx-ordrsum {
@@ -7302,18 +7300,12 @@ button {
   .boehringer .bo-bannernew__tab {
     display: block;
   }
-  .boehringer .bo-bannernew__desk {
-    display: none;
-  }
   .boehringer .bo-bannernew__mob {
     display: none;
   }
 }
 @media (max-width: 767px) {
   .boehringer .bo-bannernew__tab {
-    display: none;
-  }
-  .boehringer .bo-bannernew__desk {
     display: none;
   }
   .boehringer .bo-bannernew__mob {
@@ -10718,9 +10710,11 @@ button {
   color: var(--primary-clr);
   font-weight: 600;
 }
-.boehringer .fa-angle-left:before,
+.boehringer .fa-angle-left:before {
+  content: "\f104";
+}
 .boehringer .fa-angle-right:before {
-  content: "";
+  content: "\f105";
 }
 .boehringer .bi-qntytypop .modal-content {
   width: 100%;
@@ -10797,6 +10791,10 @@ button {
   top: 50%;
   transform: translateY(-50%);
 }
+.boehringer .owl-item.active {
+  width: 265px !important;
+  height: 265px !important;
+}
 
 /* Media Queries */
 @media (max-width: 767px) {
@@ -10806,15 +10804,19 @@ button {
   .bh-prodcut__left {
     width: 100% !important;
   }
+  .boehringer .cx-btn-prfl {
+    padding: 9px 0 0 15px !important;
+}
+.boehringer .owl-item.active {
+  width: 170px !important;
+  height: 170px !important;
+}
 }
 .boehringer .menu-bar .cx-btn-prfl {
   transform: translateY(-8px);
 }
 .boehringer .bi-footer__links {
   font-size: 14px;
-}
-.boehringer .menu-bar .lang {
-  margin-bottom: 0;
 }
 .boehringer .menu-bar .account-search .dropdown .dropdown-menu {
   top: 46px;
@@ -10888,10 +10890,6 @@ tr > .boehringer .tab-content table:first-child {
   width: 100%;
   height: 100%;
   background-color: red;
-}
-.boehringer .owl-item.active {
-  width: 265px !important;
-  height: 265px !important;
 }
 .boehringer .bi-plp .product img {
   width: 100%;
