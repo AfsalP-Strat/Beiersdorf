@@ -2227,8 +2227,9 @@ button {
 .boehringer .btn-grey {
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
-  padding: 6px 10px;
+  padding: 6px 6px;
   border-radius: 5px;
+  margin-left: 32px;
   &:hover {
     color: #fff !important;
     background-color: var(--darkblue-clr) !important;
@@ -10693,7 +10694,7 @@ button {
 }
 .boehringer .bi-pdp input {
   font-family: 'Avenir Next LT Pro';
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
 }
 .boehringer #header .wshlt span.number {
