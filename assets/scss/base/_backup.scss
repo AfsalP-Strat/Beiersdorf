@@ -7089,10 +7089,11 @@ button {
 }
 .bi-pot__content {
   color: #fff;
-  font-size: 90px;
+  font-size: 80px;
   font-family: 'Avenir Next LT Pro';
   padding-top: 66px;
   text-align: center;
+  font-weight: 600;
 }
 .bi-pot__content span {
   color: var(--secondary-clr);
@@ -7116,6 +7117,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin-bottom: 20px;
 
   &__firsbtn {
     background-color: var(--third-clr) !important;
@@ -7143,7 +7145,7 @@ button {
 .bi-pot__crtxt {
   color: #fff;
   position: absolute;
-  bottom: 20px;
+  bottom: 16px;
 }
 
 /* tablet */
@@ -7153,9 +7155,6 @@ button {
   }
   .bi-pot__icon img {
     width: 100%;
-  }
-  .bi-pot__content {
-    font-size: 80px;
   }
   .bi-pot__btn a {
     width: 34%;
@@ -10254,7 +10253,7 @@ button {
 }
 .boehringer .inner-marging {
   padding: 40px 0;
-  min-height: unset;
+  min-height: 75vh;
 }
 .boehringer .btn-wishlists {
   border-radius: 6px !important;
@@ -10978,6 +10977,15 @@ tr > .boehringer .tab-content table:first-child {
   .bi-radiolbl label {
     padding-right: 20px;
   }
+  .boehringer .ListingCol {
+    max-width: 33.33% !important;
+  }
+  .boehringer .ab-cart {
+    padding: 0;
+  }
+  .boehringer .cx-rmb-left {
+    font-size: 15px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .boehringer .search .form-inline {
@@ -11013,6 +11021,9 @@ tr > .boehringer .tab-content table:first-child {
   }
   .bi-radiolbl label {
     padding-right: 16px;
+  }
+  .boehringer .ListingCol {
+    max-width: 33.33% !important;
   }
 }
 @media (max-width: 767px) {
@@ -11063,5 +11074,9 @@ tr > .boehringer .tab-content table:first-child {
   }
   .bi-newflex {
     flex-direction: column;
+  }
+  .boehringer .cx-timer {
+    top: -11px;
+    bottom: -35px;
   }
 }

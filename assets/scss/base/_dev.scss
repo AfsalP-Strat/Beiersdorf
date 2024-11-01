@@ -8,9 +8,6 @@
   .menu-bar .lang {
     margin-bottom: 0;
   }
-  // .mobile-price-wrap table > tbody > tr > td > table {
-  //   width: auto !important;;
-  // }
   .cx-shpcart {
     scroll-behavior: smooth;
     cursor: pointer;
@@ -71,6 +68,37 @@
     .cx-shpingcart__right {
       width: 40%;
     }
+    .bi-pdpres {
+      display: flex;
+      flex-direction: column;
+    }
+    .cx-prdct-wrap {
+      display: flex;
+    }
+    .bd-colmd {
+      flex: 0 0 80.3%;
+      max-width: 80.3%;
+    }
+    .mobile-price-wrap table > tbody > tr {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .bi-pdplft-tab {
+      width: 390px;
+      background-color: #fff;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      border-radius: 12px;
+    }
+    .b-price {
+      margin-top: 0;
+    }
+    .bi-pdp .mobile-price {
+      padding-bottom: 0;
+    }
+    .mobile-price-wrap table > tbody > tr > td > table {
+      margin-left: 4px !important;
+    }
 
   }
   
@@ -118,6 +146,9 @@
     }
     .mobile-price-wrap table > tbody > tr {
       flex-direction: row;
+    }
+    .mobile-price-wrap table > tbody > tr > td > table {
+      margin-left: 0 !important;
     }
   }
 }
