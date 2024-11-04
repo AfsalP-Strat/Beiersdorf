@@ -1338,9 +1338,6 @@ button {
   .ab-navbar {
     padding: 0 !important;
   }
-  .ab-navbar .ab-nav-icons {
-    margin-right: 30px !important;
-  }
 }
 /* iam from CSS Folder*/
 .ab-address__enquiry {
@@ -1453,86 +1450,86 @@ button {
     transform: translateY(0px);
   }
 }
-.boehringer .navbar-brand {
+.beiersdorf .navbar-brand {
   width: 16%;
 }
 
-.boehringer .navbar-brand > img:nth-child(2) {
+.beiersdorf .navbar-brand > img:nth-child(2) {
   width: 160px !important;
 }
 
-.boehringer .inner-marging {
+.beiersdorf .inner-marging {
   margin: 0 auto;
 }
 
-.boehringer #header .wshlt span.number {
+.beiersdorf #header .wshlt span.number {
   background: var(--primary-clr);
   top: -30px;
   right: -10px;
 }
 
-.boehringer .ab-header__dropdown::after {
+.beiersdorf .ab-header__dropdown::after {
   border-top: 9px solid var(--secondary-clr);
 }
 
-.boehringer .fa,
-.boehringer .ab-summary__head {
+.beiersdorf .fa,
+.beiersdorf .ab-summary__head {
   color: var(--primary-clr);
 }
 
-.boehringer .sec-menu .btn-secondary:hover::before,
-.boehringer .ab-header__dropdown-link:hover {
+.beiersdorf .sec-menu .btn-secondary:hover::before,
+.beiersdorf .ab-header__dropdown-link:hover {
   background-color: var(--secondary-clr);
   bottom: -1px;
 }
 
-.boehringer .product-details-page h2,
-.boehringer .b-price,
-.boehringer .text,
-.boehringer .fa.red,
-.boehringer .ab-address__enquiry .ab-address__head-sec h2 {
+.beiersdorf .product-details-page h2,
+.beiersdorf .b-price,
+.beiersdorf .text,
+.beiersdorf .fa.red,
+.beiersdorf .ab-address__enquiry .ab-address__head-sec h2 {
   color: var(--primary-clr) !important;
 }
 
-.boehringer .b-price {
+.beiersdorf .b-price {
   text-transform: capitalize;
 }
 
-.boehringer .product-details-page h2 {
+.beiersdorf .product-details-page h2 {
   font-weight: 600;
   margin-top: 20px;
 }
 
-.boehringer .discription-under-price .category li span {
+.beiersdorf .discription-under-price .category li span {
   font-weight: bolder;
 }
 
-.boehringer .discription-under-price p span,
-.boehringer .address-page,
-.boehringer .mobile-price,
-.boehringer .ab-details td,
-.boehringer .ab-address__price-box {
+.beiersdorf .discription-under-price p span,
+.beiersdorf .address-page,
+.beiersdorf .mobile-price,
+.beiersdorf .ab-details td,
+.beiersdorf .ab-address__price-box {
   color: var(--primary-clr);
 }
 
-.boehringer .ab-address__enquiry .right-section .ab-address__dif-pricing {
+.beiersdorf .ab-address__enquiry .right-section .ab-address__dif-pricing {
   justify-content: space-between;
 }
 
-.boehringer .mobile-price p,
-.boehringer .mobile-price .btn-red.hvr-fade {
+.beiersdorf .mobile-price p,
+.beiersdorf .mobile-price .btn-red.hvr-fade {
   color: var(--primary-clr) !important;
 }
 
-.boehringer .mobile-price .del {
+.beiersdorf .mobile-price .del {
   font-size: 13px;
   margin-bottom: 20px;
 }
 
-.boehringer .mobile-price .btn-red.hvr-fade,
-.boehringer .ab-address__choose-add,
-.boehringer .ab-address__confirm-order,
-.boehringer #ctl09_lblSCOrderAll {
+.beiersdorf .mobile-price .btn-red.hvr-fade,
+.beiersdorf .ab-address__choose-add,
+.beiersdorf .ab-address__confirm-order,
+.beiersdorf #ctl09_lblSCOrderAll {
   background-color: var(--secondary-clr) !important;
   border: 2px solid var(--secondary-clr) !important;
   color: var(--primary-clr);
@@ -1542,25 +1539,25 @@ button {
   font-size: 12px !important;
 }
 
-.boehringer .ab-address__choose-add:hover,
-.boehringer .ab-address__confirm-order:hover,
-.boehringer #ctl09_lblSCOrderAll:hover {
+.beiersdorf .ab-address__choose-add:hover,
+.beiersdorf .ab-address__confirm-order:hover,
+.beiersdorf #ctl09_lblSCOrderAll:hover {
   color: var(--primary-clr) !important;
   background-color: transparent !important;
 }
 
-.boehringer .mobile-price .btn-red.hvr-fade {
+.beiersdorf .mobile-price .btn-red.hvr-fade {
   text-transform: unset;
 }
 
-.boehringer .ab-address__choose-add,
-.boehringer .ab-address__confirm-order,
-.boehringer #ctl09_lblSCOrderAll {
+.beiersdorf .ab-address__choose-add,
+.beiersdorf .ab-address__confirm-order,
+.beiersdorf #ctl09_lblSCOrderAll {
   text-transform: uppercase;
 }
 
-.boehringer .ab-address__remove-all,
-.boehringer #ctl09_lblSCRemoveAll {
+.beiersdorf .ab-address__remove-all,
+.beiersdorf #ctl09_lblSCRemoveAll {
   background-color: transparent !important;
   border: 2px solid var(--primary-clr) !important;
   color: var(--primary-clr);
@@ -1572,22 +1569,22 @@ button {
   margin-right: 16px;
 }
 
-.boehringer .ab-address__remove-all:hover,
-.boehringer #ctl09_lblSCRemoveAll:hover {
+.beiersdorf .ab-address__remove-all:hover,
+.beiersdorf #ctl09_lblSCRemoveAll:hover {
   color: #fff !important;
   background-color: var(--primary-clr) !important;
 }
 
-.boehringer #ctl09_lblSCRemoveAll {
+.beiersdorf #ctl09_lblSCRemoveAll {
   padding: 8px 16px;
 }
 
-.boehringer .ab-address__choose-add {
+.beiersdorf .ab-address__choose-add {
   padding-left: 12px;
   padding-right: 12px;
 }
 
-.boehringer .ab-address__confirm-order {
+.beiersdorf .ab-address__confirm-order {
   width: 90%;
   text-align: center;
   border-radius: 20px;
@@ -1595,25 +1592,25 @@ button {
   padding-right: 0;
 }
 
-.boehringer .main-heading {
+.beiersdorf .main-heading {
   font-size: 28px;
   color: var(--primary-clr);
 }
 
-.boehringer .main-heading:hover {
+.beiersdorf .main-heading:hover {
   color: var(--primary-clr);
 }
 
-.boehringer .cx-banner {
+.beiersdorf .cx-banner {
   width: 100%;
   height: auto;
 }
 
-.boehringer .cx-banner img {
+.beiersdorf .cx-banner img {
   width: 100%;
 }
 
-.boehringer .cx-footerlogo {
+.beiersdorf .cx-footerlogo {
   display: flex;
   justify-content: center;
   margin-left: 15px;
@@ -1621,28 +1618,28 @@ button {
   width: 100%;
 }
 
-.boehringer .cx-footerlogo img {
+.beiersdorf .cx-footerlogo img {
   width: auto;
   height: 24px;
 }
 
-.boehringer .cx-button {
+.beiersdorf .cx-button {
   margin-right: 80px !important;
 }
 
-.boehringer .abt-footer {
+.beiersdorf .abt-footer {
   background: var(--primary-clr);
   border-bottom: 7px solid var(--secondary-clr) !important;
 }
 
-.boehringer .abt-footer__txt {
+.beiersdorf .abt-footer__txt {
   padding: 0 24px;
   font-size: 16px;
   position: relative;
   color: var(--primary-clr);
 }
 
-.boehringer .abt-footer__txt:nth-child(-n+2)::after {
+.beiersdorf .abt-footer__txt:nth-child(-n+2)::after {
   position: absolute;
   content: "";
   right: 0;
@@ -1652,19 +1649,19 @@ button {
   background-color: var(--primary-clr);
 }
 
-.boehringer .abt-footer__content {
+.beiersdorf .abt-footer__content {
   flex-direction: row;
   padding-bottom: 8px;
 }
 
-.boehringer .abt-footer__copy {
+.beiersdorf .abt-footer__copy {
   text-align: center;
   color: var(--primary-clr);
   padding-bottom: 4px;
   font-size: 16px;
 }
 
-.boehringer .ab-button {
+.beiersdorf .ab-button {
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
   border-radius: 5px;
@@ -1672,42 +1669,42 @@ button {
   color: #fff;
 }
 
-.boehringer .ab-button:hover {
+.beiersdorf .ab-button:hover {
   background-color: var(--darkblue-clr);
   border: 2px solid var(--darkblue-clr);
 }
 
-.boehringer .book-name {
+.beiersdorf .book-name {
   color: var(--primary-clr);
   text-transform: uppercase;
 }
 
-.boehringer .book-name:hover {
+.beiersdorf .book-name:hover {
   color: var(--primary-clr);
 }
 
-.boehringer .separator {
+.beiersdorf .separator {
   border-bottom: 0;
 }
 
-.boehringer .listing .book-name-and-buy {
+.beiersdorf .listing .book-name-and-buy {
   font-family: 'Avenir Next LT Pro';
   padding-right: 10px !important;
 }
 
-.boehringer .product-box .book-name-and-buy .btn-buy:hover {
+.beiersdorf .product-box .book-name-and-buy .btn-buy:hover {
   color: var(--primary-clr) !important;
   border: 2px solid var(--third-clr) !important;
   background-color: var(--third-clr) !important;
 }
 
-.boehringer .book-name-and-buy {
+.beiersdorf .book-name-and-buy {
   padding-right: 20px;
   min-height: auto;
   text-align: center;
 }
 
-.boehringer .book-name-and-buy .btn-buy {
+.beiersdorf .book-name-and-buy .btn-buy {
   font-family: 'Avenir Next LT Pro';
   color: var(--primary-clr) !important;
   text-transform: uppercase;
@@ -1719,71 +1716,71 @@ button {
   transition: 0.2s ease-in-out;
 }
 
-.boehringer .book-name-and-buy .btn-buy:hover {
+.beiersdorf .book-name-and-buy .btn-buy:hover {
   background-color: var(--third-clr);
   border: 2px solid var(--third-clr) !important;
   color: var(--primary-clr) !important;
 }
 
-.boehringer .book-name-and-buy ul li {
+.beiersdorf .book-name-and-buy ul li {
   color: var(--primary-clr) !important;
 }
 
-.boehringer .search .form-inline {
+.beiersdorf .search .form-inline {
   width: 330px;
 }
 
-.boehringer .my-lg-8 a {
+.beiersdorf .my-lg-8 a {
   right: -10px;
   top: 14px;
 }
 
-.boehringer .bi-mr10 {
+.beiersdorf .bi-mr10 {
   margin-right: 10px !important;
 }
 
-.boehringer .ab-summary__pric, .boehringer .pricing {
+.beiersdorf .ab-summary__pric, .beiersdorf .pricing {
   color: #000000;
   font-weight: 700;
 }
 
-.boehringer .discription-under-price .category li span,
-.boehringer .discription-under-price .address-page span,
-.boehringer .discription-under-price p {
+.beiersdorf .discription-under-price .category li span,
+.beiersdorf .discription-under-price .address-page span,
+.beiersdorf .discription-under-price p {
   color: #000;
   font-size: 18px;
 }
 
-.boehringer #header {
+.beiersdorf #header {
   background-color: var(--primary-clr);
 }
 
-.boehringer .boehringer .btn-secondary {
+.beiersdorf .beiersdorf .btn-secondary {
   color: #fff !important;
 }
 
-.boehringer .search .btn {
+.beiersdorf .search .btn {
   background: var(--secondary-clr) !important;
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
-  .boehringer .my-lg-8 a {
+  .beiersdorf .my-lg-8 a {
     right: -112px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .my-lg-8 a {
+  .beiersdorf .my-lg-8 a {
     right: -115px;
   }
 }
 @media (max-width: 767px) {
-  .boehringer .main-heading {
+  .beiersdorf .main-heading {
     font-size: 24px;
   }
-  .boehringer .my-lg-8 a {
+  .beiersdorf .my-lg-8 a {
     right: 0;
   }
-  .boehringer .search .form-inline {
+  .beiersdorf .search .form-inline {
     margin-right: 0 !important;
   }
 }
@@ -1890,250 +1887,6 @@ button {
   color: #325AB4 !important;
   border: 2px solid #325AB4;
 }
-
-.beiersdorf .ab-nav-search {
-  max-width: 40%;
-}
-
-.beiersdorf .ab-nav-search .form-inline {
-  margin-top: 15px !important;
-}
-
-.beiersdorf .ab-nav-search .btn-outline-success {
-  top: 15px;
-  transition: none;
-}
-
-.beiersdorf .menu-bar .ab-nav-search .form-inline {
-  margin-top: 8px !important;
-}
-
-.beiersdorf .menu-bar .ab-nav-search .btn-outline-success {
-  transition: none;
-  top: 8px;
-}
-
-.beiersdorf .login-box.button input {
-  background-color: var(--primary-clr);
-  border: 2px solid var(--primary-clr);
-}
-
-.beiersdorf .search .btn {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf #header .wshlt span.number {
-  background: var(--primary-clr);
-}
-
-.beiersdorf .sec-menu .btn-secondary:hover::before {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf .ab-header__dropdown::after {
-  border-top: 9px solid var(--primary-clr);
-}
-
-.beiersdorf .ab-header__dropdown.active a::before {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf .ab-header__dropdown-link:hover {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf .main-heading a {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .ab-button {
-  background-color: var(--primary-clr);
-  border: 2px solid var(--primary-clr);
-}
-
-.beiersdorf .ab-button:hover {
-  background-color: #fff;
-  color: var(--primary-clr);
-}
-
-.beiersdorf .abt-footer {
-  background: var(--primary-clr);
-  border-bottom: 5px solid #D9D9D9;
-}
-
-.beiersdorf .ab-summary__btn {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf .ab-summary__btn:hover {
-  background-color: #0042cf;
-}
-
-.beiersdorf .fiter-head {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .dxgvHeader_Moderno {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf #pills-tabContent .fa {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .product-name,
-.beiersdorf .book-name {
-  color: var(--primary-clr) !important;
-}
-
-.beiersdorf .book-name-and-buy ul li:first-child {
-  color: #000;
-}
-
-.beiersdorf .btn-buy {
-  border: 2px solid var(--primary-clr);
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf .btn-buy:hover {
-  background-color: #fff !important;
-  color: var(--primary-clr) !important;
-}
-
-.beiersdorf .product-box .book-name-and-buy .btn-buy:hover {
-  color: var(--primary-clr) !important;
-  border: 2px solid var(--primary-clr) !important;
-}
-
-.beiersdorf .b-price {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .mobile-price .btn-red.hvr-fade {
-  background-color: var(--primary-clr);
-  border: 2px solid var(--primary-clr) !important;
-}
-
-.beiersdorf .mobile-price .btn-red.hvr-fade:hover {
-  color: var(--primary-clr) !important;
-}
-
-.beiersdorf .mobile-price.sample .b-price,
-.beiersdorf .mobile-price.sample .text {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .fa-check-circle-o.red {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .fa {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .ab-summary__pric {
-  color: #000;
-}
-
-.beiersdorf .ab-contact__tile-head {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf .ab-contact a {
-  color: var(--primary-clr);
-}
-
-.beiersdorf .btn-red {
-  background-color: var(--primary-clr);
-  border: 2px solid var(--primary-clr) !important;
-}
-
-.beiersdorf .btn-red:hover {
-  color: var(--primary-clr) !important;
-}
-
-.beiersdorf #ctl11_ErrorDisplay_pcAlert_PW-1,
-.beiersdorf #ctl09_ErrorDisplay_pcAlert_PW-1 {
-  border-radius: 10px;
-  left: 50%;
-  width: 360px !important;
-  overflow: hidden;
-}
-
-.beiersdorf #ctl11_ErrorDisplay_pcAlert_PW-1 .dxpc-header,
-.beiersdorf #ctl09_ErrorDisplay_pcAlert_PW-1 .dxpc-header {
-  height: auto !important;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  align-items: center;
-  padding: 16px 24px;
-}
-
-.beiersdorf #ctl11_ErrorDisplay_pcAlert_PW-1 .dx-clear,
-.beiersdorf #ctl09_ErrorDisplay_pcAlert_PW-1 .dx-clear {
-  display: none;
-}
-
-.beiersdorf #ctl11_ErrorDisplay_pcAlert_PW-1 .dxpc-headerContent,
-.beiersdorf #ctl09_ErrorDisplay_pcAlert_PW-1 .dxpc-headerContent {
-  width: 50px;
-  height: auto;
-}
-
-.beiersdorf #ctl11_ErrorDisplay_pcAlert_PW-1 .dxpc-headerContent img,
-.beiersdorf #ctl09_ErrorDisplay_pcAlert_PW-1 .dxpc-headerContent img {
-  width: 100%;
-}
-
-.beiersdorf #ctl11_ErrorDisplay_pcAlert_PW-1 .dxpc-content,
-.beiersdorf #ctl09_ErrorDisplay_pcAlert_PW-1 .dxpc-content {
-  text-align: center;
-  padding: 24px !important;
-}
-
-.beiersdorf .ab-address__confirm-order {
-  background: var(--primary-clr);
-  border: 1px solid var(--primary-clr);
-}
-
-.beiersdorf .ab-address__confirm-order .fa {
-  color: #fff;
-}
-
-.beiersdorf .ab-address__confirm-order:hover {
-  background-color: #fff;
-  color: var(--primary-clr);
-}
-
-.beiersdorf .ab-address__confirm-order:hover .fa {
-  color: var(--primary-clr);
-}
-
-.beiersdorf.stratagile .ab-summary__btn {
-  background-color: var(--primary-clr);
-}
-
-.beiersdorf.stratagile .ab-summary__btn:hover {
-  background-color: #e5260f;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .beiersdorf .ab-nav-search {
-    max-width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .beiersdorf .ab-nav-search {
-    max-width: 100%;
-  }
-  .beiersdorf .ab-nav-search .form-inline {
-    margin-top: 15px !important;
-  }
-  .beiersdorf .ab-nav-search .btn-outline-success {
-    top: 15px;
-  }
-}
 .cx-erpop {
   border: 1px solid #000;
   border-radius: 10px;
@@ -2202,7 +1955,7 @@ button {
   margin-right: 10px;
 }
 
-.boehringer .bh-button {
+.beiersdorf .bh-button {
   display: block;
   width: 150px;
   background: var(--secondary-clr);
@@ -2220,11 +1973,11 @@ button {
   color: var(--primary-clr);
 }
 
-.boehringer .bh-button.round {
+.beiersdorf .bh-button.round {
   border-radius: 5px;
 }
 
-.boehringer .btn-grey {
+.beiersdorf .btn-grey {
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
   padding: 6px 6px;
@@ -2237,24 +1990,24 @@ button {
   }
 }
 
-.boehringer .bh-button:hover {
+.beiersdorf .bh-button:hover {
   background-color: var(--third-clr);
   border-color: var(--third-clr);
   color: var(--primary-clr);
   transition: all 0.2s 0s ease-in;
 }
 
-.boehringer .bh-button p {
+.beiersdorf .bh-button p {
   padding: 0;
   margin: 0;
 }
 
-.boehringer .bh-button a {
+.beiersdorf .bh-button a {
   text-decoration: none;
   color: var(--primary-clr);
 }
 
-.boehringer .bh-button__text {
+.beiersdorf .bh-button__text {
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
@@ -2262,35 +2015,35 @@ button {
   transition: 0.4s;
 }
 
-.boehringer .bh-button__img {
+.beiersdorf .bh-button__img {
   width: 15px;
   height: auto;
   transition: 0.4s;
 }
 
-.boehringer .bh-button__img img {
+.beiersdorf .bh-button__img img {
   width: 100%;
   height: 100%;
 }
 
-.boehringer .bh-button:hover .bh-button__text {
+.beiersdorf .bh-button:hover .bh-button__text {
   transform: translateX(-4px);
   transition: 0.4s;
 }
 
-.boehringer .bh-button:hover .bh-button__img {
+.beiersdorf .bh-button:hover .bh-button__img {
   transform: translateX(4px);
   transition: 0.4s;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .bh-heading {
+  .beiersdorf .bh-heading {
     font-size: 34px;
     line-height: 40px;
   }
 }
 @media (max-width: 767px) {
-  .boehringer .bh-heading {
+  .beiersdorf .bh-heading {
     font-size: 28px;
     line-height: 34px;
   }
@@ -4380,7 +4133,7 @@ button {
   color: var(--primary-clr) !important;
 }
 
-.boehringer .bh-hero {
+.beiersdorf .bh-hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4389,7 +4142,7 @@ button {
   position: relative;
 }
 
-.boehringer .bh-hero__outer {
+.beiersdorf .bh-hero__outer {
   width: 55%;
   height: 550px;
   display: flex;
@@ -4398,7 +4151,7 @@ button {
   justify-content: center;
 }
 
-.boehringer .bh-hero__text {
+.beiersdorf .bh-hero__text {
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
@@ -4407,27 +4160,27 @@ button {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .bh-hero, .boehringer .bh-hero__outer {
+  .beiersdorf .bh-hero, .beiersdorf .bh-hero__outer {
     height: 480px;
   }
 }
 @media (max-width: 767px) {
-  .boehringer .bh-hero {
+  .beiersdorf .bh-hero {
     height: 450px;
     background-position: left;
   }
-  .boehringer .bh-hero__outer {
+  .beiersdorf .bh-hero__outer {
     height: 450px;
   }
-  .boehringer .bh-hero__outer {
+  .beiersdorf .bh-hero__outer {
     width: 100%;
   }
 }
-.boehringer .bi-ibc {
+.beiersdorf .bi-ibc {
   padding-top: 40px;
 }
 
-.boehringer .bi-ibc .bh-heading {
+.beiersdorf .bi-ibc .bh-heading {
   width: 100%;
   font-size: 44px;
   font-weight: 600;
@@ -4435,56 +4188,56 @@ button {
   text-transform: unset;
 }
 
-.boehringer .bi-ibc__para {
+.beiersdorf .bi-ibc__para {
   font-weight: 600;
   color: $color-grey;
   font-size: 20px;
 }
 
-.boehringer .bi-footer {
+.beiersdorf .bi-footer {
   padding: 32px 20px;
   background-color: #DEDDE1;
 }
 
-.boehringer .bi-footer ul {
+.beiersdorf .bi-footer ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.boehringer .bi-footer ul li {
+.beiersdorf .bi-footer ul li {
   margin-bottom: 16px !important;
 }
 
-.boehringer .bi-footer ul li::marker {
+.beiersdorf .bi-footer ul li::marker {
   display: none !important;
 }
 
-.boehringer .bi-footer__ftlogo {
+.beiersdorf .bi-footer__ftlogo {
   width: 15%;
 }
 
-.boehringer .bi-footer__ftlogo img {
+.beiersdorf .bi-footer__ftlogo img {
   width: 100%;
 }
 
-.boehringer .bi-footer__links {
+.beiersdorf .bi-footer__links {
   color: var(--primary-clr);
   text-decoration: none;
 }
 
-.boehringer .bi-footer__links:hover {
+.beiersdorf .bi-footer__links:hover {
   font-weight: 600;
 }
 
-.boehringer .bi-footer__contents {
+.beiersdorf .bi-footer__contents {
   border-bottom: 1px solid var(--secondary-clr);
 }
-.boehringer .bi-footer__contents ul {
+.beiersdorf .bi-footer__contents ul {
   display: flex;
   flex-direction: column;
 }
 
-.boehringer .bi-footer__arr {
+.beiersdorf .bi-footer__arr {
   color: var(--primary-clr);
 }
 
@@ -4497,24 +4250,24 @@ button {
     width: 100%;
   }
 }
-.boehringer .bi-tlfg {
+.beiersdorf .bi-tlfg {
   background-color: #D2F2F7;
   padding: 36px 20px;
 }
 
-.boehringer .bi-tlfg .bh-heading {
+.beiersdorf .bi-tlfg .bh-heading {
   font-weight: 600;
 }
 
-.boehringer .bi-tlfg__img {
+.beiersdorf .bi-tlfg__img {
   width: 100%;
 }
 
-.boehringer .bi-tlfg__img img {
+.beiersdorf .bi-tlfg__img img {
   width: 100%;
 }
 
-.boehringer .bi-tlfg__lf {
+.beiersdorf .bi-tlfg__lf {
   text-align: right;
   font-weight: 600;
   font-size: 24px;
@@ -4522,11 +4275,11 @@ button {
   color: #000000;
 }
 
-.boehringer .bh-new {
+.beiersdorf .bh-new {
   padding: 62px 0px;
 }
 
-.boehringer .bh-new__slide {
+.beiersdorf .bh-new__slide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4534,62 +4287,62 @@ button {
   flex-wrap: wrap;
 }
 
-.boehringer .bh-new__img {
+.beiersdorf .bh-new__img {
   width: calc(14.28% - 20px);
   margin: 0px 10px;
   height: auto;
   padding-bottom: 20px;
 }
 
-.boehringer .bh-new__img img {
+.beiersdorf .bh-new__img img {
   width: 100%;
   height: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .bh-new__img {
+  .beiersdorf .bh-new__img {
     width: calc(23.28% - 20px);
   }
 }
 @media (max-width: 767px) {
-  .boehringer .bh-new__img {
+  .beiersdorf .bh-new__img {
     width: calc(50% - 20px);
   }
 }
-.boehringer .bh-prodcut {
+.beiersdorf .bh-prodcut {
   margin: 24px 0px;
 }
 
-.boehringer .bh-prodcut p {
+.beiersdorf .bh-prodcut p {
   margin: 0;
 }
 
-.boehringer .bh-prodcut__outer {
+.beiersdorf .bh-prodcut__outer {
   display: flex;
 }
 
-.boehringer .bh-prodcut__left {
+.beiersdorf .bh-prodcut__left {
   width: 40%;
   margin-right: 10px;
   position: relative;
   z-index: 1;
 }
 
-.boehringer .bh-prodcut__right {
+.beiersdorf .bh-prodcut__right {
   width: 60%;
 }
 
-.boehringer .bh-prodcut__img {
+.beiersdorf .bh-prodcut__img {
   width: 100%;
   height: auto;
 }
 
-.boehringer .bh-prodcut__img img {
+.beiersdorf .bh-prodcut__img img {
   width: 100%;
   height: 100%;
 }
 
-.boehringer .bh-prodcut .nav-link {
+.beiersdorf .bh-prodcut .nav-link {
   padding: 6px 15px !important;
   border: 2px solid #000000 !important;
   border-radius: 20px;
@@ -4599,25 +4352,25 @@ button {
   background-color: transparent;
   color: #000000;
 }
-.boehringer .bh-prodcut .nav-link:hover {
+.beiersdorf .bh-prodcut .nav-link:hover {
   background-color: #000;
   color: #fff;
 }
 
-.boehringer .bh-prodcut .nav-pills .nav-link.active {
+.beiersdorf .bh-prodcut .nav-pills .nav-link.active {
   background-color: transparent !important;
   color: #000000 !important;
 }
-.boehringer .bh-prodcut .nav-pills .nav-link.active:hover {
+.beiersdorf .bh-prodcut .nav-pills .nav-link.active:hover {
   background-color: #000 !important;
   color: #fff !important;
 }
 
-.boehringer .bh-prodcut .nav {
+.beiersdorf .bh-prodcut .nav {
   gap: 10px;
 }
 
-.boehringer .bh-prodcut__head {
+.beiersdorf .bh-prodcut__head {
   font-size: 155px;
   line-height: 160px;
   font-weight: 700;
@@ -4625,7 +4378,7 @@ button {
   color: var(--primary-clr);
 }
 
-.boehringer .bh-prodcut__cnt {
+.beiersdorf .bh-prodcut__cnt {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
@@ -4634,52 +4387,52 @@ button {
   font-family: 'Avenir Next LT Pro';
 }
 
-.boehringer .bh-prodcut .bh-button {
+.beiersdorf .bh-prodcut .bh-button {
   width: 130px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .bh-prodcut__head {
+  .beiersdorf .bh-prodcut__head {
     font-size: 50px;
     line-height: 56px;
     font-weight: 700;
     padding-bottom: 20px;
   }
-  .boehringer .bh-prodcut__outer {
+  .beiersdorf .bh-prodcut__outer {
     align-items: center;
   }
 }
 @media (max-width: 767px) {
-  .boehringer .bh-prodcut__left, .boehringer .bh-prodcut__right {
+  .beiersdorf .bh-prodcut__left, .beiersdorf .bh-prodcut__right {
     width: 100%;
   }
-  .boehringer .bh-prodcut__outer {
+  .beiersdorf .bh-prodcut__outer {
     flex-direction: column-reverse;
   }
-  .boehringer .bh-prodcut__head {
+  .beiersdorf .bh-prodcut__head {
     font-size: 30px;
     line-height: 38px;
     padding: 20px 0px;
     text-align: center;
   }
-  .boehringer .bh-prodcut__cnt {
+  .beiersdorf .bh-prodcut__cnt {
     text-align: center;
     width: 100%;
     padding-bottom: 10px;
   }
-  .boehringer .bh-button {
+  .beiersdorf .bh-button {
     margin: 0 auto;
   }
 }
-.boehringer .sec-menu {
+.beiersdorf .sec-menu {
   height: 37px;
 }
 
-.boehringer .ab-header__dropdown-link:hover {
+.beiersdorf .ab-header__dropdown-link:hover {
   color: #000;
 }
 
-.boehringer .progress {
+.beiersdorf .progress {
   height: 150px !important;
   width: 220px !important;
   justify-content: center;
@@ -4689,64 +4442,64 @@ button {
   font-size: 16px;
 }
 
-.boehringer .progress img {
+.beiersdorf .progress img {
   width: 50%;
   height: auto;
 }
 
-.boehringer .cx-adrsmodal {
+.beiersdorf .cx-adrsmodal {
   background-color: #007380;
 }
 
-.boehringer .cx-adrsmodal .text-box {
+.beiersdorf .cx-adrsmodal .text-box {
   padding: 10px;
 }
 
-.boehringer .cx-adrsmodal .text-box::-moz-placeholder {
+.beiersdorf .cx-adrsmodal .text-box::-moz-placeholder {
   color: #000;
 }
 
-.boehringer .cx-adrsmodal .text-box::placeholder {
+.beiersdorf .cx-adrsmodal .text-box::placeholder {
   color: #000;
 }
 
-.boehringer .cx-adrsmodal .address-page p {
+.beiersdorf .cx-adrsmodal .address-page p {
   color: #fff;
   margin-top: 20px;
 }
 
-.boehringer .cx-adrsmodal .checkbox-label {
+.beiersdorf .cx-adrsmodal .checkbox-label {
   color: #fff;
 }
 
-.boehringer .cx-adrsmodal .cx-cancel {
+.beiersdorf .cx-adrsmodal .cx-cancel {
   border: 1px solid #fff !important;
   color: #fff;
   transition: 0.3s;
 }
 
-.boehringer .cx-adrsmodal .cx-cancel:hover {
+.beiersdorf .cx-adrsmodal .cx-cancel:hover {
   background-color: #fff !important;
   color: var(--secondary-clr) !important;
   border: 1px solid var(--secondary-clr) !important;
   transition: 0.3s;
 }
 
-.boehringer .cx-adrsmodal .close {
+.beiersdorf .cx-adrsmodal .close {
   background-color: unset;
 }
 
-.boehringer .cx-contact__astrparent.active {
+.beiersdorf .cx-contact__astrparent.active {
   display: none;
 }
 
-.boehringer .purchase-table-header a {
+.beiersdorf .purchase-table-header a {
   color: #012f5f !important;
   font-weight: 700;
   text-decoration: underline !important;
 }
 
-.boehringer .btn-wishlists {
+.beiersdorf .btn-wishlists {
   border-radius: 20px !important;
   background-color: var(--primary-clr) !important;
   border: 1px solid var(--primary-clr) !important;
@@ -4756,16 +4509,16 @@ button {
   font-weight: 600;
 }
 
-.boehringer .btn-wishlists:hover {
+.beiersdorf .btn-wishlists:hover {
   color: var(--primary-clr) !important;
   background-color: transparent !important;
 }
 
-.boehringer #ctl09_lblSCRemoveAll {
+.beiersdorf #ctl09_lblSCRemoveAll {
   background-color: #fff !important;
 }
 
-.boehringer .cx-clr-ctn {
+.beiersdorf .cx-clr-ctn {
   border-radius: 20px;
   text-transform: uppercase;
   font-size: 0.75em;
@@ -4780,20 +4533,20 @@ button {
   text-align: center;
 }
 
-.boehringer .cx-clr-ctn:hover {
+.beiersdorf .cx-clr-ctn:hover {
   background-color: transparent !important;
   color: #012f5f !important;
   font-weight: 700 !important;
 }
 
-.boehringer .cx-oh-update {
+.beiersdorf .cx-oh-update {
   border-radius: 6px;
   background-color: azure;
   border: 1px solid blue;
   width: 80%;
 }
 
-.boehringer .dxflCLLSys a[data-args="[['CancelEdit'],1]"] {
+.beiersdorf .dxflCLLSys a[data-args="[['CancelEdit'],1]"] {
   background-color: azure;
   border: 1px solid blue;
   width: auto;
@@ -4810,12 +4563,12 @@ button {
   text-align: center;
 }
 
-.boehringer .dxflCLLSys a[data-args="[['CancelEdit'],1]"]:hover {
+.beiersdorf .dxflCLLSys a[data-args="[['CancelEdit'],1]"]:hover {
   color: #fff !important;
   background-color: var(--primary-clr) !important;
 }
 
-.boehringer .dxflCLLSys a[data-args="[['UpdateEdit'],1]"] {
+.beiersdorf .dxflCLLSys a[data-args="[['UpdateEdit'],1]"] {
   background-color: azure;
   border: 1px solid blue;
   width: auto;
@@ -4833,70 +4586,70 @@ button {
   text-align: center;
 }
 
-.boehringer .dxflCLLSys a[data-args="[['UpdateEdit'],1]"]:hover {
+.beiersdorf .dxflCLLSys a[data-args="[['UpdateEdit'],1]"]:hover {
   color: var(--secondary-clr) !important;
   background-color: transparent !important;
 }
 
-.boehringer .dxflCLLSys {
+.beiersdorf .dxflCLLSys {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.boehringer .ab-address__address {
+.beiersdorf .ab-address__address {
   width: 100% !important;
 }
 
-.boehringer .ab-address__address p {
+.beiersdorf .ab-address__address p {
   margin-bottom: 4px;
   font-size: 16px;
 }
 
-.boehringer .ab-address__place {
+.beiersdorf .ab-address__place {
   margin-bottom: 16px !important;
   font-size: 20px !important;
   color: #000 !important;
 }
 
-.boehringer .add-box {
+.beiersdorf .add-box {
   background-color: #F6F6F6 !important;
 }
 
-.boehringer .address {
+.beiersdorf .address {
   background-color: #fff;
 }
 
-.boehringer .address.active {
+.beiersdorf .address.active {
   background-color: #ecf5f4;
 }
 
-.boehringer .ab-header__dropdown.active a::before {
+.beiersdorf .ab-header__dropdown.active a::before {
   background-color: var(--secondary-clr);
 }
 
-.boehringer .p-box h4 span {
+.beiersdorf .p-box h4 span {
   margin-right: 25px !important;
 }
 
-.boehringer .margin-lr-cut {
+.beiersdorf .margin-lr-cut {
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding-top: 40px;
 }
 
-.boehringer .top-box-out {
+.beiersdorf .top-box-out {
   background-color: #F6F6F6;
   width: 100%;
   padding: 10px;
   margin-bottom: 25px;
 }
 
-.boehringer .top-box {
+.beiersdorf .top-box {
   width: 100%;
   padding: 16px;
 }
 
-.boehringer .top-box h4 {
+.beiersdorf .top-box h4 {
   font-family: "Prompt", sans-serif;
   font-size: 19px;
   color: var(--primary-clr);
@@ -4904,92 +4657,92 @@ button {
   margin-bottom: 20px;
 }
 
-.boehringer .top-box-save {
+.beiersdorf .top-box-save {
   float: right;
 }
 
-.boehringer .edit-del {
+.beiersdorf .edit-del {
   font-weight: normal;
   color: var(--primary-clr);
 }
 
-.boehringer .edit-del .fa {
+.beiersdorf .edit-del .fa {
   font-weight: 600;
 }
 
-.boehringer .p-box .width {
+.beiersdorf .p-box .width {
   width: 42% !important;
 }
 
-.boehringer .top-box-edit {
+.beiersdorf .top-box-edit {
   float: right;
 }
 
-.boehringer .top-box-edit .fa {
+.beiersdorf .top-box-edit .fa {
   font-weight: 600;
 }
 
-.boehringer .top-box-edit span {
+.beiersdorf .top-box-edit span {
   font-size: 18px;
   color: var(--primary-clr);
   font-weight: normal;
 }
 
-.boehringer .ab-address__address p {
+.beiersdorf .ab-address__address p {
   font-size: 18px;
 }
 
-.boehringer .ab-summary__options {
+.beiersdorf .ab-summary__options {
   margin-top: 14px;
 }
 
-.boehringer .ab-summary__options .fa {
+.beiersdorf .ab-summary__options .fa {
   font-weight: bold;
   font-size: larger;
 }
 
-.boehringer .ab-summary__options span {
+.beiersdorf .ab-summary__options span {
   font-weight: 600;
 }
 
-.boehringer .dxbButtonSys span {
+.beiersdorf .dxbButtonSys span {
   font-weight: bold;
 }
 
-.boehringer .ab-address__details p {
+.beiersdorf .ab-address__details p {
   font-size: 16px;
 }
 
-.boehringer .ab-address__price-head {
+.beiersdorf .ab-address__price-head {
   font-size: 18px;
 }
 
-.boehringer .ab-address__price {
+.beiersdorf .ab-address__price {
   font-size: 16px;
 }
 
-.boehringer .modal-content {
+.beiersdorf .modal-content {
   border-radius: 6px !important;
   width: 100%;
 }
 
-.boehringer .cx-popup-h {
+.beiersdorf .cx-popup-h {
   text-transform: unset;
   margin-bottom: 20px;
 }
-.boehringer .cx-popup-h span {
+.beiersdorf .cx-popup-h span {
   font-weight: normal;
   font-size: 14px !important;
   color: $color-grey;
 }
 
-.boehringer .modal-header {
+.beiersdorf .modal-header {
   padding: 12px 20px;
   align-items: center !important;
   background-color: var(--secondary-clr);
 }
 
-.boehringer .cx-btn-out {
+.beiersdorf .cx-btn-out {
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -4998,63 +4751,63 @@ button {
   font-size: 14px;
 }
 
-.boehringer .dxpc-closeBtn:hover {
+.beiersdorf .dxpc-closeBtn:hover {
   background-color: #1d85cd;
   border: 1px solid #0a67a8;
   border-radius: 2px;
 }
 
-.boehringer .bi-product-desc {
+.beiersdorf .bi-product-desc {
   color: #000 !important;
   font-size: 14px !important;
   line-height: 28px;
 }
 
-.boehringer .bi-product-desc b {
+.beiersdorf .bi-product-desc b {
   position: relative;
   width: 50% !important;
   display: inline-block;
   color: #373F3F !important;
 }
 
-.boehringer .bi-product-desc b::after {
+.beiersdorf .bi-product-desc b::after {
   content: ":";
   position: absolute;
   right: 3px;
   top: 0;
 }
 
-.boehringer .bi-pdp .mobile-price {
+.beiersdorf .bi-pdp .mobile-price {
   background-color: #fff !important;
 }
 
-.boehringer .mobile-price {
+.beiersdorf .mobile-price {
   border-radius: 6px !important;
   background-color: #f8f9fa !important;
 }
 
-.boehringer .cx-prdct-row td {
+.beiersdorf .cx-prdct-row td {
   color: var(--primary-clr);
   font-weight: normal;
   text-align: center;
 }
 
-.boehringer .b-price {
+.beiersdorf .b-price {
   text-align: center;
 }
 
-.boehringer .b-price span {
+.beiersdorf .b-price span {
   color: var(--primary-clr) !important;
 }
 
-.boehringer .cat {
+.beiersdorf .cat {
   width: 50% !important;
   position: relative;
   font-weight: normal !important;
   font-size: 16px !important;
 }
 
-.boehringer .cat::after {
+.beiersdorf .cat::after {
   content: ":";
   position: absolute;
   right: 3px;
@@ -5062,38 +4815,38 @@ button {
   font-weight: bold;
 }
 
-.boehringer .cx-prdct-wrap {
+.beiersdorf .cx-prdct-wrap {
   background-color: #f8f9fa;
   border-radius: 6px;
 }
 
-.boehringer .cx-prdct-wrap p,
+.beiersdorf .cx-prdct-wrap p,
 .cx-product-desc {
   font-size: 16px;
   line-height: 26px;
 }
 
-.boehringer .cx-prdct-wrap strong {
+.beiersdorf .cx-prdct-wrap strong {
   color: var(--primary-clr);
   display: inline-block;
   margin-top: 10px;
 }
 
 
-.boehringer .address-page {
+.beiersdorf .address-page {
   margin-bottom: 14px;
 }
 
-.boehringer .cx-pdp-para {
+.beiersdorf .cx-pdp-para {
   color: #828282 !important;
 }
 
-.boehringer .cx-code {
+.beiersdorf .cx-code {
   color: var(--primary-clr) !important;
   font-size: 16px !important;
 }
 
-.boehringer .cx-rmb-left {
+.beiersdorf .cx-rmb-left {
   font-weight: 600;
   color: var(--primary-clr);
   font-size: 16px;
@@ -5101,7 +4854,7 @@ button {
   margin-bottom: 20px;
 }
 
-.boehringer .cx-rmb-left textarea {
+.beiersdorf .cx-rmb-left textarea {
   font-size: 16px;
   resize: none;
   border-radius: 4px;
@@ -5109,21 +4862,21 @@ button {
   border: 1px solid #ccc;
 }
 
-.boehringer .inner-marging {
+.beiersdorf .inner-marging {
   min-height: 90vh;
 }
 
-.boehringer .cx-rmb {
+.beiersdorf .cx-rmb {
   color: var(--primary-clr);
   font-weight: 600;
 }
 
-.boehringer .cx-txt-bold {
+.beiersdorf .cx-txt-bold {
   font-weight: bold;
   font-size: 18px;
 }
 
-.boehringer .cx-edit-w {
+.beiersdorf .cx-edit-w {
   display: flex;
   align-items: center;
   padding-right: 8%;
@@ -5131,25 +4884,25 @@ button {
   color: #333333;
 }
 
-.boehringer .cx-edit-icon {
+.beiersdorf .cx-edit-icon {
   display: inline-block;
   width: 16px;
 }
 
-.boehringer .ab-address__address .active {
+.beiersdorf .ab-address__address .active {
   background-color: #d1d1d1 !important;
 }
 
-.boehringer .cx-cart-icon {
+.beiersdorf .cx-cart-icon {
   margin-left: 10px;
 }
 
-.boehringer .cx-cart-icon img {
+.beiersdorf .cx-cart-icon img {
   width: 23px;
   transform: translateY(-2px);
 }
 
-.boehringer .varient-btn {
+.beiersdorf .varient-btn {
   font-size: 13px;
   margin: 0 2px;
   margin-bottom: 6px;
@@ -5158,19 +4911,19 @@ button {
   overflow: hidden;
 }
 
-.boehringer .wshlt span.number {
+.beiersdorf .wshlt span.number {
   background-color: var(--secondary-clr) !important;
 }
 
-.boehringer .width {
+.beiersdorf .width {
   color: #333333;
 }
 
-.boehringer .p-box-edit.active {
+.beiersdorf .p-box-edit.active {
   font-weight: bold !important;
 }
 
-.boehringer .sort select {
+.beiersdorf .sort select {
   color: #5d5d5d;
   width: 110px;
   padding: 5px 8px;
@@ -5180,14 +4933,14 @@ button {
   background-color: #ffffff;
 }
 
-.boehringer .cx-sortby {
+.beiersdorf .cx-sortby {
   font-size: 16px;
   color: #666;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.boehringer .ajax__validatorcallout_error_message_cell {
+.beiersdorf .ajax__validatorcallout_error_message_cell {
   color: red;
   font-size: 12px;
   margin-top: 5px;
@@ -5196,66 +4949,66 @@ button {
   vertical-align: middle;
 }
 
-.boehringer .ajax__validatorcallout_close_button_cell {
+.beiersdorf .ajax__validatorcallout_close_button_cell {
   background-color: #ffdddd;
 }
 
-.boehringer .ajax__validatorcallout_icon_cell {
+.beiersdorf .ajax__validatorcallout_icon_cell {
   background-color: #ffdddd;
 }
 
-.boehringer .ajax__validatorcallout_innerdiv {
+.beiersdorf .ajax__validatorcallout_innerdiv {
   background-color: #ffdddd;
   position: relative;
 }
 
-.boehringer .ajax__validatorcallout_innerdiv img {
+.beiersdorf .ajax__validatorcallout_innerdiv img {
   position: absolute;
   top: 6px;
   right: 4px;
 }
 
-.boehringer .ajax__validatorcallout_innerdiv div {
+.beiersdorf .ajax__validatorcallout_innerdiv div {
   background-color: #ffdddd;
 }
 
-.boehringer .text-box {
+.beiersdorf .text-box {
   height: 40px;
 }
 
-.boehringer .cx-order-pop textarea {
+.beiersdorf .cx-order-pop textarea {
   padding: 5px 16px;
   font-size: 18px;
   border-bottom: 1px solid #a8a8a8;
   margin-bottom: 0px;
 }
 
-.boehringer .cx-check-cmmnt {
+.beiersdorf .cx-check-cmmnt {
   font-size: 18px;
   color: var(--primary-clr);
   font-weight: 600;
 }
 
-.boehringer .selector .form-control {
+.beiersdorf .selector .form-control {
   font-size: 12px !important;
   padding: 10px 4px;
 }
 
-.boehringer .mobile-price.sample .text {
+.beiersdorf .mobile-price.sample .text {
   font-size: 18px !important;
 }
 
-.boehringer .cx-pdplink a {
+.beiersdorf .cx-pdplink a {
   font-size: 16px;
   color: var(--primary-clr);
   font-weight: 600;
 }
 
-.boehringer .cx-pdplink a:hover {
+.beiersdorf .cx-pdplink a:hover {
   text-decoration: underline !important;
 }
 
-.boehringer .cx-outofstock {
+.beiersdorf .cx-outofstock {
   position: absolute;
   width: 100%;
   height: 47%;
@@ -5269,7 +5022,7 @@ button {
   align-items: center;
 }
 
-.boehringer .cx-outofstock-text {
+.beiersdorf .cx-outofstock-text {
   background: #FF5656;
   padding: 10px 0;
   font-size: 18px;
@@ -5281,14 +5034,14 @@ button {
   margin: auto;
 }
 
-.boehringer .cx-bundle-h {
+.beiersdorf .cx-bundle-h {
   color: var(--primary-clr);
   font-size: 18px;
   margin: 12px 0;
   text-transform: uppercase;
 }
 
-.boehringer .cx-timer {
+.beiersdorf .cx-timer {
   width: 60%;
   display: flex;
   justify-content: center;
@@ -5306,7 +5059,7 @@ button {
   bottom: -47px;
 }
 
-.boehringer .cx-timeout {
+.beiersdorf .cx-timeout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5314,7 +5067,7 @@ button {
   margin-bottom: 20px;
 }
 
-.boehringer .cx-coadrss {
+.beiersdorf .cx-coadrss {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5323,117 +5076,117 @@ button {
   border-radius: 6px;
 }
 
-.boehringer .cx-coadrss span {
+.beiersdorf .cx-coadrss span {
   font-size: 16px;
 }
 
-.boehringer .cx-cochng {
+.beiersdorf .cx-cochng {
   font-size: 14px;
   border: 1px solid #e22525;
   padding: 2px 8px;
   color: #e22525;
 }
 
-.boehringer .cx-cochng:hover {
+.beiersdorf .cx-cochng:hover {
   background-color: #e22525;
   color: #fff;
 }
 
-.boehringer .cx-location {
+.beiersdorf .cx-location {
   display: flex;
 }
 
-.boehringer .cx-location svg {
+.beiersdorf .cx-location svg {
   width: 14px;
   margin-bottom: 5px;
 }
 
-.boehringer .cx-location h2 {
+.beiersdorf .cx-location h2 {
   margin-left: 10px;
 }
 
-.boehringer .cta-out {
+.beiersdorf .cta-out {
   margin-top: 20px;
 }
 
-.boehringer .cx-srchrs {
+.beiersdorf .cx-srchrs {
   text-align: center;
   font-size: 24px;
   margin-left: 10%;
 }
 
-.boehringer .dxdvControl {
+.beiersdorf .dxdvControl {
   margin-top: 10px;
 }
 
-.boehringer .cx-flgdrp {
+.beiersdorf .cx-flgdrp {
   width: 140px !important;
   display: flex;
   align-items: center;
   background-color: #f0f0f0 !important;
 }
 
-.boehringer .cx-flgdrp input {
+.beiersdorf .cx-flgdrp input {
   background-color: #f0f0f0 !important;
   font-weight: 400;
 }
 
-.boehringer .cx-slctdiv {
+.beiersdorf .cx-slctdiv {
   display: flex;
   justify-content: flex-end;
 }
 
-.boehringer .cx-edtflx {
+.beiersdorf .cx-edtflx {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.boehringer .cx-edtflx li {
+.beiersdorf .cx-edtflx li {
   width: 45%;
 }
 
-.boehringer .cx-edtflx input {
+.beiersdorf .cx-edtflx input {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.boehringer .cx-edtflx input:focus {
+.beiersdorf .cx-edtflx input:focus {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 6px 0px !important;
 }
 
-.boehringer .text-box {
+.beiersdorf .text-box {
   border-bottom: 0;
 }
 
-.boehringer .cx-flggap input {
+.beiersdorf .cx-flggap input {
   margin-left: 0px;
   width: 100%;
   padding: 6px 7px;
 }
 
-.boehringer .cx-qd {
+.beiersdorf .cx-qd {
   color: var(--primary-clr);
   font-size: 18px;
   width: 100%;
 }
 
-.boehringer .cx-pdpdwn {
+.beiersdorf .cx-pdpdwn {
   padding: 20px;
   width: 100%;
 }
 
-.boehringer .discription-under-price {
+.beiersdorf .discription-under-price {
   width: 100%;
 }
 
-.boehringer .cx-tbout {
+.beiersdorf .cx-tbout {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.boehringer .cx-upqnty {
+.beiersdorf .cx-upqnty {
   font-size: 14px;
   color: var(--primary-clr) !important;
   font-weight: normal;
@@ -5442,7 +5195,7 @@ button {
   margin-top: 10px;
 }
 
-.boehringer .cx-upqnty::after {
+.beiersdorf .cx-upqnty::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -5452,26 +5205,26 @@ button {
   background: var(--primary-clr);
 }
 
-.boehringer .owl-item .item {
+.beiersdorf .owl-item .item {
   width: 265px;
   height: 265px;
 }
 
-.boehringer .cx-poptb {
+.beiersdorf .cx-poptb {
   width: 100%;
   margin-top: 20px;
 }
 
-.boehringer .cx-pna {
+.beiersdorf .cx-pna {
   font-size: 15px;
 }
 
-.boehringer .cx-checkout-address__btn.active {
+.beiersdorf .cx-checkout-address__btn.active {
   background-color: #e22525;
   color: #fff !important;
 }
 
-.boehringer .cx-remove-all {
+.beiersdorf .cx-remove-all {
   font-size: 14px;
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
@@ -5485,19 +5238,19 @@ button {
   margin-right: 16px;
 }
 
-.boehringer .cx-remove-all:hover {
+.beiersdorf .cx-remove-all:hover {
   background-color: #fff;
   color: var(--primary-clr);
 }
 
-.boehringer .cx-fcouter {
+.beiersdorf .cx-fcouter {
   justify-content: center;
   display: flex;
   align-items: center;
   width: 200px;
 }
 
-.boehringer .cx-fcouter span {
+.beiersdorf .cx-fcouter span {
   width: 206px;
 }
 
@@ -5506,94 +5259,94 @@ button {
 /* **************************************** */
 /* tablet-pro */
 @media (min-width: 1024px) and (max-width: 1199px) {
-  .boehringer .selector-div {
+  .beiersdorf .selector-div {
     margin-top: 0;
   }
-  .boehringer .cx-outofstock {
+  .beiersdorf .cx-outofstock {
     height: 41%;
   }
-  .boehringer .margin-lr-cut {
+  .beiersdorf .margin-lr-cut {
     padding-top: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .cx-outofstock {
+  .beiersdorf .cx-outofstock {
     height: 41%;
   }
-  .boehringer .margin-lr-cut {
+  .beiersdorf .margin-lr-cut {
     padding-top: 0px;
   }
 }
 /* mobile */
 @media (max-width: 767px) {
-  .boehringer .book-name-and-buy {
+  .beiersdorf .book-name-and-buy {
     padding-right: 0 !important;
   }
-  .boehringer .margin-lr-cut {
+  .beiersdorf .margin-lr-cut {
     padding-top: 24px;
   }
-  .boehringer .book-name-and-buy .btn-buy {
+  .beiersdorf .book-name-and-buy .btn-buy {
     width: auto;
     margin-bottom: 10px;
   }
-  .boehringer .mph-owl .product-box ul li:first-child {
+  .beiersdorf .mph-owl .product-box ul li:first-child {
     margin-bottom: 10px;
   }
-  .boehringer .cx-flggap input {
+  .beiersdorf .cx-flggap input {
     padding: 6px 4px;
     font-size: 10px;
   }
-  .boehringer .dxeButtonEdit_Moderno .dxeIIC img {
+  .beiersdorf .dxeButtonEdit_Moderno .dxeIIC img {
     width: 18px !important;
     padding-left: 0;
   }
-  .boehringer .cx-flgdrp {
+  .beiersdorf .cx-flgdrp {
     width: 100% !important;
   }
-  .boehringer .width {
+  .beiersdorf .width {
     font-size: 10px !important;
   }
-  .boehringer .width-2 {
+  .beiersdorf .width-2 {
     font-size: 10px !important;
   }
-  .boehringer .cx-fnbtn {
+  .beiersdorf .cx-fnbtn {
     font-size: 12px !important;
   }
-  .boehringer .ab-address__modal-btn {
+  .beiersdorf .ab-address__modal-btn {
     display: block;
   }
-  .boehringer .cx-addhead {
+  .beiersdorf .cx-addhead {
     font-size: 18px !important;
   }
-  .boehringer .ab-address__modal .modal-body {
+  .beiersdorf .ab-address__modal .modal-body {
     padding: 20px 30px;
   }
-  .boehringer .ab-address__modal .close {
+  .beiersdorf .ab-address__modal .close {
     top: 0 !important;
     right: 10px !important;
   }
-  .boehringer .address-page ul li .text-box::-moz-placeholder {
+  .beiersdorf .address-page ul li .text-box::-moz-placeholder {
     font-size: 12px;
   }
-  .boehringer .address-page ul li .text-box::placeholder {
+  .beiersdorf .address-page ul li .text-box::placeholder {
     font-size: 12px;
   }
-  .boehringer .cx-outofstock {
+  .beiersdorf .cx-outofstock {
     height: 43%;
   }
-  .boehringer .cx-cochng {
+  .beiersdorf .cx-cochng {
     margin-left: 12%;
   }
 }
-.boehringer .ab-header__dropdown-link:hover {
+.beiersdorf .ab-header__dropdown-link:hover {
   color: #000;
 }
 
-.boehringer .ab-header__container {
+.beiersdorf .ab-header__container {
   padding-top: 58px;
 }
 
-.boehringer .cx-searchbar {
+.beiersdorf .cx-searchbar {
   font-size: 11px !important;
   border-radius: 20px !important;
   padding: 6px 20px;
@@ -5601,61 +5354,61 @@ button {
   background-color: #fff !important;
 }
 
-.boehringer .cx-searchbar::-moz-placeholder {
+.beiersdorf .cx-searchbar::-moz-placeholder {
   color: #252525;
 }
 
-.boehringer .cx-searchbar::placeholder {
+.beiersdorf .cx-searchbar::placeholder {
   color: #252525;
 }
 
-.boehringer .search .btn {
+.beiersdorf .search .btn {
   border-radius: 50%;
   padding: 6px 12px;
   background: var(--primary-clr);
 }
 
-.boehringer .search .btn:hover {
+.beiersdorf .search .btn:hover {
   background: var(--primary-clr);
 }
 
-.boehringer .search .btn:active {
+.beiersdorf .search .btn:active {
   background: var(--primary-clr);
 }
 
-.boehringer .tele select {
+.beiersdorf .tele select {
   width: 42%;
 }
 
-.boehringer .tele .text-box {
+.beiersdorf .tele .text-box {
   width: 56%;
 }
 
-.boehringer .cx-default {
+.beiersdorf .cx-default {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
 
-.boehringer .cx-default input[type=checkbox] {
+.beiersdorf .cx-default input[type=checkbox] {
   width: 19px;
   height: 19px;
 }
 
-.boehringer .cx-default span {
+.beiersdorf .cx-default span {
   width: 25px;
   margin-top: 22px;
 }
 
-.boehringer .ab-address__modal-btn {
+.beiersdorf .ab-address__modal-btn {
   justify-content: flex-end;
 }
 
-.boehringer .ab-address__modal-btn--center {
+.beiersdorf .ab-address__modal-btn--center {
   justify-content: center !important;
 }
 
-.boehringer .cx-cancel {
+.beiersdorf .cx-cancel {
   font-size: 14px;
   text-align: center;
   background-color: var(--secondary-clr) !important;
@@ -5669,18 +5422,18 @@ button {
   margin-right: 16px;
 }
 
-.boehringer .cx-cancel--no {
+.beiersdorf .cx-cancel--no {
   padding: 5px 24px !important;
   width: auto !important;
 }
 
-.boehringer .cx-cancel:hover {
+.beiersdorf .cx-cancel:hover {
   color: #000000 !important;
   background-color: var(--third-clr) !important;
   border: 2px solid var(--third-clr) !important;
 }
 
-.boehringer .cx-save {
+.beiersdorf .cx-save {
   font-size: 14px;
   background-color: var(--primary-clr) !important;
   border: 2px solid var(--primary-clr) !important;
@@ -5693,50 +5446,50 @@ button {
   font-weight: 400;
 }
 
-.boehringer .cx-save--yes {
+.beiersdorf .cx-save--yes {
   padding: 8px 12px !important;
   width: auto !important;
 }
 
-.boehringer .cx-save:hover {
+.beiersdorf .cx-save:hover {
   border: 2px solid var(--darkblue-clr) !important;
   background-color: var(--darkblue-clr) !important;
 }
 
-.boehringer .ab-address__head-btn,
-.boehringer .cx-plus {
+.beiersdorf .ab-address__head-btn,
+.beiersdorf .cx-plus {
   color: var(--secondary-clr);
 }
 
-.boehringer .ab-address__head-btn:hover,
-.boehringer .cx-plus:hover {
+.beiersdorf .ab-address__head-btn:hover,
+.beiersdorf .cx-plus:hover {
   color: var(--primary-clr);
 }
 
-.boehringer .p-box {
+.beiersdorf .p-box {
   height: auto !important;
   background-color: #fff;
 }
 
-.boehringer .p-box h4 {
+.beiersdorf .p-box h4 {
   font-family: "Prompt", sans-serif;
   font-size: 19px;
   color: var(--primary-clr);
   font-weight: bold;
 }
 
-.boehringer .cx-box {
+.beiersdorf .cx-box {
   border: 1px solid #e2e2e2;
   box-shadow: 5px 5px 16px #e2e2e2;
   border-radius: 5px;
 }
 
-.boehringer .add-box {
+.beiersdorf .add-box {
   padding: 24px 0px 24px 24px;
 }
 
-.boehringer .fa-save,
-.boehringer .cx-fnbtn {
+.beiersdorf .fa-save,
+.beiersdorf .cx-fnbtn {
   color: var(--primary-clr);
   text-decoration: underline !important;
   font-size: 16px;
@@ -5744,7 +5497,7 @@ button {
   font-weight: normal;
 }
 
-.boehringer .address {
+.beiersdorf .address {
   line-height: 26px;
   width: calc(50% - 24px);
   display: flex;
@@ -5760,84 +5513,84 @@ button {
   border-radius: 5px;
 }
 
-.boehringer .width,
-.boehringer .width-2,
-.boehringer .edit-del {
+.beiersdorf .width,
+.beiersdorf .width-2,
+.beiersdorf .edit-del {
   font-size: 18px;
   color: #333333;
 }
 
-.boehringer .width:after {
+.beiersdorf .width:after {
   position: absolute;
   content: ":";
   left: 35%;
 }
 
-.boehringer .dxpc-headerImg {
+.beiersdorf .dxpc-headerImg {
   width: 26px;
 }
 
-.boehringer .dxpcLite_Moderno {
+.beiersdorf .dxpcLite_Moderno {
   border-radius: 5px;
 }
 
-.boehringer .dxpcLite_Moderno .dxpc-header {
+.beiersdorf .dxpcLite_Moderno .dxpc-header {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: var(--secondary-clr) !important;
 }
 
-.boehringer .dxpcLite_Moderno .dxpc-content {
+.beiersdorf .dxpcLite_Moderno .dxpc-content {
   font-size: 16px;
 }
 
-.boehringer .ab-header__dropdown-link {
+.beiersdorf .ab-header__dropdown-link {
   font-size: 16px !important;
 }
 
-.boehringer .sec-menu .btn-secondary {
+.beiersdorf .sec-menu .btn-secondary {
   font-size: 15px !important;
 }
 
-.boehringer .ab-header__dropdown-inner {
+.beiersdorf .ab-header__dropdown-inner {
   width: 0;
 }
 
-.boehringer .ab-header__container {
+.beiersdorf .ab-header__container {
   display: flex;
   width: 90%;
 }
 
-.boehringer .ab-header__dropdown-link {
+.beiersdorf .ab-header__dropdown-link {
   text-align: center;
 }
 
-.boehringer .cx-addhead {
+.beiersdorf .cx-addhead {
   font-size: 36px;
   color: #fff;
   margin-bottom: 0;
 }
 
-.boehringer .address-page {
+.beiersdorf .address-page {
   width: 100%;
 }
 
-.boehringer .ab-address__add-list {
+.beiersdorf .ab-address__add-list {
   margin: 0;
 }
 
-.boehringer .address-page p {
+.beiersdorf .address-page p {
   color: #bdbdbd;
   font-size: 16px;
 }
 
-.boehringer .ab-address__modal .close {
+.beiersdorf .ab-address__modal .close {
   top: 20px;
   right: 20px;
 }
 
-.boehringer .address-page ul li .text-box,
-.boehringer .tele select {
+.beiersdorf .address-page ul li .text-box,
+.beiersdorf .tele select {
   border: 1px solid #376A84;
   background-color: #fff;
   font-size: 15px;
@@ -5845,21 +5598,21 @@ button {
   height: 40px;
 }
 
-.boehringer .address-page ul li .text-box {
+.beiersdorf .address-page ul li .text-box {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 16px;
   padding: 0px 16px;
 }
 
-.boehringer .tele select {
+.beiersdorf .tele select {
   font-size: 14px;
   padding: 0px 4px;
   margin-top: 20px;
   margin-bottom: 0;
 }
 
-.boehringer .cx-select {
+.beiersdorf .cx-select {
   border: 1px solid #376A84;
   border-radius: 20px;
   width: -moz-max-content;
@@ -5869,58 +5622,58 @@ button {
   margin-bottom: 42px;
 }
 
-.boehringer .checkbox-group,
-.boehringer .ibc-cart__radio__outer {
+.beiersdorf .checkbox-group,
+.beiersdorf .ibc-cart__radio__outer {
   color: var(--primary-clr);
 }
 
-.boehringer .dxgvHeader_Moderno {
+.beiersdorf .dxgvHeader_Moderno {
   background-color: var(--primary-clr);
 }
 
-.boehringer .user-items .dropdown-menu {
+.beiersdorf .user-items .dropdown-menu {
   top: 42px;
 }
 
-.boehringer .dropdown-menu {
+.beiersdorf .dropdown-menu {
   border-radius: 6px !important;
 }
 
-.boehringer .dxpcLite_Moderno .dxpc-content {
+.beiersdorf .dxpcLite_Moderno .dxpc-content {
   text-align: center;
 }
 
-.boehringer .cx-confirm {
+.beiersdorf .cx-confirm {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
 }
 
-.boehringer .width input {
+.beiersdorf .width input {
   height: auto;
 }
 
-.boehringer .width-2 input {
+.beiersdorf .width-2 input {
   height: auto;
 }
 
-.boehringer .cx-bgblue {
+.beiersdorf .cx-bgblue {
   background-color: #007380;
 }
 
-.boehringer #ctl09_lblSearch {
+.beiersdorf #ctl09_lblSearch {
   font-weight: bold;
 }
 
-.boehringer .wish-list.list-show .product-box .product {
+.beiersdorf .wish-list.list-show .product-box .product {
   height: 182px;
 }
 
-.boehringer .cx-alignlft {
+.beiersdorf .cx-alignlft {
   text-align: left;
 }
 
-.boehringer .profile-name {
+.beiersdorf .profile-name {
   font-size: 18px !important;
   font-weight: bold;
   color: var(--primary-clr);
@@ -5928,75 +5681,75 @@ button {
   margin-left: 8px;
 }
 
-.boehringer .cx-quantityouter {
+.beiersdorf .cx-quantityouter {
   width: 17.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.boehringer .cx-quantity {
+.beiersdorf .cx-quantity {
   text-align: right;
   font-weight: bold;
 }
 
-.boehringer .ab-address__inner {
+.beiersdorf .ab-address__inner {
   width: 100%;
 }
 
-.boehringer .ab-address__img-sec {
+.beiersdorf .ab-address__img-sec {
   width: 30%;
 }
 
-.boehringer .ab-address__contents-sec {
+.beiersdorf .ab-address__contents-sec {
   width: 70%;
 }
 
-.boehringer .list-show .hover .product-name {
+.beiersdorf .list-show .hover .product-name {
   margin-bottom: 8px;
   font-weight: 600;
   height: auto;
 }
 
-.boehringer .pricing li:first-child {
+.beiersdorf .pricing li:first-child {
   padding-right: 0;
 }
 
-.boehringer .cx-cnquantity {
+.beiersdorf .cx-cnquantity {
   width: 50px;
 }
 
-.boehringer .cx-pdtqtybtn {
+.beiersdorf .cx-pdtqtybtn {
   width: auto;
   margin: 0px 8px;
 }
 
-.boehringer .cx-etaddrs {
+.beiersdorf .cx-etaddrs {
   padding: 0;
   min-height: 90vh;
 }
 
-.boehringer .cx-popscroll {
+.beiersdorf .cx-popscroll {
   overflow-y: scroll;
   height: 58vh;
 }
 
-.boehringer .cx-ofauto {
+.beiersdorf .cx-ofauto {
   overflow: auto;
 }
 
-.boehringer .sec-menu {
+.beiersdorf .sec-menu {
   border: 0;
 }
 
-.boehringer .sec-menu .btn-secondary {
+.beiersdorf .sec-menu .btn-secondary {
   font-size: 14px;
   font-weight: 400 !important;
   text-transform: unset;
   color: #fff !important;
 }
 
-.boehringer .cx-searchbar {
+.beiersdorf .cx-searchbar {
   font-size: 11px !important;
   border-radius: 20px !important;
   padding: 6px 20px;
@@ -6004,20 +5757,20 @@ button {
   background-color: var(--primary-clr) !important;
 }
 
-.boehringer .search .btn {
+.beiersdorf .search .btn {
   border-radius: 50% !important;
   padding: 6px 12px;
 }
 
-.boehringer .sec-menu .btn-secondary:hover::before {
+.beiersdorf .sec-menu .btn-secondary:hover::before {
   background-color: var(--secondary-clr);
 }
 
-.boehringer .search .form-control {
+.beiersdorf .search .form-control {
   color: #fff;
 }
 
-.boehringer .lang {
+.beiersdorf .lang {
   width: 36%;
   display: flex;
   flex-direction: row-reverse;
@@ -6025,51 +5778,51 @@ button {
   margin-bottom: 20px;
 }
 
-.boehringer .navbar-expand-lg .navbar-collapse {
+.beiersdorf .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
 
-.boehringer .lang p {
+.beiersdorf .lang p {
   margin-right: 30px;
 }
 
 @media (max-width: 767px) {
-  .boehringer .tele select {
+  .beiersdorf .tele select {
     width: 44%;
   }
-  .boehringer .tele .text-box {
+  .beiersdorf .tele .text-box {
     width: 55%;
   }
-  .boehringer .address {
+  .beiersdorf .address {
     width: 100%;
   }
-  .boehringer .add-box {
+  .beiersdorf .add-box {
     padding: 16px;
   }
-  .boehringer .lang {
+  .beiersdorf .lang {
     margin-bottom: 10px;
   }
 }
-.boehringer .cx-ordrsum {
+.beiersdorf .cx-ordrsum {
   background-color: unset !important;
 }
 
-.boehringer .cx-ordrsum .cx-ordrsum__head {
+.beiersdorf .cx-ordrsum .cx-ordrsum__head {
   text-align: left;
   color: var(--primary-clr);
   margin-top: 20px;
 }
 
-.boehringer .cx-ordrsum .cx-ordrsum__paddngb {
+.beiersdorf .cx-ordrsum .cx-ordrsum__paddngb {
   padding-bottom: 10px;
 }
 
-.boehringer .cx-ordrsum .cx-ordrsum__btn {
+.beiersdorf .cx-ordrsum .cx-ordrsum__btn {
   width: 100%;
 }
 
 @media (max-width: 767px) {
-  .boehringer .cx-ordrsum .cx-ordrsum__head {
+  .beiersdorf .cx-ordrsum .cx-ordrsum__head {
     font-size: 15px;
   }
 }
@@ -7229,40 +6982,40 @@ button {
   width: 100%;
 }
 
-.boehringer .bo-bannernew {
+.beiersdorf .bo-bannernew {
   position: relative;
 }
-.boehringer .bo-bannernew__desk {
+.beiersdorf .bo-bannernew__desk {
   display: block;
 }
-.boehringer .bo-bannernew__desk img {
+.beiersdorf .bo-bannernew__desk img {
   width: 100%;
   height: auto;
   display: block;
 }
-.boehringer .bo-bannernew__tab {
+.beiersdorf .bo-bannernew__tab {
   display: none;
 }
-.boehringer .bo-bannernew__tab img {
+.beiersdorf .bo-bannernew__tab img {
   width: 100%;
   height: auto;
   display: block;
 }
-.boehringer .bo-bannernew__mob {
+.beiersdorf .bo-bannernew__mob {
   display: none;
 }
-.boehringer .bo-bannernew__mob img {
+.beiersdorf .bo-bannernew__mob img {
   width: 100%;
   height: auto;
   display: block;
 }
-.boehringer .bo-bannernew__dot-out {
+.beiersdorf .bo-bannernew__dot-out {
   position: absolute;
   bottom: 15%;
   right: 3%;
   display: flex;
 }
-.boehringer .bo-bannernew__dot {
+.beiersdorf .bo-bannernew__dot {
   width: 20px;
   height: 20px;
   border: 2px solid #fff;
@@ -7272,16 +7025,16 @@ button {
   z-index: 1;
   position: relative;
 }
-.boehringer .bo-bannernew__dot.active {
+.beiersdorf .bo-bannernew__dot.active {
   background-color: var(--secondary-clr);
 }
-.boehringer .bo-bannernew .slick-dots {
+.beiersdorf .bo-bannernew .slick-dots {
   display: flex;
   justify-content: flex-end;
   bottom: 12%;
   right: 6%;
 }
-.boehringer .bo-bannernew .slick-dots li button {
+.beiersdorf .bo-bannernew .slick-dots li button {
   border: 2px solid #fff;
   content: "";
   opacity: 1;
@@ -7289,28 +7042,28 @@ button {
   width: 16px;
   height: 16px;
 }
-.boehringer .bo-bannernew .slick-dots li button:before {
+.beiersdorf .bo-bannernew .slick-dots li button:before {
   content: "";
 }
-.boehringer .bo-bannernew .slick-dots li {
+.beiersdorf .bo-bannernew .slick-dots li {
   margin: 0 2px;
 }
-.boehringer .bo-bannernew .slick-active button {
+.beiersdorf .bo-bannernew .slick-active button {
   background-color: var(--secondary-clr);
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .bo-bannernew__tab {
+  .beiersdorf .bo-bannernew__tab {
     display: block;
   }
-  .boehringer .bo-bannernew__mob {
+  .beiersdorf .bo-bannernew__mob {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .boehringer .bo-bannernew__tab {
+  .beiersdorf .bo-bannernew__tab {
     display: none;
   }
-  .boehringer .bo-bannernew__mob {
+  .beiersdorf .bo-bannernew__mob {
     display: block;
   }
 }
@@ -7805,7 +7558,7 @@ button {
   margin-top: 30px;
 }
 
-.boehringer .main-heading span {
+.beiersdorf .main-heading span {
   color: var(--primary-clr);
 }
 
@@ -8532,28 +8285,28 @@ button {
     line-height: 160px;
   }
 }
-.boehringer .bi-wicon {
+.beiersdorf .bi-wicon {
   cursor: pointer;
 }
-.boehringer .bi-wicon #whishicon, .boehringer .bi-wicon #whishicon-red {
+.beiersdorf .bi-wicon #whishicon, .beiersdorf .bi-wicon #whishicon-red {
   width: 24px;
   height: 21px;
 }
-.boehringer .bi-wicon #whishicon-red {
+.beiersdorf .bi-wicon #whishicon-red {
   display: none;
 }
-.boehringer .bi-wicon.active #whishicon {
+.beiersdorf .bi-wicon.active #whishicon {
   display: none;
 }
-.boehringer .bi-wicon.active #whishicon-red {
+.beiersdorf .bi-wicon.active #whishicon-red {
   display: block;
 }
-.boehringer .bi-plpnprdct {
+.beiersdorf .bi-plpnprdct {
   text-align: center;
   color: $color-grey;
   margin-bottom: 4.5rem;
 }
-.boehringer .plp-price p {
+.beiersdorf .plp-price p {
   width: 30px;
   text-align: center;
 }
@@ -8893,10 +8646,10 @@ button {
 /* Tablet-pro */
 /* ********************************** */
 @media (min-width: 1024px) and (max-width: 1199px) {
-  .boehringer .my-lg-8 a {
+  .beiersdorf .my-lg-8 a {
     right: 6px;
   }
-  .boehringer .search .form-inline {
+  .beiersdorf .search .form-inline {
     margin-left: 26%;
   }
 }
@@ -8904,7 +8657,7 @@ button {
 /* Tablet */
 /* ********************************** */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .headerspacer {
+  .beiersdorf .headerspacer {
     height: 200px;
   }
 }
@@ -9182,7 +8935,7 @@ button {
   color: var(--primary-clr);
   margin-bottom: 30px;
 }
-.boehringer .bi-piegap {
+.beiersdorf .bi-piegap {
   margin-right: 32px;
 }
 .bi-oicat__imgwrap {
@@ -10007,7 +9760,7 @@ button {
     text-align: left;
   }
 }
-.boehringer .fiter-head {
+.beiersdorf .fiter-head {
   font-family: 'Avenir Next LT Pro';
   font-weight: 600;
   color: var(--primary-clr);
@@ -10015,15 +9768,15 @@ button {
   margin: 12px 0px;
   text-transform: unset;
 }
-.boehringer .product-details-page h3 {
+.beiersdorf .product-details-page h3 {
   color: var(--primary-clr);
   margin-top: 15px;
   font-size: 20px;
 }
-.boehringer .bi-pdtspecwrap {
+.beiersdorf .bi-pdtspecwrap {
   margin: 20px 0;
 }
-.boehringer .bi-pdtspec {
+.beiersdorf .bi-pdtspec {
   border: 2px solid var(--primary-clr);
   color: var(--primary-clr);
   font-size: 11px;
@@ -10033,107 +9786,107 @@ button {
   text-transform: uppercase;
   font-weight: bold;
 }
-// .boehringer .ListingCol {
+// .beiersdorf .ListingCol {
 //   max-width: 33.33% !important;
 // }
 
-// .boehringer .container.bi-bgclr {
+// .beiersdorf .container.bi-bgclr {
 //   background-color: #F6F5F3 !important;
 // }
-.boehringer .book-name-and-buy ul li {
+.beiersdorf .book-name-and-buy ul li {
   font-family: 'Avenir Next LT Pro' !important;
   font-weight: 600;
 }
-.boehringer .list-show .product-box {
+.beiersdorf .list-show .product-box {
   border: 1px solid #F6F5F3;
   width: 90% !important;
 }
-.boehringer .list-show .product-box:hover .list-show .hover .product-name {
+.beiersdorf .list-show .product-box:hover .list-show .hover .product-name {
   color: #1155CC;
 }
-.boehringer .bi-odrouter {
+.beiersdorf .bi-odrouter {
   min-height: 90vh;
 }
-// .boehringer .bi-odrouter .inner-marging {
+// .beiersdorf .bi-odrouter .inner-marging {
 //   background-color: #f6f5f3 !important;
 // }
-.boehringer .bi-odrouter span {
+.beiersdorf .bi-odrouter span {
   color: $color-grey;
   font-size: 14px;
   font-weight: 700;
 }
-.boehringer .bi-odrouter select {
+.beiersdorf .bi-odrouter select {
   border: 1px solid #aaa;
   border-radius: 3px;
   padding: 2px;
   background-color: transparent;
 }
-.boehringer .bi-odrtitle {
+.beiersdorf .bi-odrtitle {
   font-family: 'Avenir Next LT Pro';
   font-size: 35px;
   font-weight: 600;
   color: var(--primary-clr);
   margin: 20px 0;
 }
-.boehringer .bi-footer__arr p {
+.beiersdorf .bi-footer__arr p {
   font-size: 12px;
 }
-.boehringer .plp-price p {
+.beiersdorf .plp-price p {
   font-family: 'Avenir Next LT Pro';
   font-size: 13px;
   color: var(--primary-clr);
 }
-.boehringer .pricing {
+.beiersdorf .pricing {
   font-size: 14px;
 }
-.boehringer .cx-upnot {
+.beiersdorf .cx-upnot {
   display: inline-block;
   font-size: 16px;
   color: #DC1F34;
   width: 50%;
 }
-.boehringer .cx-copdt__outer {
+.beiersdorf .cx-copdt__outer {
   scrollbar-color: var(--primary-clr) #e4e7e7;
 }
-.boehringer .boldblu span:nth-child(2) {
+.beiersdorf .boldblu span:nth-child(2) {
   margin-left: -3px;
 }
 
-.boehringer {
+.beiersdorf {
   /* Optional: Adds smooth scrolling */
   /* bottle home section */
 }
-// .boehringer .bi-plp {
+// .beiersdorf .bi-plp {
 //   background: #f6f5f3;
 // }
-.boehringer .list-show .product-box .product {
+.beiersdorf .list-show .product-box .product {
   border-bottom: 0px;
   background-color: transparent;
 }
-.boehringer .bi-wicon {
+.beiersdorf .bi-wicon {
   width: 24px;
   position: absolute;
   right: 7px;
   top: 4px;
 }
-.boehringer .bi-wicon img {
+.beiersdorf .bi-wicon img {
   position: absolute;
   right: 4px;
   top: 4px;
   width: 100%;
 }
-.boehringer .bh-prodcut .nav-pills {
+.beiersdorf .bh-prodcut .nav-pills {
   text-align: left;
 }
-.boehringer .sec-menu {
+.beiersdorf .sec-menu {
   width: 100% !important;
 }
-.boehringer .sec-menu ul {
+.beiersdorf .sec-menu ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.boehringer .bi-dot {
+.beiersdorf .bi-dot {
   position: absolute;
   border-radius: 50%;
   width: 20px;
@@ -10142,10 +9895,10 @@ button {
   right: 12%;
   bottom: 12%;
 }
-.boehringer .bi-dot.active {
+.beiersdorf .bi-dot.active {
   background: var(--secondary-clr);
 }
-.boehringer .bi-dot2 {
+.beiersdorf .bi-dot2 {
   position: absolute;
   border-radius: 50%;
   width: 20px;
@@ -10154,22 +9907,22 @@ button {
   right: 14%;
   bottom: 12%;
 }
-.boehringer .bi-dot2.active {
+.beiersdorf .bi-dot2.active {
   background: var(--secondary-clr);
 }
-.boehringer .user-items button {
+.beiersdorf .user-items button {
   width: auto !important;
 }
-.boehringer .bh-button {
+.beiersdorf .bh-button {
   border: 1px solid var(--secondary-clr);
   border-radius: 6px;
   padding: 6px;
   font-size: 16px;
 }
-.boehringer .bh-hero__text {
+.beiersdorf .bh-hero__text {
   padding-bottom: 54px;
 }
-.boehringer .bh-heading2 {
+.beiersdorf .bh-heading2 {
   width: 100%;
   font-size: 48px;
   padding-bottom: 8px;
@@ -10177,29 +9930,29 @@ button {
   color: var(--primary-clr);
   font-weight: 600;
 }
-.boehringer .bi-ibc__para {
+.beiersdorf .bi-ibc__para {
   font-size: 16px;
   width: 85%;
   font-weight: normal;
   font-family: 'Avenir Next LT Pro';
 }
-.boehringer .bi-ibc {
+.beiersdorf .bi-ibc {
   padding: 110px 0 40px;
   background: #F6F5F3;
 }
-.boehringer .cx-btn-prfl {
+.beiersdorf .cx-btn-prfl {
   padding: 22px 0 0 15px !important;
 }
-.boehringer .bh-prodcut__left {
+.beiersdorf .bh-prodcut__left {
   width: 38%;
 }
-.boehringer .bh-prodcut__cnt {
+.beiersdorf .bh-prodcut__cnt {
   font-size: 17px;
 }
-.boehringer .bh-new__slide {
+.beiersdorf .bh-new__slide {
   margin: 0;
 }
-.boehringer .bh-new .bh-heading {
+.beiersdorf .bh-new .bh-heading {
   font-family: 'Avenir Next LT Pro';
   font-size: 52px;
   line-height: 72px;
@@ -10208,54 +9961,54 @@ button {
   padding: 8px 60px 60px;
   text-transform: unset;
 }
-.boehringer .bi-plp .bread-crumb {
+.beiersdorf .bi-plp .bread-crumb {
   margin-left: 15px;
 }
-.boehringer .list-show .hover .product-name {
+.beiersdorf .list-show .hover .product-name {
   font-family: 'Avenir Next LT Pro';
   font-size: 14px;
   color: var(--primary-clr);
   letter-spacing: 0.7px;
 }
-.boehringer .list-show .hover .product-name:hover {
+.beiersdorf .list-show .hover .product-name:hover {
   color: #1155CC;
 }
-.boehringer .ab-tile__desc {
+.beiersdorf .ab-tile__desc {
   font-family: 'Avenir Next LT Pro';
 }
-.boehringer .filter-check-box td {
+.beiersdorf .filter-check-box td {
   padding-bottom: 4px;
 }
 
-.boehringer .dataView.product-box a:hover {
+.beiersdorf .dataView.product-box a:hover {
   color: #1155CC !important;
 }
-.boehringer .cx-clr-ctn {
+.beiersdorf .cx-clr-ctn {
   width: auto;
   border: 2px solid var(--secondary-clr);
   background-color: var(--secondary-clr);
   padding: 5px 20px;
   color: #FFFFFF;
 }
-.boehringer .cx-clr-ctn:hover {
+.beiersdorf .cx-clr-ctn:hover {
   color: var(--secondary-clr) !important;
 }
-.boehringer .left-box h3 {
+.beiersdorf .left-box h3 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.boehringer .cx-sortby {
+.beiersdorf .cx-sortby {
   color: #000000;
   text-transform: none;
   font-weight: 400;
   font-size: 18px;
 }
-.boehringer .inner-marging {
+.beiersdorf .inner-marging {
   padding: 40px 0;
   min-height: 75vh;
 }
-.boehringer .btn-wishlists {
+.beiersdorf .btn-wishlists {
   border-radius: 6px !important;
   background-color: var(--primary-clr) !important;
   border: 1px solid var(--primary-clr) !important;
@@ -10266,11 +10019,11 @@ button {
   font-weight: 400;
   margin-right: 30px;
 }
-.boehringer .btn-wishlists:hover {
+.beiersdorf .btn-wishlists:hover {
   color: var(--primary-clr) !important;
   background-color: transparent !important;
 }
-.boehringer .mobile-price .btn-red.hvr-fade {
+.beiersdorf .mobile-price .btn-red.hvr-fade {
   background-color: var(--primary-clr) !important;
   border: 2px solid var(--primary-clr) !important;
   color: #fff !important;
@@ -10281,38 +10034,38 @@ button {
   width: 100%;
   font-weight: 400 !important;
 }
-.boehringer .mobile-price .btn-red.hvr-fade:hover {
+.beiersdorf .mobile-price .btn-red.hvr-fade:hover {
   color: #fff !important;
   border: 2px solid var(--darkblue-clr) !important;
   background-color: var(--darkblue-clr) !important;
 }
-.boehringer .bi-pdpbtn {
+.beiersdorf .bi-pdpbtn {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-top: 24px;
 }
-.boehringer .cx-pp__copy h4 {
+.beiersdorf .cx-pp__copy h4 {
   font-size: 20px;
   font-weight: bold;
   color: #2a2b2c;
 }
-.boehringer .bi-glb {
+.beiersdorf .bi-glb {
   padding-right: 18px;
   padding-top: 10px;
 }
-.boehringer .bi-tree {
+.beiersdorf .bi-tree {
   margin-left: -18px;
 }
-.boehringer .account-search .dropdown .dropdown-menu {
+.beiersdorf .account-search .dropdown .dropdown-menu {
   top: 52px;
   left: -28px !important;
   right: 0 !important;
   text-align: center;
   padding: 20px 0;
 }
-.boehringer .account-search .dropdown .dropdown-menu::after {
+.beiersdorf .account-search .dropdown .dropdown-menu::after {
   content: "";
   position: absolute;
   top: -8px;
@@ -10320,111 +10073,111 @@ button {
   width: 0;
   height: 0;
 }
-.boehringer .dropdown-menu {
+.beiersdorf .dropdown-menu {
   margin: 0;
 }
-.boehringer .bi-rmb-left {
+.beiersdorf .bi-rmb-left {
   color: #000000;
   font-size: 18px;
 }
-.boehringer .bi-rmb {
+.beiersdorf .bi-rmb {
   font-weight: bold;
 }
-.boehringer .bi-rmb b {
+.beiersdorf .bi-rmb b {
   color: var(--primary-clr);
   display: inline-block;
   transform: translateX(4px);
 }
-.boehringer .bi-rmb span {
+.beiersdorf .bi-rmb span {
   font-size: 20px;
 }
-.boehringer .ab-details {
+.beiersdorf .ab-details {
   border: 2px solid #ccc;
   margin: 26px 0 2px 0;
 }
-.boehringer .ab-details td {
+.beiersdorf .ab-details td {
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 6px 20px;
 }
-.boehringer .ab-details__head {
+.beiersdorf .ab-details__head {
   color: var(--primary-clr);
   font-weight: 400;
 }
-.boehringer .bi-pdplft {
+.beiersdorf .bi-pdplft {
   background: #fff;
   border-radius: 8px;
 }
-.boehringer .cx-qd {
+.beiersdorf .cx-qd {
   color: var(--primary-clr);
   font-weight: bold;
   margin-bottom: 16px;
   font-size: 20px;
 }
-.boehringer .bi-txtarea {
+.beiersdorf .bi-txtarea {
   color: var(--primary-clr);
   font-size: 12px;
   font-weight: bold;
 }
-.boehringer .cx-tbout {
+.beiersdorf .cx-tbout {
   justify-content: flex-start;
   min-width: 207px;
   overflow-x: scroll;
 }
-.boehringer .bi-tbl__scroll::-webkit-scrollbar {
+.beiersdorf .bi-tbl__scroll::-webkit-scrollbar {
   margin-top: 20px;
   height: 6px;
 }
-.boehringer .bi-tbl__scroll::-webkit-scrollbar-thumb {
+.beiersdorf .bi-tbl__scroll::-webkit-scrollbar-thumb {
   background-color: var(--primary-clr);
   /* Color of the scrollbar thumb */
   border-radius: 10px;
 }
-.boehringer .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
+.beiersdorf .bi-tbl__scroll::-webkit-scrollbar-thumb:hover {
   background-color: var(--darkblue-clr);
 }
-.boehringer .bi-tbl__scroll::-webkit-scrollbar-track {
+.beiersdorf .bi-tbl__scroll::-webkit-scrollbar-track {
   background-color: var(--secondary-clr);
   /* Background of the scrollbar track */
   border-radius: 10px;
 }
-.boehringer .bi-tbl__scroll {
+.beiersdorf .bi-tbl__scroll {
   scroll-behavior: smooth;
   cursor: pointer;
 }
-.boehringer .product-details-page h2 {
+.beiersdorf .product-details-page h2 {
   text-transform: uppercase;
 }
-.boehringer .bi-pdphead {
+.beiersdorf .bi-pdphead {
   display: flex;
   align-items: center;
 }
-.boehringer .bi-pdphead h2 {
+.beiersdorf .bi-pdphead h2 {
   font-size: 28px;
 }
-.boehringer .bi-img {
+.beiersdorf .bi-img {
   margin-left: 16px;
 }
-.boehringer .bi-img a {
+.beiersdorf .bi-img a {
   width: 26px;
   height: 26px;
   display: block;
 }
-.boehringer .bi-img a img {
+.beiersdorf .bi-img a img {
   width: 100%;
 }
-.boehringer .bi-to {
+.beiersdorf .bi-to {
   display: flex;
   color: #000000;
 }
-.boehringer .bi-to ul {
+.beiersdorf .bi-to ul {
   line-height: 30px;
 }
-.boehringer .bi-to ul li {
+.beiersdorf .bi-to ul li {
   padding-left: 20px;
   position: relative;
 }
-.boehringer .bi-to ul li::before {
+.beiersdorf .bi-to ul li::before {
   content: "";
   position: absolute;
   background: #000;
@@ -10435,35 +10188,35 @@ button {
   font-size: 50px;
   top: 11px;
 }
-.boehringer .bi-txt {
+.beiersdorf .bi-txt {
   margin-top: 16px;
 }
-.boehringer .bi-txt textarea {
+.beiersdorf .bi-txt textarea {
   border: 1px solid #54565A;
   border-radius: 6px;
 }
-.boehringer .filter-check-box label {
+.beiersdorf .filter-check-box label {
   color: var(--primary-clr);
   font-weight: normal;
   margin-left: 8px;
   letter-spacing: 0.3px;
 }
-.boehringer .sort select {
+.beiersdorf .sort select {
   color: #000000;
   font-weight: 400;
   border: 1px solid #ccc;
   margin-right: -30px;
   margin-bottom: 12px;
 }
-.boehringer .cx-varient {
+.beiersdorf .cx-varient {
   flex-direction: column;
 }
-.boehringer .cx-varient b::after {
+.beiersdorf .cx-varient b::after {
   right: 17px;
   top: 0;
   content: "";
 }
-.boehringer .cx-varient b {
+.beiersdorf .cx-varient b {
   font-size: 16px;
   color: var(--primary-clr);
   margin-bottom: 14px;
@@ -10471,13 +10224,13 @@ button {
   width: 50%;
   position: relative;
 }
-.boehringer .cx-varient div .varient-btn.active {
+.beiersdorf .cx-varient div .varient-btn.active {
   border-color: var(--secondary-clr);
   position: relative;
   font-weight: 600;
   color: #000000;
 }
-.boehringer .cx-varient div .varient-btn.active::after {
+.beiersdorf .cx-varient div .varient-btn.active::after {
   content: "";
   position: absolute;
   background-image: url("data:image/svg+xml,%3Csvg width='19' height='16' viewBox='0 0 19 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_191_885)'%3E%3Cpath d='M8.94162 8.57143L19.0004 0V12C19.0004 14.2091 17.2096 16 15.0004 16H0L8.94162 8.57143Z' fill='%230032A0'/%3E%3Cpath d='M17.1021 8.63539L17.2198 8.52567L17.1021 8.41594L16.5381 7.89022L16.4358 7.79492L16.3336 7.89017L12.1997 11.7398L10.6659 10.3136L10.5637 10.2185L10.4615 10.3137L9.8975 10.8395L9.77979 10.9492L9.8975 11.0589L12.0975 13.1096L12.1998 13.205L12.3021 13.1096L17.1021 8.63539Z' fill='white' stroke='white' stroke-width='0.3'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_191_885'%3E%3Crect width='19' height='16' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
@@ -10489,12 +10242,12 @@ button {
   right: -1px;
   bottom: 0;
 }
-.boehringer .cx-varient div .varient-btn.disable {
+.beiersdorf .cx-varient div .varient-btn.disable {
   background-color: #E5E5E5;
   color: #828282;
   pointer-events: none;
 }
-.boehringer .btn-calc {
+.beiersdorf .btn-calc {
   border-radius: 6px;
   background-color: var(--primary-clr);
   border: 1px solid var(--primary-clr);
@@ -10503,56 +10256,56 @@ button {
   font-size: 14px;
   width: auto;
 }
-.boehringer .btn-calc:hover {
+.beiersdorf .btn-calc:hover {
   color: var(--primary-clr);
   background-color: transparent;
 }
-.boehringer .bi-product-desc {
+.beiersdorf .bi-product-desc {
   line-height: 22px;
 }
-.boehringer .search .form-inline {
+.beiersdorf .search .form-inline {
   width: 202px;
   text-align: right;
   margin-left: 64%;
 }
-.boehringer .form-control {
+.beiersdorf .form-control {
   height: 34px !important;
   font-size: 14px !important;
 }
-.boehringer .navbar-brand > img:nth-child(2) {
+.beiersdorf .navbar-brand > img:nth-child(2) {
   width: 140px !important;
 }
-.boehringer .cx-searchbar {
+.beiersdorf .cx-searchbar {
   border: 1px solid #fff !important;
 }
-.boehringer .btn-outline-success:hover {
+.beiersdorf .btn-outline-success:hover {
   color: #fff;
   background-color: none;
   border-color: none;
 }
-.boehringer .btn-outline-success:not([disabled]):not(.disabled):active {
+.beiersdorf .btn-outline-success:not([disabled]):not(.disabled):active {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
 }
-.boehringer .my-lg-8 a {
+.beiersdorf .my-lg-8 a {
   top: 16px;
   right: -62px;
 }
-.boehringer .plp-price {
+.beiersdorf .plp-price {
   display: flex;
   justify-content: space-between;
   color: #666666;
   margin-bottom: 6px;
 }
-.boehringer .cx-pf__head {
+.beiersdorf .cx-pf__head {
   display: inline-block;
 }
-.boehringer .cx-pf__head span {
+.beiersdorf .cx-pf__head span {
   font-weight: bold;
   color: var(--primary-clr);
 }
-.boehringer .cx-pf__again {
+.beiersdorf .cx-pf__again {
   cursor: pointer;
   color: #fff;
   display: inline-block;
@@ -10568,12 +10321,12 @@ button {
   margin-right: 32px;
   transition: 0.3s;
 }
-.boehringer .cx-pf__again:hover {
+.beiersdorf .cx-pf__again:hover {
   background-color: var(--darkblue-clr);
   border: 1px solid var(--darkblue-clr);
   color: #fff;
 }
-.boehringer .cx-pf__back {
+.beiersdorf .cx-pf__back {
   cursor: pointer;
   color: var(--primary-clr);
   background-color: var(--secondary-clr);
@@ -10588,60 +10341,60 @@ button {
   font-size: 16px;
   margin-right: 16px;
 }
-.boehringer .cx-pf__back:hover {
+.beiersdorf .cx-pf__back:hover {
   background-color: var(--third-clr) !important;
   border: 1px solid var(--third-clr) !important;
   color: var(--primary-clr);
 }
-.boehringer .cx-pf__back.nwclrbtn {
+.beiersdorf .cx-pf__back.nwclrbtn {
   background-color: var(--secondary-clr);
   color: var(--primary-clr);
   border: 1px solid var(--secondary-clr);
 }
-.boehringer .price-sec {
+.beiersdorf .price-sec {
   margin-top: 10px;
 }
-.boehringer .cx-pf__para {
+.beiersdorf .cx-pf__para {
   color: $color-grey;
 }
-.boehringer .cx-pf__wrap {
+.beiersdorf .cx-pf__wrap {
   margin-top: 24px;
 }
-.boehringer .navbar {
+.beiersdorf .navbar {
   margin-top: 0;
 }
-.boehringer .sec-menu .btn-secondary:hover::before {
+.beiersdorf .sec-menu .btn-secondary:hover::before {
   background-color: transparent;
 }
-.boehringer .sec-menu .btn-secondary:hover {
+.beiersdorf .sec-menu .btn-secondary:hover {
   color: var(--secondary-clr) !important;
 }
-.boehringer .boehringer-wrap {
+.beiersdorf .beiersdorf-wrap {
   max-width: 1300px;
 }
-.boehringer .bi-ibc__section {
+.beiersdorf .bi-ibc__section {
   border-bottom: 1px solid #afafaf;
   padding-bottom: 70px;
 }
-.boehringer .bh-prodcut {
+.beiersdorf .bh-prodcut {
   padding: 14% 0px 7% 0;
   background: #F6F5F3;
   margin: 0;
 }
-.boehringer .slick-dotted.slick-slider {
+.beiersdorf .slick-dotted.slick-slider {
   margin-bottom: 0;
 }
-.boehringer .bh-new {
+.beiersdorf .bh-new {
   background: #F6F5F3;
   padding: 14px 0;
 }
-.boehringer .bi-dntcta {
+.beiersdorf .bi-dntcta {
   margin-left: 20px;
 }
-.boehringer .bh-prodcut__cta {
+.beiersdorf .bh-prodcut__cta {
   display: flex;
 }
-.boehringer .bh-prodcut__cta a {
+.beiersdorf .bh-prodcut__cta a {
   border: 2px solid var(--primary-clr);
   color: var(--primary-clr) !important;
   border-radius: 20px;
@@ -10654,113 +10407,113 @@ button {
   font-family: 'Avenir Next LT Pro';
   letter-spacing: 1px;
 }
-.boehringer .bh-prodcut__cta a:hover {
+.beiersdorf .bh-prodcut__cta a:hover {
   color-scheme: rgba(0, 0, 0, 0);
 }
-.boehringer .b-price {
+.beiersdorf .b-price {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
 }
-.boehringer .b-price p {
+.beiersdorf .b-price p {
   color: #000000;
   font-size: 22px;
   font-weight: normal;
 }
-.boehringer .ri-rmb-left {
+.beiersdorf .ri-rmb-left {
   font-size: 18px;
 }
-.boehringer .b-price b {
+.beiersdorf .b-price b {
   color: var(--primary-clr) !important;
 }
-.boehringer .b-price span {
+.beiersdorf .b-price span {
   font-size: 24px;
   color: var(--primary-clr) !important;
 }
-.boehringer .bi-up {
+.beiersdorf .bi-up {
   font-size: 20px;
 }
-.boehringer .bi-pdp {
+.beiersdorf .bi-pdp {
   display: flex;
   background: #F8F9FA;
 }
-.boehringer .bi-pdp .container.inner-marging {
+.beiersdorf .bi-pdp .container.inner-marging {
   background: #F8F9FA;
 }
-.boehringer .bi-pdp .owl-item img {
+.beiersdorf .bi-pdp .owl-item img {
   width: 265px !important;
   height: 256px !important;
 }
-.boehringer .bi-pdp input {
+.beiersdorf .bi-pdp input {
   font-family: 'Avenir Next LT Pro';
   font-size: 14px;
   text-align: center;
 }
-.boehringer #header .wshlt span.number {
+.beiersdorf #header .wshlt span.number {
   color: #000000;
 }
-.boehringer .cx-cart-icon .number {
+.beiersdorf .cx-cart-icon .number {
   width: 16px !important;
   height: 16px !important;
   transform: translateY(4px) !important;
 }
-.boehringer .bi-qdhd {
+.beiersdorf .bi-qdhd {
   font-size: 14px;
   color: var(--primary-clr);
   font-weight: 600;
 }
-.boehringer .fa-angle-left:before {
+.beiersdorf .fa-angle-left:before {
   content: "\f104";
 }
-.boehringer .fa-angle-right:before {
+.beiersdorf .fa-angle-right:before {
   content: "\f105";
 }
-.boehringer .bi-qntytypop .modal-content {
+.beiersdorf .bi-qntytypop .modal-content {
   width: 100%;
 }
-.boehringer .bi-qntytypop .bi-tbl {
+.beiersdorf .bi-qntytypop .bi-tbl {
   width: 100%;
 }
-.boehringer .cx-shpcartpdt .boldblu {
+.beiersdorf .cx-shpcartpdt .boldblu {
   margin-right: -4px;
 }
-.boehringer .cx-shpcartpdt__quantity input {
+.beiersdorf .cx-shpcartpdt__quantity input {
   color: var(--primary-clr);
   text-align: center;
 }
-.boehringer .bi-sqinput {
+.beiersdorf .bi-sqinput {
   padding: 0 12px;
 }
-.boehringer .bi-cart {
+.beiersdorf .bi-cart {
   display: flex;
   flex-direction: column;
   align-content: space-around;
   justify-content: space-between;
   height: 90%;
 }
-.boehringer .cx-odrsmry__item.total .value {
+.beiersdorf .cx-odrsmry__item.total .value {
   color: var(--primary-clr);
 }
-.boehringer .cx-copdt__link {
+.beiersdorf .cx-copdt__link {
   padding-top: 2px;
 }
-.boehringer .bi-sub {
+.beiersdorf .bi-sub {
   font-size: 16px;
 }
-.boehringer .bi-odrouter select {
+.beiersdorf .bi-odrouter select {
   padding: 2px 20px;
 }
-.boehringer .bi-pophead {
+.beiersdorf .bi-pophead {
   font-size: 21px;
   color: var(--primary-clr);
   text-transform: unset;
   font-weight: 600;
 }
-.boehringer .bi-prdctcs {
+.beiersdorf .bi-prdctcs {
   font-family: 'Avenir Next LT Pro';
 }
-.boehringer .small-font {
+.beiersdorf .small-font {
   font-size: 12px;
 }
 
@@ -10791,30 +10544,30 @@ button {
   top: 50%;
   transform: translateY(-50%);
 }
-.boehringer .owl-item.active {
+.beiersdorf .owl-item.active {
   width: 265px !important;
   height: 265px !important;
 }
 
-.boehringer .menu-bar .cx-btn-prfl {
+.beiersdorf .menu-bar .cx-btn-prfl {
   transform: translateY(-8px);
 }
-.boehringer .bi-footer__links {
+.beiersdorf .bi-footer__links {
   font-size: 14px;
 }
-.boehringer .menu-bar .account-search .dropdown .dropdown-menu {
+.beiersdorf .menu-bar .account-search .dropdown .dropdown-menu {
   top: 46px;
   left: 9px !important;
   right: 0 !important;
 }
-.boehringer .bh-button {
+.beiersdorf .bh-button {
   padding: 6px 10px;
   border: 1px solid var(--secondary-clr);
 }
-.boehringer .sec-menu {
+.beiersdorf .sec-menu {
   width: 78%;
 }
-.boehringer .bi-footer__head {
+.beiersdorf .bi-footer__head {
   color: var(--primary-clr);
   font-family: 'Avenir Next LT Pro';
   font-size: 16px;
@@ -10822,30 +10575,30 @@ button {
   text-transform: unset;
   margin-bottom: 16px !important;
 }
-// .boehringer .container.inner-marging {
+// .beiersdorf .container.inner-marging {
 //   background-color: #F8F9FA;
 // }
-.boehringer .tab-content table {
+.beiersdorf .tab-content table {
   background-color: transparent;
 }
-tr > .boehringer .tab-content table:first-child {
+tr > .beiersdorf .tab-content table:first-child {
   border-bottom: 1px solid #000;
 }
-.boehringer .tab-content table tr {
+.beiersdorf .tab-content table tr {
   height: 40px;
 }
-.boehringer .tab-content table tr:nth-child(odd) {
+.beiersdorf .tab-content table tr:nth-child(odd) {
   background-color: white;
 }
-.boehringer .tab-content table tr:nth-child(even) {
+.beiersdorf .tab-content table tr:nth-child(even) {
   background-color: #F6F5F3;
 }
-.boehringer .tab-content table tr td {
+.beiersdorf .tab-content table tr td {
   background-color: transparent;
   border: 0;
   vertical-align: middle;
 }
-.boehringer .tab-content table tr td:nth-child(even) a {
+.beiersdorf .tab-content table tr td:nth-child(even) a {
   background-color: var(--secondary-clr);
   border-color: var(--secondary-clr);
   color: var(--primary-clr);
@@ -10854,37 +10607,37 @@ tr > .boehringer .tab-content table:first-child {
   border-radius: 5px;
   font-weight: 400;
 }
-.boehringer .bi-plp .ListingCol {
+.beiersdorf .bi-plp .ListingCol {
   display: flex;
   justify-content: flex-end;
 }
-.boehringer .bi-plp .book-name-and-buy {
+.beiersdorf .bi-plp .book-name-and-buy {
   padding: 0px 10px 16px 10px;
 }
-.boehringer .bi-plp .product-name a {
+.beiersdorf .bi-plp .product-name a {
   text-transform: uppercase;
   font-size: 12px;
 }
-.boehringer .cx-tbout {
+.beiersdorf .cx-tbout {
   overflow-x: scroll;
   position: relative;
 }
-.boehringer__scroll-move {
+.beiersdorf__scroll-move {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: red;
 }
-.boehringer .bi-plp .product img {
+.beiersdorf .bi-plp .product img {
   width: 100%;
 }
-.boehringer .bh-prodcut .slick-dots {
+.beiersdorf .bh-prodcut .slick-dots {
   display: flex;
   justify-content: flex-end;
   bottom: -8%;
   right: 6%;
 }
-.boehringer .bh-prodcut .slick-dots li button {
+.beiersdorf .bh-prodcut .slick-dots li button {
   border: 2px solid #fff;
   content: "";
   opacity: 1;
@@ -10892,37 +10645,37 @@ tr > .boehringer .tab-content table:first-child {
   width: 16px;
   height: 16px;
 }
-.boehringer .bh-prodcut .slick-dots li button:before {
+.beiersdorf .bh-prodcut .slick-dots li button:before {
   content: "";
 }
-.boehringer .bh-prodcut .slick-dots li {
+.beiersdorf .bh-prodcut .slick-dots li {
   margin: 0 2px;
 }
-.boehringer .bh-prodcut .slick-active button {
+.beiersdorf .bh-prodcut .slick-active button {
   background-color: var(--secondary-clr);
 }
-.boehringer .search .form-inline {
+.beiersdorf .search .form-inline {
   margin-left: auto;
   position: relative;
   margin-right: 32px;
 }
-.boehringer .my-lg-8 a {
+.beiersdorf .my-lg-8 a {
   right: 5%;
   top: 6px;
   width: 20px;
   height: 20px;
 }
-.boehringer .my-lg-8 a:hover {
+.beiersdorf .my-lg-8 a:hover {
   background-color: transparent;
 }
-.boehringer .my-lg-8 a img {
+.beiersdorf .my-lg-8 a img {
   width: 100%;
   height: 100%;
 }
-.boehringer .lang {
+.beiersdorf .lang {
   width: auto;
 }
-.boehringer .bi-treeicon span.number {
+.beiersdorf .bi-treeicon span.number {
   width: 35px !important;
   height: 16px !important;
   color: $color-grey !important;
@@ -10931,34 +10684,34 @@ tr > .boehringer .tab-content table:first-child {
   font-weight: 600;
   border-radius: 20px !important;
 }
-.boehringer .cx-cart-icon .number {
+.beiersdorf .cx-cart-icon .number {
   font-weight: 600 !important;
   color: $color-grey !important;
 }
-.boehringer #header .navbar {
+.beiersdorf #header .navbar {
   padding-right: 32px;
 }
-.boehringer #header .navbar .dropdown-menu {
+.beiersdorf #header .navbar .dropdown-menu {
   min-width: 120px;
 }
-.boehringer #header .navbar .dropdown-menu .dropdown-item {
+.beiersdorf #header .navbar .dropdown-menu .dropdown-item {
   font-size: 14px;
   padding: 10px !important;
 }
 
 /* Media Queries */
 @media (min-width: 2048px) and (max-width: 6144px) {
-  .boehringer .bi-contact-us {
+  .beiersdorf .bi-contact-us {
     min-height: 80vh;
   }
 }
 @media (max-width: 1397px) {
-  .boehringer .sec-menu ul {
+  .beiersdorf .sec-menu ul {
     justify-content: space-between;
   }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
-  .boehringer .search .form-inline {
+  .beiersdorf .search .form-inline {
     margin-left: auto !important;
     margin-right: 24px;
   }
@@ -10977,18 +10730,18 @@ tr > .boehringer .tab-content table:first-child {
   .bi-radiolbl label {
     padding-right: 20px;
   }
-  .boehringer .ListingCol {
+  .beiersdorf .ListingCol {
     max-width: 33.33% !important;
   }
-  .boehringer .ab-cart {
+  .beiersdorf .ab-cart {
     padding: 0;
   }
-  .boehringer .cx-rmb-left {
+  .beiersdorf .cx-rmb-left {
     font-size: 15px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .boehringer .search .form-inline {
+  .beiersdorf .search .form-inline {
     margin: 0;
   }
   .cx-shpcart .cx-shpcartpdt__wrap,
@@ -11001,10 +10754,10 @@ tr > .boehringer .tab-content table:first-child {
   .bi-shpcarttitle__c {
     width: 20%;
   }
-  .boehringer .inner-marging {
+  .beiersdorf .inner-marging {
     padding: 24px 0;
   }
-  .boehringer .bi-plpnprdct {
+  .beiersdorf .bi-plpnprdct {
     margin-bottom: 10px;
   }
   .bi-buttons {
@@ -11022,12 +10775,12 @@ tr > .boehringer .tab-content table:first-child {
   .bi-radiolbl label {
     padding-right: 16px;
   }
-  .boehringer .ListingCol {
+  .beiersdorf .ListingCol {
     max-width: 33.33% !important;
   }
 }
 @media (max-width: 767px) {
-  .boehringer .bh-heading2 {
+  .beiersdorf .bh-heading2 {
     font-size: 32px;
   }
   .bi-shpcarttitle__a,
@@ -11050,23 +10803,23 @@ tr > .boehringer .tab-content table:first-child {
   .bh-prodcut__left {
     width: 100% !important;
   }
-  .boehringer .cx-btn-prfl {
+  .beiersdorf .cx-btn-prfl {
     padding: 9px 0 0 15px !important;
 }
-  .boehringer .owl-item.active {
+  .beiersdorf .owl-item.active {
     width: 170px !important;
     height: 170px !important;
   }
-  .boehringer .bi-footer {
+  .beiersdorf .bi-footer {
     padding: 32px 0;
   }
-  .boehringer .abt-footer__txt {
+  .beiersdorf .abt-footer__txt {
     padding: 0 10px;
   }
-  .boehringer .bi-plpnprdct {
+  .beiersdorf .bi-plpnprdct {
     margin-bottom: 0;
   }
-  .boehringer .cx-rmb-left {
+  .beiersdorf .cx-rmb-left {
     width: 50%;
   }
   .cx-shpcart {
@@ -11075,7 +10828,7 @@ tr > .boehringer .tab-content table:first-child {
   .bi-newflex {
     flex-direction: column;
   }
-  .boehringer .cx-timer {
+  .beiersdorf .cx-timer {
     top: -11px;
     bottom: -35px;
   }
