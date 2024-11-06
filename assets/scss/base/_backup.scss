@@ -4898,7 +4898,7 @@ button {
 }
 
 .beiersdorf .cx-cart-icon img {
-  width: 23px;
+  width: 24px;
   transform: translateY(-2px);
 }
 
@@ -4924,10 +4924,12 @@ button {
 }
 
 .beiersdorf .sort select {
-  color: #5d5d5d;
-  width: 110px;
+  color: #000000;
+  border: 1px solid #ccc;
+  margin-right: -30px;
+  margin-bottom: 12px;
+  width: auto;
   padding: 5px 8px;
-  border: 1px solid #8C8481;
   font-weight: normal;
   font-size: 16px;
   background-color: #ffffff;
@@ -5846,6 +5848,7 @@ button {
   width: 100%;
   border: 1px solid #cccccc;
   font-size: 1rem;
+  background-color: #fff;
 }
 .bi-input input:focus,
 .bi-input select:focus {
@@ -7589,7 +7592,7 @@ button {
 }
 
 .cx-ordrsumry__item input[type=radio] {
-  accent-color: #12a912;
+  accent-color: var(--primary-clr);
 }
 
 @media (max-width: 767px) {
@@ -9051,6 +9054,9 @@ button {
 .bi-order-summary__w-25 {
   margin-right: 20px;
 }
+.bi-order-summary__w-25 td input {
+  padding: 6px 8px !important;
+}
 .bi-order-summary__wrap {
   margin: 25px 0px;
   display: flex;
@@ -10200,13 +10206,6 @@ button {
   font-weight: normal;
   margin-left: 8px;
   letter-spacing: 0.3px;
-}
-.beiersdorf .sort select {
-  color: #000000;
-  font-weight: 400;
-  border: 1px solid #ccc;
-  margin-right: -30px;
-  margin-bottom: 12px;
 }
 .beiersdorf .cx-varient {
   flex-direction: column;
