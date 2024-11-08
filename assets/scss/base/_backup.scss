@@ -5707,12 +5707,6 @@ button {
   width: 70%;
 }
 
-.beiersdorf .list-show .hover .product-name {
-  margin-bottom: 8px;
-  font-weight: 600;
-  height: auto;
-}
-
 .beiersdorf .pricing li:first-child {
   padding-right: 0;
 }
@@ -5784,11 +5778,10 @@ button {
   justify-content: flex-end;
 }
 
-.beiersdorf .lang p {
-  margin-right: 30px;
-}
-
 @media (max-width: 767px) {
+  .beiersdorf .lang p {
+    margin-right: 30px;
+  }
   .beiersdorf .tele select {
     width: 44%;
   }
@@ -7753,9 +7746,9 @@ button {
 }
 .cx-checkout__head {
   font-family: 'Avenir Next LT Pro';
-  color: #fff;
-  background-color: var(--primary-clr);
-  font-size: 26px;
+  color: var(--primary-clr);
+  background-color: var(--secondary-clr);
+  font-size: 24px;
   font-weight: normal;
   padding: 10px 24px;
   border-top-left-radius: 12px;
@@ -8923,6 +8916,7 @@ button {
 .bi-oicat {
   background-color: #f6f5f3;
   padding: 40px 0px;
+  overflow: hidden;
 }
 .bi-oicat__head {
   font-size: 46px;
@@ -9975,6 +9969,9 @@ button {
   font-size: 14px;
   color: var(--primary-clr);
   letter-spacing: 0.7px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  height: 50px;
 }
 .beiersdorf .list-show .hover .product-name:hover {
   color: #1155CC;
