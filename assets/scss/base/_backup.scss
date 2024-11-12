@@ -10605,7 +10605,7 @@ button {
 }
 
 .beiersdorf .menu-bar .cx-btn-prfl {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
 }
 .beiersdorf .bi-footer__links {
   font-size: 14px;
@@ -10835,6 +10835,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .menu-bar .cx-btn-prfl {
+    transform: translateY(0px);
+  }
   .beiersdorf .inner-marging {
     padding: 40px 16px;
   }
