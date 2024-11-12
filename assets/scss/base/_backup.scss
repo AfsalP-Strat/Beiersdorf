@@ -10835,6 +10835,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .mobile-price .btn-red.hvr-fade {
+    margin-left: 0;
+  }
   .beiersdorf .menu-bar .cx-btn-prfl {
     transform: translateY(0px);
   }
