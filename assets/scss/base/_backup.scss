@@ -87,6 +87,7 @@ video {
   font-size: 100%;
   vertical-align: baseline;
   font-weight: inherit;
+  font-family: 'Avenir Next LT Pro';
 }
 
 article,
@@ -637,7 +638,7 @@ button {
 }
 
 .dxdvControl {
-  font: 16px "Brandon Grotesque";
+  font: 16px 'Avenir Next LT Pro';
 }
 
 .dxgvHeader_Moderno {
@@ -776,7 +777,7 @@ button {
   margin-top: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "Brandon Grotesque";
+  font-family: 'Avenir Next LT Pro';
 }
 
 .ab-address__img-sec {
@@ -1337,6 +1338,7 @@ button {
 @media (max-width: 767px) {
   .ab-navbar {
     padding: 0 !important;
+    margin-top: 20px !important;
   }
 }
 /* iam from CSS Folder*/
@@ -1456,10 +1458,6 @@ button {
 
 .beiersdorf .navbar-brand > img:nth-child(2) {
   width: 160px !important;
-}
-
-.beiersdorf .inner-marging {
-  margin: 0 auto;
 }
 
 .beiersdorf #header .wshlt span.number {
@@ -1983,6 +1981,7 @@ button {
   padding: 6px 6px;
   border-radius: 5px;
   margin-left: 32px;
+  color: #fff !important;
   &:hover {
     color: #fff !important;
     background-color: var(--darkblue-clr) !important;
@@ -2672,6 +2671,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .cx-shpcart .cx-shpcartpdt__details {
+    margin: 5px 16px 10px;
+  }
   .cx-shpcart .cx-shpcarttitle__a {
     width: 30%;
     font-size: 15px;
@@ -3036,14 +3038,16 @@ button {
 }
 @media (max-width: 767px) {
   .abt-shop__wrap {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 24px;
   }
   .abt-shop__txt {
-    font-size: 16px;
+    font-size: 14px;
   }
   .abt-shop__img {
-    width: 55%;
+    width: calc(50% - 16px);
     padding-bottom: 16px;
   }
 }
@@ -3113,6 +3117,9 @@ button {
 }
 
 @media (max-width: 767px) {
+  .cx-pf__cta-outer {
+    text-align: center;
+  }
   .cx-pf__head {
     font-size: 20px;
   }
@@ -3688,7 +3695,7 @@ button {
 }
 @media (max-width: 767px) {
   .cx-shpingcart__head {
-    font-size: 26px;
+    font-size: 32px;
   }
   .cx-shpingcart__outer {
     flex-direction: column;
@@ -3762,12 +3769,12 @@ button {
 }
 .cx-checkout__outer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
 .cx-checkout__left {
-  width: 66%;
+  width: 68%;
   border-radius: 6px;
   height: -moz-fit-content;
   height: fit-content;
@@ -3847,13 +3854,18 @@ button {
   width: 30%;
 }
 
+.cx-checkout__left {
+  margin-top: 50px;
+}
+
 /* mobile */
 @media (max-width: 767px) {
   .cx-checkout__outer {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .cx-checkout__left {
     width: 100%;
+    margin-top: 22px;
     margin-bottom: 20px;
   }
   .cx-checkout__left h2 {
@@ -4863,7 +4875,9 @@ button {
 }
 
 .beiersdorf .inner-marging {
-  min-height: 90vh;
+  padding: 40px 0;
+  min-height: 75vh;
+  margin: 0 auto;
 }
 
 .beiersdorf .cx-rmb {
@@ -5044,7 +5058,6 @@ button {
 }
 
 .beiersdorf .cx-timer {
-  width: 60%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -5281,6 +5294,9 @@ button {
 }
 /* mobile */
 @media (max-width: 767px) {
+  .beiersdorf .sort select {
+    margin-top: 10px;
+  }
   .beiersdorf .book-name-and-buy {
     padding-right: 0 !important;
   }
@@ -5449,7 +5465,7 @@ button {
 }
 
 .beiersdorf .cx-save--yes {
-  padding: 8px 12px !important;
+  padding: 5px 12px !important;
   width: auto !important;
 }
 
@@ -6250,9 +6266,10 @@ button {
 }
 .bi-rp__content p {
   font-size: 14px;
-  text-align: left;
-  padding-left: 24px;
-  color: #000000;
+  text-align: center;
+  padding: 0 24px;
+  font-weight: bold;
+  color: var(--primary-clr);
   font-family: 'Avenir Next LT Pro';
 }
 .bi-rp .rp-head {
@@ -6260,12 +6277,11 @@ button {
   color: var(--primary-clr) !important;
   font-family: 'Avenir Next LT Pro';
   text-transform: uppercase;
-  text-align: left;
-  padding-left: 24px;
+  text-align: center;
+  padding: 0 24px;
 }
 
 .bi-si-tile {
-  background-color: #f6f5f3;
   padding: 24px 54px;
 }
 .bi-si-tile a {
@@ -7253,6 +7269,13 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .bi-lang-select__btn a {
+    font-size: 20px;
+    width: auto;
+  }
+  .bi-lang-select__wrap {
+    margin-left: 20px;
+  }
   .bi-lang-select__cnt h1 {
     font-size: 40px;
     line-height: 50px;
@@ -7602,7 +7625,7 @@ button {
 }
 .bi-sustainability {
   background-color: #f6f5f3;
-  padding: 32px 0 12% 0;
+  padding: 32px 0 60px 0;
 }
 .bi-sustainability__outer {
   display: flex;
@@ -7682,14 +7705,20 @@ button {
     padding: 24px 0;
   }
   .bi-sustainability h1 {
-    font-size: 35px;
-    line-height: 42px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .bi-sustainability p {
+    text-align: center;
   }
   .bi-sustainability__outer {
     flex-direction: column;
   }
   .bi-sustainability__left, .bi-sustainability__right {
     width: 100%;
+    margin-left: 0;
+    justify-content: center;
   }
   .bi-sustainability__img {
     width: 160px;
@@ -7700,7 +7729,7 @@ button {
   }
   .bi-sustainability__col-one {
     border-right: none;
-    border-bottom: 1px solid #bcbcbc;
+    border-bottom: 0;
     padding: 5px 0;
   }
   .bi-sustainability__col-two {
@@ -7711,6 +7740,7 @@ button {
   }
   .bi-sustainability .bi-si-tile {
     padding: 18px 0;
+    text-align: center;
   }
 }
 .cx-checkout {
@@ -7725,9 +7755,6 @@ button {
 }
 .cx-checkout__formwrap {
   margin-bottom: 36px;
-}
-.cx-checkout__left {
-  margin-top: 50px;
 }
 .cx-checkout__pdtcrt {
   background-color: #fff;
@@ -7793,6 +7820,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  width: 68%;
 }
 .cx-checkout__terms label {
   color: var(--primary-clr);
@@ -7858,6 +7886,13 @@ button {
 }
 
 @media (max-width: 767px) {
+  .cx-checkout__heading {
+    font-size: 32px;
+  }
+  .cx-checkout__condition,
+  .cx-checkout__terms {
+    width: 100%;
+  }
   .cx-checkout__form, .cx-checkout__terms {
     flex-direction: column;
   }
@@ -8002,14 +8037,13 @@ button {
 }
 .bi-order__wrap {
   display: flex;
-  padding: 8px;
   margin: 8px;
   gap: 20px;
   padding: 8px 8px 20px;
 }
 .bi-order__wrap-white {
   display: flex;
-  padding: 8px 8px 20px;
+  padding: 8px;
   background-color: #ffffff;
   gap: 20px;
 }
@@ -8048,7 +8082,7 @@ button {
   line-height: 28px;
   color: $color-grey;
   font-weight: 600;
-  padding: 20px 0 10px;
+  padding: 0px 0 10px;
   text-transform: unset;
 }
 .bi-order .bi-si-tile {
@@ -8069,7 +8103,7 @@ button {
     overflow-x: scroll;
   }
   .bi-order__wrap, .bi-order__wrap-white {
-    min-width: 1240px;
+    min-width: 1130px;
   }
 }
 @media (max-width: 767px) {
@@ -8213,6 +8247,10 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .ab-tile__desc {
+    min-height: 56px;
+    max-height: 56px;
+  }
   .bi-tree.ethos .bi-tree__onehead {
     font-size: 50px;
     line-height: 60px;
@@ -8633,6 +8671,9 @@ button {
 }
 
 @media (max-width: 767px) {
+  .bi-returns img {
+    margin-bottom: 0;
+  }
   .bi-emptycart__tile2 {
     flex-direction: column;
     align-items: flex-start;
@@ -8875,6 +8916,7 @@ button {
 }
 .bi-instreporting__container .bi-btn {
   padding: 7px 30px;
+  margin-left: 0;
 }
 .bi-instreporting__contenthead {
   color: var(--primary-clr);
@@ -8899,15 +8941,18 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .headerspacer {
+    height: 180px;
+  }
   .bi-instreporting__cardswrap {
     flex-direction: column;
   }
   .bi-instreporting__card {
     width: 100%;
-    margin: 0px 0px 20px;
   }
   .bi-instreporting__heada {
-    font-size: 42px;
+    font-size: 36px;
+    padding-bottom: 24px;
   }
   .bi-instreporting__icon {
     width: 35%;
@@ -8946,7 +8991,6 @@ button {
   height: 380px;
 }
 .bi-oicat .bi-order-summary__wrap {
-  justify-content: flex-start;
   gap: 30px;
   margin: 30px 0px;
   justify-content: flex-end;
@@ -8999,10 +9043,14 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .bi-piegap {
+    margin-bottom: 30px;
+  }
   .bi-oicat__head {
-    font-size: 40px;
+    font-size: 36px;
   }
   .bi-oicat__copy {
+    font-size: 16px;
     margin-bottom: 20px;
   }
   .bi-oicat__imgwrap {
@@ -9017,7 +9065,10 @@ button {
   .bi-oicat .bi-order-summary__wrap {
     flex-direction: column;
     padding: 0;
-    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .bi-oicat .bi-order-summary__wrap .bi-btn {
+    margin-left: 0;
   }
   .bi-oicat .bi-order-summary {
     margin-top: 0;
@@ -9363,9 +9414,19 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .bi-order-summary__wrap select {
+    width: 65%;
+    margin-top: 8px;
+  }
+  .bi-order-summary__cnt {
+    overflow: auto;
+  }
   .bi-agency-select__wrap {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .bi-order-summary__wrap .bi-btn {
+    margin-left: 0;
   }
   .bi-agency-select__sign-in {
     width: 100%;
@@ -10007,10 +10068,6 @@ button {
   font-weight: 400;
   font-size: 18px;
 }
-.beiersdorf .inner-marging {
-  padding: 40px 0;
-  min-height: 75vh;
-}
 .beiersdorf .btn-wishlists {
   border-radius: 6px !important;
   background-color: var(--primary-clr) !important;
@@ -10153,13 +10210,14 @@ button {
 }
 .beiersdorf .bi-pdphead {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 .beiersdorf .bi-pdphead h2 {
   font-size: 28px;
 }
 .beiersdorf .bi-img {
   margin-left: 16px;
+  margin-bottom: 4px;
 }
 .beiersdorf .bi-img a {
   width: 26px;
@@ -10445,6 +10503,7 @@ button {
   font-family: 'Avenir Next LT Pro';
   font-size: 14px;
   text-align: center;
+  color: var(--primary-clr);
 }
 .beiersdorf #header .wshlt span.number {
   color: #000000;
@@ -10491,9 +10550,9 @@ button {
 .beiersdorf .cx-odrsmry__item.total .value {
   color: var(--primary-clr);
 }
-.beiersdorf .cx-copdt__link {
-  padding-top: 2px;
-}
+// .beiersdorf .cx-copdt__link {
+//   padding-top: 2px;
+// }
 .beiersdorf .bi-sub {
   font-size: 16px;
 }
@@ -10776,6 +10835,19 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .inner-marging {
+    padding: 40px 16px;
+  }
+  .beiersdorf .cx-pf__again {
+    margin-top: 16px;
+    margin-right: 0;
+  }
+  .beiersdorf .cx-pf__back {
+    margin-right: 0;
+  }
+  .beiersdorf .bi-pdp input {
+    margin-left: 12px;
+  }
   .beiersdorf .bh-heading2 {
     font-size: 32px;
   }
@@ -10814,9 +10886,6 @@ tr > .beiersdorf .tab-content table:first-child {
   }
   .beiersdorf .bi-plpnprdct {
     margin-bottom: 0;
-  }
-  .beiersdorf .cx-rmb-left {
-    width: 50%;
   }
   .cx-shpcart {
     overflow-x: scroll;

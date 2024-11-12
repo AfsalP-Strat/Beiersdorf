@@ -165,9 +165,39 @@
     }
     .mobile-price-wrap table > tbody > tr {
       flex-direction: row;
+      align-items: baseline;
     }
     .mobile-price-wrap table > tbody > tr > td > table {
-      margin-left: 0 !important;
+      margin-left: 4px !important;
+    }
+
+    //plp
+    .list-show .product-box ul:nth-child(odd) {
+      padding-right: 0;
+    }
+    .listing .book-name-and-buy {
+      padding-left: 10px;
+    }
+    .bread-crumb {
+      margin-left: 15px;
+    }
+
+    //order-details
+    .bi-order__right {
+      word-wrap: break-word;
+      font-size: 14px;
+    }
+    .cx-ordrdetails__btn {
+      float: left;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    .bi-order__btn .bi-btn {
+      margin-left: 0;
+      width: 80%;
+    }
+    .bi-order__sub {
+      font-size: 16px;
     }
   }
 }
