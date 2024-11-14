@@ -655,8 +655,8 @@ button {
   color: $color-grey;
   font-weight: 400;
   font-size: 15px;
-  min-height: 40px;
-  max-height: 40px;
+  min-height: 52px;
+  max-height: 52px;
 }
 
 .ab-tile__outer .owl-stage {
@@ -672,6 +672,14 @@ button {
 }
 
 @media (max-width: 767px) {
+  .product-box {
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+  .owl-carousel .owl-item img {
+    border: 1px solid #e1e1e1 !important;
+    top: 0;
+  }
   .ab-tile__outer .book-name-and-buy {
     padding: 16px 8px;
     display: block;
@@ -2922,7 +2930,7 @@ button {
 }
 
 .cx-tb-pop table {
-  font-family: arial, sans-serif;
+  font-family: 'Avenir Next LT Pro';
   border-collapse: collapse;
   width: 100%;
 }
@@ -4534,21 +4542,21 @@ button {
   border-radius: 20px;
   text-transform: uppercase;
   font-size: 0.75em;
-  border: 2px solid #012f5f;
-  background-color: #012f5f;
+  border: 2px solid var(--primary-clr);
+  background-color: var(--primary-clr);
   padding: 5px 6px;
   display: inline-block;
-  font-weight: 700 !important;
+  font-weight: normal !important;
   color: #fff;
   margin-left: 7px;
-  width: 200px;
+  width: 100%;
   text-align: center;
+  transition: all 0.2s 0s ease-in;
 }
 
 .beiersdorf .cx-clr-ctn:hover {
-  background-color: transparent !important;
-  color: #012f5f !important;
-  font-weight: 700 !important;
+  border: 2px solid var(--darkblue-clr);
+  background-color: var(--darkblue-clr) !important;
 }
 
 .beiersdorf .cx-oh-update {
@@ -4662,7 +4670,7 @@ button {
 }
 
 .beiersdorf .top-box h4 {
-  font-family: "Prompt", sans-serif;
+  font-family: 'Avenir Next LT Pro';
   font-size: 19px;
   color: var(--primary-clr);
   font-weight: bold;
@@ -5067,7 +5075,7 @@ button {
   font-size: 16px;
   font-weight: 700;
   color: var(--primary-clr) !important;
-  padding: 6px 4px;
+  padding: 6px 20px;
   margin-bottom: 14px;
   position: absolute;
   top: 0;
@@ -5221,8 +5229,8 @@ button {
 }
 
 .beiersdorf .owl-item .item {
-  width: 265px;
-  height: 265px;
+  width: 100%;
+  height: auto;
 }
 
 .beiersdorf .cx-poptb {
@@ -5465,7 +5473,7 @@ button {
 }
 
 .beiersdorf .cx-save--yes {
-  padding: 5px 12px !important;
+  padding: 5px 16px !important;
   width: auto !important;
 }
 
@@ -5490,7 +5498,7 @@ button {
 }
 
 .beiersdorf .p-box h4 {
-  font-family: "Prompt", sans-serif;
+  font-family: 'Avenir Next LT Pro';
   font-size: 19px;
   color: var(--primary-clr);
   font-weight: bold;
@@ -6203,7 +6211,7 @@ button {
   border: 0;
   outline: 0;
   color: #fff;
-  font-family: "Karla", "Arial", sans-serif;
+  font-family: 'Avenir Next LT Pro';
   font-size: 14px;
   line-height: 1.2em;
   font-weight: 400;
@@ -8616,14 +8624,14 @@ button {
   min-height: 35vh;
 }
 .bi-error h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Avenir Next LT Pro';
   font-size: 19px;
   color: #444;
   border-bottom: 1px solid #D0D0D0;
   padding: 13px 15px 8px 15px;
 }
 .bi-error p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Avenir Next LT Pro';
   font-size: 13px;
   color: #4f5155;
   padding: 16px 15px 14px 15px;
@@ -10047,16 +10055,6 @@ button {
 .beiersdorf .dataView.product-box a:hover {
   color: #1155CC !important;
 }
-.beiersdorf .cx-clr-ctn {
-  width: auto;
-  border: 2px solid var(--secondary-clr);
-  background-color: var(--secondary-clr);
-  padding: 5px 20px;
-  color: #FFFFFF;
-}
-.beiersdorf .cx-clr-ctn:hover {
-  color: var(--secondary-clr) !important;
-}
 .beiersdorf .left-box h3 {
   display: flex;
   justify-content: flex-start;
@@ -10496,8 +10494,8 @@ button {
   background: #F8F9FA;
 }
 .beiersdorf .bi-pdp .owl-item img {
-  width: 265px !important;
-  height: 256px !important;
+  width: 100% !important;
+  height: auto !important;
 }
 .beiersdorf .bi-pdp input {
   font-family: 'Avenir Next LT Pro';
