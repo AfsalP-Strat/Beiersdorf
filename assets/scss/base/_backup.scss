@@ -5908,14 +5908,17 @@ button {
   text-align: center;
 }
 .bi-btn--reverse {
-  color: var(--primary-clr);
-  background-color: var(--third-clr);
-  border-color: var(--third-clr);
-  border-radius: 2px;
+  padding: 6px 25px;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid var(--primary-clr) !important;
+  background-color: var(--primary-clr);
+  margin-right: 16px;
 }
 .bi-btn--reverse:hover {
-  background-color: var(--secondary-clr) !important;
-  border-color: var(--secondary-clr) !important;
+  color: #fff !important;
+  background-color: var(--darkblue-clr) !important;
+  border: 1px solid var(--darkblue-clr) !important;
 }
 .bi-btn a {
   color: #fff;
@@ -9001,12 +9004,19 @@ button {
 .bi-oicat .bi-order-summary__wrap {
   gap: 30px;
   margin: 30px 0px;
-  justify-content: flex-end;
   align-items: center;
+}
+.bi-oicat .bi-order-summary__wrap .bi-btn {
+  margin-bottom: 0;
 }
 .bi-oicat .bi-order-summary__w-25 {
   display: flex;
+  align-items: center;
 }
+.bd-dateouter {
+  display: flex;
+}
+
 .bi-oicat .bi-input {
   display: flex;
   width: calc(33.3% - 12px);
