@@ -48,6 +48,12 @@
       border: 1px solid var(--darkblue-clr);
     }
   }
+  /* Firefox-specific styles */
+  @-moz-document url-prefix() {
+    select option {
+      font-family: Arial, sans-serif;
+    }
+  }
   @include tablet-pro {
     .owl-carousel .owl-stage {
       display: flex;
