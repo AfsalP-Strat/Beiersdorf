@@ -48,7 +48,7 @@
       border: 1px solid var(--darkblue-clr);
     }
   }
-  /* Firefox-specific styles */
+  /* Firefox-specific style */
   @-moz-document url-prefix() {
     select option {
       font-family: Arial, sans-serif;
@@ -195,12 +195,12 @@
     }
     .cx-ordrdetails__btn {
       float: left;
-      width: 80%;
+      width: 90%;
       margin-bottom: 20px;
     }
     .bi-order__btn .bi-btn {
       margin-left: 0;
-      width: 80%;
+      width: 90%;
     }
     .bi-order__sub {
       font-size: 16px;
