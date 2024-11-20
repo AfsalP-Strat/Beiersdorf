@@ -6,12 +6,24 @@
   <title>Document</title>
   <style>
     select {
-  width: 180px; /* Adjust the width as needed */
-  text-overflow: ellipsis;
-}
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none;
 
-select option {
-  white-space: nowrap;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 220px;
+  text-overflow: ellipsis;
+
+  /* Custom dropdown arrow */
+  background-image: url(../assets/images/dwnarrow.png);
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  option {
+    white-space: nowrap;
+  }
 }
   </style>
 </head>
