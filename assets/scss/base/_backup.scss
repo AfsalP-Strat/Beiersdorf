@@ -5438,9 +5438,9 @@ button {
   font-size: 14px;
   text-align: center;
   background-color: var(--secondary-clr) !important;
-  border: 2px solid var(--secondary-clr) !important;
+  border: 1px solid var(--secondary-clr) !important;
   color: #000;
-  padding: 8px 12px;
+  padding: 5px 12px;
   border-radius: 6px;
   width: auto;
   text-transform: unset;
@@ -5456,15 +5456,15 @@ button {
 .beiersdorf .cx-cancel:hover {
   color: #000000 !important;
   background-color: var(--third-clr) !important;
-  border: 2px solid var(--third-clr) !important;
+  border: 1px solid var(--third-clr) !important;
 }
 
 .beiersdorf .cx-save {
   font-size: 14px;
   background-color: var(--primary-clr) !important;
-  border: 2px solid var(--primary-clr) !important;
+  border: 1px solid var(--primary-clr) !important;
   color: #fff;
-  padding: 8px 10px;
+  padding: 5px 10px;
   text-transform: unset;
   text-align: center;
   border-radius: 6px;
@@ -5478,7 +5478,7 @@ button {
 }
 
 .beiersdorf .cx-save:hover {
-  border: 2px solid var(--darkblue-clr) !important;
+  border: 1px solid var(--darkblue-clr) !important;
   background-color: var(--darkblue-clr) !important;
 }
 
@@ -8352,7 +8352,7 @@ button {
   margin-bottom: 4.5rem;
 }
 .beiersdorf .plp-price p {
-  width: 30px;
+  width: auto;
   text-align: center;
 }
 
