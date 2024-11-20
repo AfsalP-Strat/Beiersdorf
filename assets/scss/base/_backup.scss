@@ -8971,7 +8971,7 @@ button {
 }
 .bi-oicat {
   background-color: #f6f5f3;
-  padding: 40px 0px;
+  padding: 0px 0px 40px;
   overflow: hidden;
 }
 .bi-oicat__head {
@@ -9061,6 +9061,10 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .bd-dateouter {
+    flex-direction: column;
+    gap: 20px;
+  }
   .beiersdorf .bi-piegap {
     margin-bottom: 30px;
   }
@@ -9105,7 +9109,7 @@ button {
   }
 }
 .bi-order-summary {
-  padding: 32px 0px;
+  padding: 24px 0px;
   background: #F6F5F3;
 }
 .bi-order-summary .bi-heading {
@@ -9207,6 +9211,10 @@ button {
     width: 50%;
     font-size: 14px;
   }
+  .bi-order-summary .bi-btn--reverse {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
   .bi-order-summary .bi-input label {
@@ -9215,8 +9223,8 @@ button {
 }
 @media (max-width: 1023px) {
   .bi-order-summary__wrap {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 20px;
   }
   .bi-order-summary .bi-input input {
@@ -9433,7 +9441,7 @@ button {
 }
 @media (max-width: 767px) {
   .bi-order-summary__wrap select {
-    width: 65%;
+    width: 72%;
     margin-top: 8px;
   }
   .bi-order-summary__cnt {
