@@ -8005,6 +8005,8 @@ button {
 .bi-order__bold {
   font-weight: 700;
   text-align: right;
+  white-space: nowrap;
+  padding-right: 4px;
 }
 .bi-order table {
   padding-bottom: 20px;
@@ -10857,7 +10859,7 @@ tr > .beiersdorf .tab-content table:first-child {
     transform: translateY(0px);
   }
   .beiersdorf .inner-marging {
-    padding: 40px 16px;
+    padding: 10px 16px;
   }
   .beiersdorf .cx-pf__again {
     margin-top: 16px;
