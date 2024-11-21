@@ -128,11 +128,21 @@
   }
   
   @include mobile {
+    //header style
+    .form-inline.my-2.my-lg-8 {
+      margin-top: -42px !important;
+    }
+    .menu-bar .navbar {
+      margin-top: 20px !important;
+    }
+    .bd-profile {
+      margin-left: 10px;
+    }
     // home page style 
     .navbar-expand-lg .navbar-collapse {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 7px;
     }
     .lang {
       width: 100% !important;
@@ -164,7 +174,7 @@
     }
     .menu-icon {
       display: block;
-      top: 50%;
+      top: 74%;
     }
     .sec-menu {
       display: none;

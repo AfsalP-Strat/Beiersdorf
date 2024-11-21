@@ -1464,10 +1464,6 @@ button {
   width: 16%;
 }
 
-.beiersdorf .navbar-brand > img:nth-child(2) {
-  width: 160px !important;
-}
-
 .beiersdorf #header .wshlt span.number {
   background: var(--primary-clr);
   top: -30px;
@@ -8953,7 +8949,7 @@ button {
 }
 @media (max-width: 767px) {
   .beiersdorf .headerspacer {
-    height: 180px;
+    height: 130px;
   }
   .bi-instreporting__cardswrap {
     flex-direction: column;
@@ -10851,6 +10847,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .navbar-brand > img:nth-child(2) {
+    width: 130px !important;
+  }
   .beiersdorf .mobile-price .btn-red.hvr-fade {
     margin-left: 0;
   }
