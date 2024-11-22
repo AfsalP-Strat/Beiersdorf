@@ -5075,6 +5075,8 @@ button {
   margin-bottom: 14px;
   position: absolute;
   top: 0;
+  left: 15%;
+  right: 15%;
   bottom: -47px;
 }
 
@@ -8951,7 +8953,7 @@ button {
 }
 @media (max-width: 767px) {
   .beiersdorf .headerspacer {
-    height: 130px;
+    height: 120px;
   }
   .bi-instreporting__cardswrap {
     flex-direction: column;
@@ -10918,6 +10920,8 @@ tr > .beiersdorf .tab-content table:first-child {
   }
   .beiersdorf .cx-timer {
     top: -11px;
+    left: 6%;
+    right: 6%;
     bottom: -35px;
   }
 }
