@@ -1494,7 +1494,12 @@ button {
 }
 
 .beiersdorf .b-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-transform: capitalize;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .beiersdorf .product-details-page h2 {
@@ -1776,6 +1781,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .b-price {
+    padding-top: 0;
+  }
   .beiersdorf .main-heading {
     font-size: 24px;
   }
@@ -1982,6 +1990,7 @@ button {
 .beiersdorf .btn-grey {
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
+  text-transform: capitalize;
   padding: 6px 6px;
   border-radius: 5px;
   margin-left: 32px;
@@ -2046,6 +2055,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .btn-grey {
+    padding: 5px 6px;
+  }
   .beiersdorf .bh-heading {
     font-size: 28px;
     line-height: 34px;
@@ -3485,6 +3497,10 @@ button {
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
+  .beiersdorf .btn-grey {
+    margin-left: 5px;
+    margin-bottom: 3px !important;
+  }
   .cx-contact__form {
     width: 90%;
   }
@@ -4805,10 +4821,6 @@ button {
 .beiersdorf .cx-prdct-row td {
   color: var(--primary-clr);
   font-weight: normal;
-  text-align: center;
-}
-
-.beiersdorf .b-price {
   text-align: center;
 }
 
@@ -7668,7 +7680,7 @@ button {
   font-weight: 600;
   color: var(--primary-clr);
   padding-bottom: 20px;
-  margin-top: 12%;
+  margin-top: 12px;
   font-family: 'Avenir Next LT Pro';
 }
 .bi-sustainability p {
@@ -10480,12 +10492,7 @@ button {
 .beiersdorf .bh-prodcut__cta a:hover {
   color-scheme: rgba(0, 0, 0, 0);
 }
-.beiersdorf .b-price {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-}
+
 .beiersdorf .b-price p {
   color: #000000;
   font-size: 22px;
@@ -10782,6 +10789,10 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
+  .beiersdorf .cx-timer {
+    left: 8%;
+    right: 8%;
+  }
   .beiersdorf .search .form-inline {
     margin-left: auto !important;
     margin-right: 24px;
