@@ -1452,6 +1452,9 @@ button {
 .menu-bar .profile-name {
   transform: translateY(2px);
 }
+.beiersdorf .navbar-brand {
+  width: 16%;
+}
 
 @media (max-width: 767px) {
   .ab-navbar .ab-nav-icons,
@@ -1459,9 +1462,9 @@ button {
   .ab-navbar .profile-name {
     transform: translateY(0px);
   }
-}
-.beiersdorf .navbar-brand {
-  width: 16%;
+  .beiersdorf .navbar-brand {
+    width: 36%;
+  }
 }
 
 .beiersdorf #header .wshlt span.number {
@@ -1991,7 +1994,7 @@ button {
   background-color: var(--primary-clr);
   border: 2px solid var(--primary-clr);
   text-transform: capitalize;
-  padding: 6px 6px;
+  padding: 6px 12px;
   border-radius: 5px;
   margin-left: 32px;
   color: #fff !important;
@@ -3498,6 +3501,7 @@ button {
 
 @media (min-width: 1024px) and (max-width: 1199px) {
   .beiersdorf .btn-grey {
+    padding: 6px 6px;
     margin-left: 5px;
     margin-bottom: 3px !important;
   }
@@ -10863,7 +10867,7 @@ tr > .beiersdorf .tab-content table:first-child {
 }
 @media (max-width: 767px) {
   .beiersdorf .navbar-brand > img:nth-child(2) {
-    width: 130px !important;
+    width: 100% !important;
   }
   .beiersdorf .mobile-price .btn-red.hvr-fade {
     margin-left: 0;
