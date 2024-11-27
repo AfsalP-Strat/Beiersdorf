@@ -5314,6 +5314,9 @@ button {
   .beiersdorf .margin-lr-cut {
     padding-top: 0px;
   }
+  .cx-checkout__left {
+    margin-top: 20px;
+  }
 }
 /* mobile */
 @media (max-width: 767px) {
@@ -7772,7 +7775,7 @@ button {
 }
 .cx-checkout {
   background-color: #f6f5f3;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 .cx-checkout__heading {
   font-size: 50px;
@@ -7915,6 +7918,9 @@ button {
 }
 
 @media (max-width: 767px) {
+  .cx-checkout {
+    padding: 30px 0;
+  }
   .cx-checkout__heading {
     font-size: 32px;
   }
@@ -8727,6 +8733,12 @@ button {
 @media (min-width: 768px) and (max-width: 1023px) {
   .beiersdorf .headerspacer {
     height: 200px;
+  }
+  .cx-checkout {
+    padding: 30px 0;
+  }
+  .cx-checkout__terms {
+    width: 100%;
   }
 }
 .bi-reporting {

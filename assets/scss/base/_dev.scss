@@ -55,6 +55,22 @@
       font-family: Arial, sans-serif;
     }
   }
+
+  // Styling for safari dropdown-item
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg fill='%23000000' height='800px' width='800px' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 330 330' xml:space='preserve'%3E%3Cpath id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 12px 12px;
+  }
+  .bi-lang-select__cnt select {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' width='62px' height='37px' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg%3E%3Cpath style='opacity:0.909' fill='%23fefffe' d='M 3.5,-0.5 C 4.5,-0.5 5.5,-0.5 6.5,-0.5C 14.453,7.11758 22.453,14.7842 30.5,22.5C 38.547,14.7842 46.547,7.11758 54.5,-0.5C 55.5,-0.5 56.5,-0.5 57.5,-0.5C 58.795,0.488369 60.1283,1.48837 61.5,2.5C 61.5,4.83333 61.5,7.16667 61.5,9.5C 52.1667,18.1667 43.1667,27.1667 34.5,36.5C 31.8333,36.5 29.1667,36.5 26.5,36.5C 17.8333,27.1667 8.83333,18.1667 -0.5,9.5C -0.5,7.16667 -0.5,4.83333 -0.5,2.5C 0.871651,1.48837 2.20498,0.488369 3.5,-0.5 Z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 10px 6px;
+  }
+
   @include tablet-pro {
     .owl-carousel .owl-stage {
       display: flex;
