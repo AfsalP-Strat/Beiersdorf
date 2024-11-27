@@ -2059,7 +2059,7 @@ button {
 }
 @media (max-width: 767px) {
   .beiersdorf .btn-grey {
-    padding: 5px 6px;
+    padding: 6px 6px;
   }
   .beiersdorf .bh-heading {
     font-size: 28px;
@@ -9170,7 +9170,6 @@ button {
 }
 .bi-order-summary__wrap input,
 .bi-order-summary__wrap select {
-  background: #F6F5F3;
   border: 1px solid #8c8481;
   padding: 4px 12px;
   border-radius: 5px;
@@ -10904,6 +10903,7 @@ tr > .beiersdorf .tab-content table:first-child {
     margin-right: 0;
   }
   .beiersdorf .bi-pdp input {
+    margin-top: 0;
     margin-left: 12px;
   }
   .beiersdorf .bh-heading2 {
