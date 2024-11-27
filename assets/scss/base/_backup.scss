@@ -3675,6 +3675,7 @@ button {
   border-radius: 4px;
   padding: 10px 0px;
   margin-top: 26px;
+  transition: 0.3s all;
 }
 .cx-ordrsumry__btn.cartbtn {
   background-color: var(--secondary-clr);
@@ -3912,7 +3913,7 @@ button {
 /* tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
   .cx-checkout__outer {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .cx-checkout__right {
     width: 100%;
@@ -7515,6 +7516,7 @@ button {
   border-radius: 4px;
   padding: 10px 0px;
   margin-top: 26px;
+  transition: 0.3s all;
 }
 .bi-ordrsumry__btn.cartbtn {
   background-color: var(--secondary-clr);
@@ -7818,7 +7820,8 @@ button {
   color: var(--primary-clr);
   margin-bottom: 6px;
 }
-.cx-checkout__group input {
+.cx-checkout__group input,
+.cx-checkout__group select {
   border: 1px solid #ccc;
   border-radius: 4px;
   height: 40px;
@@ -7899,6 +7902,7 @@ button {
   border-radius: 4px;
   padding: 10px 0px;
   margin-top: 26px;
+  transition: 0.3s all;
 }
 .cx-checkout__btn:hover {
   background-color: var(--darkblue-clr);
