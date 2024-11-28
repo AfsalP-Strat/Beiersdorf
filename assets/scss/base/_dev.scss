@@ -141,6 +141,9 @@
     .mobile-price-wrap table > tbody > tr > td > table {
       margin-left: 4px !important;
     }
+    .sort label {
+      width: 30%;
+    }
 
   }
   
@@ -205,6 +208,9 @@
     }
 
     //plp
+    .sort label {
+      width: 50%;
+    }
     .list-show .product-box ul:nth-child(odd) {
       padding-right: 0;
     }
