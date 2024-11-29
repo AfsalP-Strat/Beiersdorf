@@ -1455,6 +1455,12 @@ button {
 .beiersdorf .navbar-brand {
   width: 16%;
 }
+.beiersdorf #header .wshlt span.number {
+  color: #000000;
+  background: var(--primary-clr);
+  top: -29px;
+  right: -10px;
+}
 
 @media (max-width: 767px) {
   .ab-navbar .ab-nav-icons,
@@ -1465,12 +1471,9 @@ button {
   .beiersdorf .navbar-brand {
     width: 36%;
   }
-}
-
-.beiersdorf #header .wshlt span.number {
-  background: var(--primary-clr);
-  top: -30px;
-  right: -10px;
+  .beiersdorf #header .wshlt span.number {
+    top: -28px;
+  }
 }
 
 .beiersdorf .ab-header__dropdown::after {
@@ -5775,7 +5778,8 @@ button {
 }
 
 .beiersdorf .cx-ofauto {
-  overflow: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .beiersdorf .sec-menu {
@@ -9473,12 +9477,16 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .bi-order-summary__wrap label {
+    width: 25%;
+  }
   .bi-order-summary__wrap select {
     width: 72%;
     margin-top: 8px;
   }
   .bi-order-summary__cnt {
-    overflow: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .bi-agency-select__wrap {
     flex-direction: column;
@@ -10548,9 +10556,6 @@ button {
   font-size: 14px;
   text-align: center;
   color: var(--primary-clr);
-}
-.beiersdorf #header .wshlt span.number {
-  color: #000000;
 }
 .beiersdorf .cx-cart-icon .number {
   width: 16px !important;

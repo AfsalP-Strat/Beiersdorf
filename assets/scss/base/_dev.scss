@@ -48,6 +48,9 @@
       border: 1px solid var(--darkblue-clr);
     }
   }
+  .bi-closeimg input {
+    background-position: 0 20px;
+  }
 
   /* Firefox-specific style */
   @-moz-document url-prefix() {
