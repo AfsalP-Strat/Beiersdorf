@@ -2,9 +2,21 @@ $color-white: #ffffff;
 $color-black: #000000;
 $color-grey: #282828;
 
-:root {
-   --primary-clr: #0032A0;
-   --secondary-clr: #A9BEEC;
-   --third-clr: #D3E1FF;
-   --darkblue-clr: #001E60;
-}
+// :root {
+//    --primary-clr: #0032A0;
+//    --secondary-clr: #A9BEEC;
+//    --third-clr: #D3E1FF;
+//    --darkblue-clr: #001E60;
+// }
+
+ :root.bytedance {
+   --primary-clr: #3C8CFF;
+   // --secondary-clr: #487fc1;
+   --secondary-clr: rgb(120, 230, 220);
+   --primary-btn: #148CFF;
+   --primary-btnhover: #5397e9;
+   --secondary-btn: #325ab4;
+   --secondary-btnhover: #487fc1;
+   
+   --heading: #333333;
+ }

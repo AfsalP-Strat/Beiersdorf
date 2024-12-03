@@ -1,0 +1,1109 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-Regular.woff2') format('woff2'),
+        url('DMSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-SemiBold.woff2') format('woff2'),
+        url('DMSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-MediumItalic.woff2') format('woff2'),
+        url('DMSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-LightItalic.woff2') format('woff2'),
+        url('DMSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-ExtraLight.woff2') format('woff2'),
+        url('DMSans18pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-Italic.woff2') format('woff2'),
+        url('DMSans18pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-BoldItalic.woff2') format('woff2'),
+        url('DMSans18pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-Bold.woff2') format('woff2'),
+        url('DMSans18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-ExtraBold.woff2') format('woff2'),
+        url('DMSans18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-ThinItalic.woff2') format('woff2'),
+        url('DMSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-Black.woff2') format('woff2'),
+        url('DMSans18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-BlackItalic.woff2') format('woff2'),
+        url('DMSans18pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-ExtraLightItalic.woff2') format('woff2'),
+        url('DMSans18pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('DMSans18pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans 18pt';
+    src: url('DMSans18pt-Light.woff2') format('woff2'),
+        url('DMSans18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+:root {
+    --primary-clr: #3C8CFF;
+    /* --secondary-clr: #487fc1; */
+   --secondary-clr: rgb(120, 230, 220);
+   --primary-btn: #325ab4;
+   --primary-btnhover: #487fc1;
+   --heading: #333333;
+ }
+
+body {
+    font-family: 'DM Sans';
+    font-size: 12px;
+    margin: 0px auto 0px auto;
+    font: 16px 'DM Sans';
+}
+
+.header.logobox {
+    display: flex;
+}
+
+.wrapper-menu .dxmLite_Moderno {
+    width: 100%;
+}
+
+.header.logobox {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper-menu {
+    background: #f5f5f5;
+    margin-bottom: 25px;
+}
+
+    .wrapper-menu a,
+    .wrapper-menu span,
+    .wrapper-menu a:hover,
+    .wrapper-menu span:hover {
+        color: #222;
+    }
+
+.AdminLanding span {
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.wrapper-menu .dx-vam {
+    font-weight: 500;
+}
+
+.wrapper-menu .dxmLite_Moderno .dxm-horizontal .dxm-selected {
+    background: #e8e8e8;
+    border: none;
+}
+
+.wrapper-menu hr,
+.wrapper-menu .dxm-separator b {
+    display: none !important;
+}
+
+.header.logobox .formMaster:last-child {
+    text-align: right;
+}
+
+.formMaster {
+    margin: 0px auto 0px auto;
+    width: 80%;
+}
+
+.wrapper-menu {
+    background: #f5f5f5;
+    margin-bottom: 25px;
+}
+
+.wrapper-menu .dxmLite_Moderno.dxm-ltr .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item {
+    padding: 10px 0;
+}
+
+.wrapper-menu .dx-vam {
+    font-weight: 500;
+}
+
+.wrapper-menu a,
+.wrapper-menu span,
+.wrapper-menu a:hover,
+.wrapper-menu span:hover {
+    color: #222;
+}
+
+.dxmLite_Moderno .dxm-horizontal .dxm-hovered,
+.dxmLite_Moderno .dxm-popup .dxm-hovered {
+    background: #f79625 !important;
+    border-color: transparent;
+}
+
+.footer-b {
+    /* display: none; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #E1E1E1;
+    margin: 0;
+    padding: 10px 10px;
+    right: 0;
+    color: #171616;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.login-box.forgot-password {
+    margin: 0 auto;
+}
+
+.footer_new {
+    display: flex;
+    height: 40px;
+    padding-left: 100px !important;
+    position: static !important;
+    left: 0;
+    bottom: 0;
+}
+
+.header.logobox .formMaster select {
+    width: 165px !important;
+    background: #f0f0f0 url(../Images/select-down.svg) no-repeat 92% 52%;
+    background-size: 8px;
+    border-radius: 0px;
+    margin-top: 10px;
+    -webkit-appearance: none;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.TextStyle {
+    font-family: 'DM Sans';
+    font-size: 12px;
+}
+
+.dxrpControl_Moderno td.dxrp,
+.dxrpControl_Moderno td.dxrpHeader_Moderno,
+.dxrpControlGB_Moderno td.dxrp {
+    font-family: 'Avenir Next LT Pro' !important;
+}
+
+ul.numbering_wraper {
+    width: 620px;
+    height: 35px;
+    margin: 5px auto 5px auto;
+    background-image: url(../images/numbering-steps_img.jpg);
+    background-repeat: no-repeat;
+}
+
+    ul.numbering_wraper li {
+        list-style: none;
+        display: inline;
+    }
+
+        ul.numbering_wraper li a {
+            height: 35px;
+            float: left;
+            background-image: url(../images/numbering-steps_img.jpg);
+            background-repeat: no-repeat;
+        }
+
+            ul.numbering_wraper li a.firststep {
+                width: 28px;
+                background-position: 0 0;
+            }
+
+            ul.numbering_wraper li a.secondstep {
+                width: 98px;
+                background-position: -28px -52px;
+            }
+
+            ul.numbering_wraper li a.thirdstep {
+                width: 98px;
+                background-position: -126px -52px;
+            }
+
+            ul.numbering_wraper li a.fourthstep {
+                width: 98px;
+                background-position: -224px -52px;
+            }
+
+            ul.numbering_wraper li a.fifthstep {
+                width: 98px;
+                background-position: -322px -52px;
+            }
+
+            ul.numbering_wraper li a.sixthstep {
+                width: 98px;
+                background-position: -420px -52px;
+            }
+
+            ul.numbering_wraper li a.seventhstep {
+                width: 98px;
+                background-position: -518px -52px;
+            }
+
+            ul.numbering_wraper li a.eightthstep {
+                width: 84px;
+                background-position: -547px -52px;
+            }
+
+.processing_nav {
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding-left: 3px;
+}
+
+.subnav_wrap {
+    width: 300px;
+    float: left;
+    font-family: 'DM Sans';
+    font-size: 12px;
+    line-height: 18px;
+    color: #878787;
+    font-weight: 500;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+    .subnav_wrap li {
+        list-style: none;
+        display: inline;
+    }
+
+        .subnav_wrap li a {
+            font-family: 'DM Sans';
+            font-size: 12px;
+            line-height: 18px;
+            color: #878787;
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: 500;
+        }
+
+            .subnav_wrap li a:hover {
+                color: #093869;
+                border-bottom: #0197d4 2px solid;
+            }
+
+.sub_activenav {
+    color: #093869;
+    border-bottom: #0197d4 2px solid;
+}
+
+.next_btn {
+    background-image: url("../Images/btnNext.jpg");
+}
+
+.prev_btn {
+    background-image: url("../Images/btnPrev.jpg");
+}
+
+div.buttoncreator {
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: normal;
+    color: White;
+    background-color: #0197d4;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+div.buttoncreator-n {
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: normal;
+    color: Black;
+    background-color: Silver;
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/**********/
+
+.loginpage-bg {
+    background-image: url(/images/loginpage-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0px 20px;
+    height: 120vh;
+}
+
+.loginpage.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 15px;
+    min-height: 100vh;
+}
+
+.loginpage .dxrpControl_Moderno {
+    display: block;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.loginpage .dxrpAW {
+    overflow-y: visible;
+}
+
+.loginpage .dxrp.dxrpcontent.dx-borderBox {
+    display: flex;
+    justify-content: center;
+}
+
+.loginpage .dxrpCR {
+    width: 100%;
+}
+
+.loginpage .dxrpControl_Moderno > tbody {
+    width: 100%;
+    display: flex;
+}
+
+.loginpage .dxic {
+    height: 42px;
+}
+
+.login-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 360px;
+    width: 350px;
+    margin: auto;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.cx-login {
+    text-align: center !important;
+    font-size: 36px !important;
+    font-weight: bold !important;
+    color: var(--primary-clr);
+    font-family: 'DM Sans';
+    margin: 16px 0px !important;
+}
+
+.cx-forgot {
+    text-decoration: none;
+    color: var(--primary-clr);
+}
+
+.cx-center {
+    text-align: center !important;
+}
+
+.verification {
+    margin-bottom: 20px;
+    padding-left: 45px;
+}
+
+    .verification label {
+        display: inline-block;
+    }
+
+#not-robot {
+    vertical-align: middle;
+    margin-bottom: 7px;
+    width: 18px;
+}
+
+.loginpage.container {
+    padding: 0;
+}
+
+.dxcaTextBoxLabel_Moderno {
+    font-size: 16px !important;
+}
+
+.login-box .logo {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login-box p {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.login-box input {
+    border: 1px solid var(--primary-clr);
+    border-radius: 5px;
+    min-height: 42px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-box input::placeholder {
+    color: var(--primary-clr);
+}
+
+.dxcaRefreshButtonText_Moderno,
+.dxcaTextBoxLabel_Moderno {
+    font-family: 'Avenir Next LT Pro' !important;
+    font-size: 14px !important;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: rgb(47, 89, 208) !important;
+}
+
+.loginpage .dxrpHeader_Moderno {
+    display: none !important;
+}
+
+.loginpage .dx-borderBox {
+    padding: 0px !important;
+}
+
+.login-box .button input {
+    padding: 0 !important;
+    max-width: 100% !important;
+    height: auto;
+    width: 100%;
+    height: auto;
+    max-height: initial;
+    text-align: center;
+    padding: 8px 16px !important;
+    font-size: 18px;
+    font-family: 'DM Sans';
+    margin-top: 0;
+    border: 2px solid #325ab4;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.loginpage .dxrpControl_Moderno,
+.loginpage .dxrpControlGB_Moderno {
+    border: none !important;
+}
+
+.input-c {
+    position: relative;
+    width: 85%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 24px;
+}
+
+    .input-c span {
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+
+.button {
+    width: 85%;
+}
+
+.captcha-box .dxeTextBox_Moderno {
+    background-color: #fff !important;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+    border: 1px solid #e8e2e2 !important;
+}
+
+.captcha-box .dxic {
+    width: 100%;
+    padding: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+/* .footer-b {
+    text-align: center;
+    background-color: #ececec;
+    margin: 0;
+    padding: 10px 10px;
+    right: 0;
+    color: #8f8f8f;
+    text-align: left;
+    font-size: 14px;
+} */
+
+
+/* .admin-footer {
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    right: 0;
+    color: #000 !important;
+    padding-left: 100px;
+} */
+
+.admin-footer img {
+    width: 80px;
+    height: auto;
+    /* position: absolute; */
+    bottom: 7px;
+    left: 30px;
+}
+
+
+/*******************/
+
+.register {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.register-box {
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    margin-left: auto;
+}
+
+    .register-box .logo {
+        display: block;
+        width: 150px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .register-box .input-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5px;
+    }
+
+.input-field[required] + .input-label:after {
+    content: "*";
+    color: #0096d6;
+    margin-left: 2px;
+}
+
+.input-label {
+    font-size: 15px;
+    line-height: 1.3;
+    color: #2b2b2b;
+    margin-bottom: 3px;
+}
+
+.input-field {
+    font-family: 'Avenir Next LT Pro' !important;
+    border-radius: 1.6px;
+    border: 2px solid #e8e2e2;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+    .input-field::placeholder {
+        font-size: 14px;
+        color: #8A8A8D;
+    }
+
+    .input-field:focus {
+        outline: none;
+    }
+
+.reg-dropdown {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+    .reg-dropdown::after {
+        content: "";
+        position: absolute;
+        top: 40%;
+        right: 10px;
+        display: block;
+        transform: translateY(-50%);
+        width: 15px;
+        height: 15px;
+        background: url("../images/dropdown.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .reg-dropdown select {
+        width: 100%;
+        font-family: 'Avenir Next LT Pro' !important;
+        border-radius: 1.6px;
+        border: 2px solid #e8e2e2;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        color: #8A8A8D;
+        text-transform: capitalize;
+        font-size: 14px;
+        background-color: #fff;
+    }
+
+        .reg-dropdown select:focus {
+            outline: none;
+        }
+
+select::-ms-expand {
+    display: none;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.checkbox {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #2b2b2b;
+    margin-bottom: 0;
+}
+
+.checkbox-outer .input-label {
+    color: #0096d6;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.dxeTextBox_Moderno .dxeEditArea_Moderno {
+    background-color: #fff;
+}
+
+.captcha-box {
+    height: auto;
+    width: 200px;
+    margin: 20px 0;
+}
+
+.captcha-img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-register {
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #325ab4;
+    width: 100%;
+    padding: 10px 20px;
+    transition: all .3s;
+    margin-top: 30px;
+    border: 2px solid #325ab4;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+    .btn-register:hover {
+        background-color: #487fc1;
+        border: 2px solid #487fc1 !important;
+        color: #fff;
+    }
+
+.cx-contact__astrparent {
+    position: relative;
+}
+
+.cx-astr {
+    position: absolute;
+    color: var(--primary-clr);
+    left: 40%;
+    top: -57px !important;
+}
+
+.cx-astr-otp {
+    position: absolute;
+    color: var(--primary-clr);
+    left: -30px;
+    top: 9px !important;
+}
+
+.cx-contact__astrparent.active {
+    display: none;
+}
+
+.cx-inputerr.active-err {
+    background: #f2f2f2;
+    color: #ff0000;
+    font-weight: 600;
+}
+
+
+/* ************************ */
+.captcha {
+    width: 18%;
+    img
+
+{
+    width: 100%;
+}
+
+}
+
+.cx-copy {
+    font-size: 16px;
+    font-family: 'DM Sans';
+    padding: 0px 20px 10px;
+    text-align: center !important;
+    color: #2a2b2c;
+}
+
+.cx-copy--sm {
+    font-family: 'DM Sans';
+    font-size: 14px !important;
+    color: #191919;
+}
+
+.cx-inputwrap {
+    display: flex;
+    justify-content: center;
+}
+
+.cx-input {
+    width: 32%;
+    text-align: center;
+    margin-bottom: 90px !important;
+}
+
+.cx-inputerr {
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+    .cx-inputerr::placeholder {
+        letter-spacing: 0;
+    }
+
+.cx-closebtn {
+    position: absolute;
+    padding: 7px;
+    right: 15px;
+    background-color: var(--primary-clr);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.cx-errcopy {
+    font-family: 'DM Sans';
+    background-color: #ffdddd;
+    letter-spacing: 1px;
+    color: #fc1913;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center !important;
+    margin-bottom: 32px !important;
+}
+
+.cx-subbtn {
+    margin: 0px 20px;
+    border-top: 1px solid #ccc;
+    input
+
+{
+    margin-top: 24px !important;
+}
+
+}
+
+/* popup  */
+.cx-admin-popup .modal {
+    padding-left: 0 !important;
+}
+
+.cx-admin-popup .img-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.cx-admin-popup .modal-header {
+    padding: 8px 16px;
+    background-color: var(--secondary-clr);
+    align-items: center;
+}
+
+.cx-admin-popup .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .cx-admin-popup .modal-body p {
+        color: #666666;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+/* 15-07-24 ProductManagement*/
+
+.cx-outer {
+    height: 700px !important;
+    width: 100% !important;
+    cursor: default !important;
+    z-index: 12000 !important;
+    visibility: visible !important;
+    display: table !important;
+    position: absolute !important;
+    left: -30 !important;
+    top: 55px !important;
+}
+
+
+.cx-innerwrap {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.cx-innerleft {
+    width: 45% !important;
+}
+
+.cx-innerright {
+    width: 45% !important;
+}
+
+.dxgvControl_Moderno .dxpLite_Moderno {
+    padding: 20px 6px 6px 0 !important;
+}
+
+.cx-aligncenter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+}
+
+.cx-frmpadding {
+    padding: 20px;
+}
+
+/* / 17-07-24 ManageProducts Btn Styling / */
+
+.cx-blubtn {
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 10px 4px;
+    border-radius: 6px;
+    background-color: #188ae2;
+    border: 0;
+}
+
+.cx-redbtn {
+    width: 85%;
+    padding: 10px 4px;
+    border-radius: 6px;
+    background-color: #ff5b5b;
+    border: 0;
+}
+
+/* / admin productmanagement style as of 24-07-24 ends here / */
+
+
+
+.cx-newbtn {
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: #003D5B;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#ctl00_ContentPlaceHolder1_popProduct_PW-1 {
+    width: 100% !important;
+    left: 0 !important;
+}
+/*******************/
+
+/* boehringer styles */
+
+.bia-listouter li {
+    padding: 10px 0px;
+}
+
+.bia-listouter li:hover {
+    background-color: #F79625;
+}
+
+.bia-bnone {
+    border: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .loginpage-bg {
+        background-image: none;
+        background-color: #0096d6;
+    }
+
+    .loginpage.container {
+        justify-content: center;
+    }
+
+    .register-box {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .login-box {
+        max-width: 270px;
+    }
+
+    .cx-closebtn {
+        width: 28px !important;
+        height: 28px !important;
+    }
+}
