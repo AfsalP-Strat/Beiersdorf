@@ -2722,10 +2722,9 @@ button {
     font-size: 14px;
   }
   .cx-shpcart .cx-shpcartpdt__quantity {
-    align-items: flex-start;
     padding: 5px 8px;
     width: 50px;
-    height: 27px;
+    height: 30px;
   }
   .cx-shpcart .cx-shpcartpdt__qntityvalue {
     font-size: 13px;
@@ -10889,6 +10888,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .cx-shpcartpdt__quantity input {
+    padding: 2px 0 1px;
+  }
   .beiersdorf .navbar-brand > img:nth-child(2) {
     width: 100% !important;
   }
