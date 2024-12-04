@@ -2722,9 +2722,10 @@ button {
     font-size: 14px;
   }
   .cx-shpcart .cx-shpcartpdt__quantity {
+    align-items: flex-start;
     padding: 5px 8px;
     width: 50px;
-    height: 30px;
+    height: 29px;
   }
   .cx-shpcart .cx-shpcartpdt__qntityvalue {
     font-size: 13px;
