@@ -2799,8 +2799,8 @@ button {
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   min-height: auto;
-  max-height: 300px;
-  overflow-y: scroll;
+  max-height: 900px;
+  overflow-y: auto;
   display: none;
 }
 
@@ -3054,6 +3054,9 @@ button {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .cx-copdt__outer {
+    max-height: 300px;
+  }
   .abt-shop__img {
     width: calc(20% - 14px);
   }
@@ -3062,6 +3065,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .cx-copdt__outer {
+    max-height: 300px;
+  }
   .abt-shop__wrap {
     flex-wrap: wrap;
     justify-content: center;
