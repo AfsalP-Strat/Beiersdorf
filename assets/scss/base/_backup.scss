@@ -1766,6 +1766,8 @@ button {
 
 .beiersdorf #header {
   background-color: var(--primary-clr);
+  position: unset;
+  padding-bottom: 10px !important;
 }
 
 .beiersdorf .beiersdorf .btn-secondary {
@@ -8719,6 +8721,9 @@ button {
   margin-left: 19px;
   color: #666;
 }
+.beiersdorf .headerspacer {
+  display: none;
+}
 
 @media (max-width: 767px) {
   .bi-returns img {
@@ -10015,6 +10020,7 @@ button {
 }
 .beiersdorf .sec-menu {
   width: 100% !important;
+  margin-bottom: 0;
 }
 .beiersdorf .sec-menu ul {
   display: flex;
@@ -10801,6 +10807,7 @@ tr > .beiersdorf .tab-content table:first-child {
 }
 .beiersdorf #header .navbar {
   padding-right: 32px;
+  margin-top: 0;
 }
 .beiersdorf #header .navbar .dropdown-menu {
   min-width: 120px;
