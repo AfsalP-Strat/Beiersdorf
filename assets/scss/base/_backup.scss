@@ -1789,6 +1789,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf #header {
+    padding-top: 10px !important;
+  }
   .beiersdorf .b-price {
     padding-top: 0;
   }
