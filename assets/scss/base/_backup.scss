@@ -10866,6 +10866,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  .beiersdorf #header .navbar {
+    padding-right: 16px;
+  }
   .beiersdorf .search .form-inline {
     margin: 0;
   }
