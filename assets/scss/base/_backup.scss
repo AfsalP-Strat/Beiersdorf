@@ -1766,6 +1766,8 @@ button {
 
 .beiersdorf #header {
   background-color: var(--primary-clr);
+  position: unset;
+  padding-bottom: 10px !important;
 }
 
 .beiersdorf .beiersdorf .btn-secondary {
@@ -1787,6 +1789,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf #header {
+    padding-top: 10px !important;
+  }
   .beiersdorf .b-price {
     padding-top: 0;
   }
@@ -2725,7 +2730,7 @@ button {
     align-items: flex-start;
     padding: 5px 8px;
     width: 50px;
-    height: 27px;
+    height: 29px;
   }
   .cx-shpcart .cx-shpcartpdt__qntityvalue {
     font-size: 13px;
@@ -2796,11 +2801,11 @@ button {
   padding: 24px 20px 0px;
   background-color: #fff;
   border-top: 1px solid #BFCED6;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   min-height: auto;
-  max-height: 300px;
-  overflow-y: scroll;
+  max-height: 900px;
+  overflow-y: auto;
   display: none;
 }
 
@@ -2837,7 +2842,7 @@ button {
 .cx-odrsmry {
   background-color: #fff;
   padding: 20px 0px;
-  border-radius: 10px;
+  border-radius: 12px;
   margin-bottom: 24px;
 }
 
@@ -3054,6 +3059,9 @@ button {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .cx-copdt__outer {
+    max-height: 300px;
+  }
   .abt-shop__img {
     width: calc(20% - 14px);
   }
@@ -3062,6 +3070,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .cx-copdt__outer {
+    max-height: 300px;
+  }
   .abt-shop__wrap {
     flex-wrap: wrap;
     justify-content: center;
@@ -8713,6 +8724,9 @@ button {
   margin-left: 19px;
   color: #666;
 }
+.beiersdorf .headerspacer {
+  display: none;
+}
 
 @media (max-width: 767px) {
   .bi-returns img {
@@ -10009,6 +10023,7 @@ button {
 }
 .beiersdorf .sec-menu {
   width: 100% !important;
+  margin-bottom: 0;
 }
 .beiersdorf .sec-menu ul {
   display: flex;
@@ -10795,6 +10810,7 @@ tr > .beiersdorf .tab-content table:first-child {
 }
 .beiersdorf #header .navbar {
   padding-right: 32px;
+  margin-top: 0;
 }
 .beiersdorf #header .navbar .dropdown-menu {
   min-width: 120px;
@@ -10850,6 +10866,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  .beiersdorf #header .navbar {
+    padding-right: 16px;
+  }
   .beiersdorf .search .form-inline {
     margin: 0;
   }
@@ -10889,6 +10908,9 @@ tr > .beiersdorf .tab-content table:first-child {
   }
 }
 @media (max-width: 767px) {
+  .beiersdorf .cx-shpcartpdt__quantity input {
+    padding: 2px 0 1px;
+  }
   .beiersdorf .navbar-brand > img:nth-child(2) {
     width: 100% !important;
   }
