@@ -159,7 +159,15 @@
     .sort label {
       width: 30%;
     }
-
+    /* plp -dx trackbar */
+    .bi-trackdx {
+      .dxeTBHSys  .dxeTBContentContainerSys {
+        width: 100% !important;
+      }
+      .dxeTBTrack_MaterialCompact {
+        width: 110px !important;
+      }
+    }
   }
   
   @include mobile {
@@ -242,6 +250,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    /* plp-trackbar */
+    .bi-trackdx {
+      .dxeTBHSys  .dxeTBContentContainerSys {
+        width: 100% !important;
+      }
+      .dxeTBTrack_MaterialCompact {
+        width: 240px !important;
+      }
     }
 
     //order-details
