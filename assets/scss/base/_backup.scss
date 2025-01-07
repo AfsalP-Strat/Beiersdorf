@@ -1766,7 +1766,7 @@ button {
 
 .beiersdorf #header {
   background-color: var(--primary-clr);
-  position: unset;
+  position: unset !important;
   padding-bottom: 10px !important;
 }
 

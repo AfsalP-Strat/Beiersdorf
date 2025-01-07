@@ -51,6 +51,9 @@
   .bi-closeimg input {
     background-position: 0 20px;
   }
+  .showing {
+    display: none !important;
+  }
 
   /* Firefox-specific style */
   @-moz-document url-prefix() {
