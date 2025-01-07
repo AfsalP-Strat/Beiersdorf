@@ -54,6 +54,9 @@
   .showing {
     display: none !important;
   }
+  .menu-bar {
+    position: unset !important;
+  }
 
   /* Firefox-specific style */
   @-moz-document url-prefix() {

@@ -1766,7 +1766,7 @@ button {
 
 .beiersdorf #header {
   background-color: var(--primary-clr);
-  position: unset !important;
+  position: relative;
   padding-bottom: 10px !important;
 }
 
@@ -8689,7 +8689,7 @@ button {
 }
 .bi-emptycart__outer {
   background-color: #f6f5f3;
-  min-height: 60vh;
+  min-height: 75vh;
 }
 .bi-emptycart__tile {
   background-color: #fff;
