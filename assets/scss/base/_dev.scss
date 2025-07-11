@@ -175,7 +175,11 @@
       }
     }
   }
-  
+  .bs-tctext {
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
   @include mobile {
     //header style
     .form-inline.my-2.my-lg-8 {
